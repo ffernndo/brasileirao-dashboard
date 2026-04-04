@@ -305,6 +305,7 @@ function renderHeader(latestRound, selectedTeam, selectedRound, lastUpdated) {
                     <select class="select-team" id="teamFilter">
                         <option value="Todos os times">Todos os times</option>
                     </select>
+                    <button class="theme-toggle" id="themeToggle" title="Alternar tema">${document.documentElement.getAttribute('data-theme') === 'light' ? '\u2600\uFE0F' : '\uD83C\uDF19'}</button>
                 </div>
             </div>
             <div class="header-timestamp">Atualizada em ${timestamp}</div>
@@ -936,35 +937,13 @@ function renderTimeContent() {
         <div class="kpi-card"><div class="kpi-label">Saldo de Gols</div><div class="kpi-value" style="color:${sgColor}">${sgStr}</div><div class="kpi-detail">Posi\u00E7\u00E3o: ${t.position}\u00BA</div></div>
     </div>`;
 
-    // ── C. Elenco (market-values) ────────────────────────────────
-    const allPlayers = (window.MARKET_VALUES_DATA || {}).players || [];
-    const teamPlayers = allPlayers.filter(p => p.team === teamName).sort((a, b) => b.value - a.value);
-
-    if (teamPlayers.length > 0) {
-        const totalVal = teamPlayers.reduce((s, p) => s + p.value, 0);
-        const avgAge = (teamPlayers.reduce((s, p) => s + p.age, 0) / teamPlayers.length).toFixed(1).replace('.', ',');
-        const topPlayer = teamPlayers[0];
-
-        html += `<h3 class="section-title">Elenco</h3>`;
-        html += `<div class="kpi-grid" style="margin-bottom:16px">
-            <div class="kpi-card"><div class="kpi-label">Jogadores</div><div class="kpi-value">${teamPlayers.length}</div></div>
-            <div class="kpi-card"><div class="kpi-label">Valor do Elenco</div><div class="kpi-value small">${formatMarketValue(totalVal)}</div><div class="kpi-detail">${formatMarketValueBRL(totalVal)}</div></div>
-            <div class="kpi-card"><div class="kpi-label">M\u00E9dia de Idade</div><div class="kpi-value">${avgAge}</div></div>
-            <div class="kpi-card"><div class="kpi-label">Mais Valioso</div><div class="kpi-value small">${topPlayer.name}</div><div class="kpi-detail" style="color:var(--accent-green)">${formatMarketValue(topPlayer.value)}</div></div>
-        </div>`;
-
-        html += `<div class="market-table-wrapper"><table class="market-table">
-            <thead><tr><th>#</th><th>Jogador</th><th class="th-center">Posi\u00E7\u00E3o</th><th class="th-center">Idade</th><th class="th-center">Valor (EUR)</th><th class="th-center">Valor (BRL)</th></tr></thead>
-            <tbody>${teamPlayers.map((p, i) => `<tr>
-                <td class="market-rank">${i + 1}</td>
-                <td style="font-weight:500">${p.name}</td>
-                <td class="stat-cell"><span class="market-position-badge">${p.position}</span></td>
-                <td class="stat-cell">${p.age}</td>
-                <td class="market-value-cell">${formatMarketValue(p.value)}</td>
-                <td class="market-value-brl">${formatMarketValueBRL(p.value)}</td>
-            </tr>`).join('')}</tbody>
-        </table></div>`;
-    }
+    // ── C. Gráfico de Gols por Jogo ────────────────────────────────
+    html += `<div class="charts-grid" style="margin-bottom:24px">
+        <div class="chart-wrapper" style="grid-column:1/-1">
+            <h3 class="chart-title">Gols por Jogo</h3>
+            <div class="chart-container"><canvas id="timeGoalsPerMatchChart"></canvas></div>
+        </div>
+    </div>`;
 
     // ── D. Resultados (todos os jogos disputados) ────────────────
     const allMatchesForTeam = appState.allMatches.filter(m =>
@@ -1045,9 +1024,50 @@ function renderTimeContent() {
 }
 
 /**
- * Inicializa o gráfico de evolução de pontos na aba Time.
+ * Inicializa os gráficos da aba Time (evolução de pontos + gols por jogo).
  */
 function initTimeChart() {
+    // Gráfico de gols por jogo
+    const goalsCtx = document.getElementById('timeGoalsPerMatchChart');
+    if (goalsCtx && !goalsCtx._chartInit) {
+        goalsCtx._chartInit = true;
+        const teamName = appState.selectedTeam;
+        const matches = appState.allMatches.filter(m =>
+            (m.strHomeTeam === teamName || m.strAwayTeam === teamName)
+            && m.intHomeScore !== null && m.intHomeScore !== undefined && m.intHomeScore !== ''
+        ).sort((a, b) => parseInt(a.intRound) - parseInt(b.intRound));
+
+        const labels = matches.map(m => `R${m.intRound}`);
+        const goalsFor = matches.map(m => {
+            const isHome = m.strHomeTeam === teamName;
+            return isHome ? parseInt(m.intHomeScore) || 0 : parseInt(m.intAwayScore) || 0;
+        });
+        const goalsAgainst = matches.map(m => {
+            const isHome = m.strHomeTeam === teamName;
+            return isHome ? parseInt(m.intAwayScore) || 0 : parseInt(m.intHomeScore) || 0;
+        });
+
+        appState.chartInstances.push(new Chart(goalsCtx, {
+            type: 'bar',
+            data: {
+                labels,
+                datasets: [
+                    { label: 'Gols Marcados', data: goalsFor, backgroundColor: '#10b981', borderRadius: 3 },
+                    { label: 'Gols Sofridos', data: goalsAgainst, backgroundColor: '#ef4444', borderRadius: 3 }
+                ]
+            },
+            options: {
+                responsive: true, maintainAspectRatio: false,
+                plugins: { legend: { labels: { color: '#8b949e', font: { family: "'Inter'", size: 11 } } } },
+                scales: {
+                    x: { grid: { display: false }, ticks: { color: '#8b949e', font: { size: 10 } } },
+                    y: { grid: { color: '#21262d' }, ticks: { color: '#8b949e', font: { size: 10 } }, beginAtZero: true }
+                }
+            }
+        }));
+    }
+
+    // Gráfico de evolução de pontos
     const ctx = document.getElementById('timePointsChart');
     if (!ctx || ctx._chartInit) return;
     ctx._chartInit = true;
@@ -1536,6 +1556,18 @@ function render() {
 
 
 
+    // Toggle tema
+    const themeBtn = document.getElementById('themeToggle');
+    if (themeBtn) {
+        themeBtn.addEventListener('click', () => {
+            const current = document.documentElement.getAttribute('data-theme') || 'dark';
+            const next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+            themeBtn.textContent = next === 'light' ? '\u2600\uFE0F' : '\uD83C\uDF19';
+        });
+    }
+
     // Seletor de rodada
     const roundSelector = document.getElementById('roundSelector');
     if (roundSelector) {
@@ -1905,6 +1937,12 @@ function startUpdate() {
 /* ============================================================================
  * INICIALIZAÇÃO
  * ============================================================================ */
+
+// Inicializar tema (claro/escuro)
+(function initTheme() {
+    const saved = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', saved);
+}());
 
 // Injetar overlay de atualização no body
 (function injectUpdateOverlay() {
