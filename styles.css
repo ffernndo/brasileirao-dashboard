@@ -629,7 +629,42 @@ body {
 .zone-legend-item { display: flex; align-items: center; gap: 5px; }
 .zone-legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 
-/* (fixture-strip removido — próximos jogos agora usa rodada-wrapper) */
+/* Fixture row — próximos jogos (nome x nome à esquerda, rodada/data à direita) */
+.fixture-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--border-light);
+    transition: background 0.12s;
+}
+.fixture-row:last-child { border-bottom: none; }
+.fixture-row:hover { background: var(--bg-hover); }
+
+.fixture-row-teams {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-primary);
+    min-width: 0;
+}
+
+.fixture-row-x {
+    color: var(--text-muted);
+    font-weight: 700;
+    font-size: 11px;
+    margin: 0 2px;
+}
+
+.fixture-row-meta {
+    font-size: 11px;
+    color: var(--text-muted);
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-left: 16px;
+}
 
 .standings-empty {
     padding: 48px 20px;
@@ -1574,6 +1609,40 @@ body {
     border-radius: var(--radius-md);
     overflow: hidden;
     margin-bottom: 24px;
+}
+
+.rodada-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    border-bottom: 1px solid var(--border-light);
+    background: var(--bg-card-2);
+}
+
+.rodada-header-title {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.rodada-select {
+    padding: 5px 10px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--bg-card);
+    color: var(--text-primary);
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+.rodada-select:focus { outline: none; border-color: var(--accent-green); }
+
+[data-theme="light"] .rodada-select {
+    background: #fff;
+    border-color: #d1d5db;
 }
 
 .rodada-list { }

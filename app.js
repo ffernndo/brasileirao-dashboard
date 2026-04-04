@@ -1151,16 +1151,15 @@ function renderProximosJogos(allMatches, selectedTeam) {
     proximos.forEach(m => {
         const rodada = m.intRound ? `R${m.intRound}` : '';
         const data = formatDateShort(m.dateEvent);
-        html += `<div class="rodada-match">
-            <div class="rodada-team rodada-team--home">
-                <span>${m.strHomeTeam}</span>
+        html += `<div class="fixture-row">
+            <div class="fixture-row-teams">
                 <img src="${m.strHomeTeamBadge || ''}" alt="" class="team-logo" onerror="this.style.display='none'">
-            </div>
-            <span class="rodada-date">${rodada} \u2022 ${data}</span>
-            <div class="rodada-team rodada-team--away">
+                <span>${m.strHomeTeam}</span>
+                <span class="fixture-row-x">\u00D7</span>
                 <img src="${m.strAwayTeamBadge || ''}" alt="" class="team-logo" onerror="this.style.display='none'">
                 <span>${m.strAwayTeam}</span>
             </div>
+            <div class="fixture-row-meta">${rodada} \u2022 ${data}</div>
         </div>`;
     });
     html += '</div></div>';
@@ -1208,11 +1207,13 @@ function renderResultadosRodada(allMatches, latestRound) {
         </div>`;
     });
 
-    return `<h3 class="section-title" style="display:flex;align-items:center;gap:12px">
-        Resultados
-        <select class="select-team" id="roundSelector" style="font-size:12px;padding:4px 8px">${options}</select>
-    </h3>
-    <div class="rodada-wrapper"><div class="rodada-list">${matchesHtml}</div></div>`;
+    return `<div class="rodada-wrapper" style="margin-top:24px">
+        <div class="rodada-header">
+            <span class="rodada-header-title">Resultados</span>
+            <select class="rodada-select" id="roundSelector">${options}</select>
+        </div>
+        <div class="rodada-list">${matchesHtml}</div>
+    </div>`;
 }
 
 /**
