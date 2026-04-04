@@ -1147,26 +1147,23 @@ function renderProximosJogos(allMatches, selectedTeam) {
 
     if (proximos.length === 0) return '';
 
-    let html = '<h3 class="section-title">Pr\u00F3ximos Jogos</h3><div class="fixture-strip">';
+    let html = '<h3 class="section-title">Pr\u00F3ximos Jogos</h3><div class="rodada-wrapper"><div class="rodada-list">';
     proximos.forEach(m => {
         const rodada = m.intRound ? `R${m.intRound}` : '';
         const data = formatDateShort(m.dateEvent);
-        html += `<div class="fixture-card">
-            <div class="fixture-header">${rodada} \u2022 ${data}</div>
-            <div class="fixture-match">
-                <div class="fixture-team fixture-team--home">
-                    <span>${m.strHomeTeam}</span>
-                    <img src="${m.strHomeTeamBadge || ''}" alt="" class="team-logo" onerror="this.style.display='none'">
-                </div>
-                <span class="fixture-vs">\u00D7</span>
-                <div class="fixture-team fixture-team--away">
-                    <img src="${m.strAwayTeamBadge || ''}" alt="" class="team-logo" onerror="this.style.display='none'">
-                    <span>${m.strAwayTeam}</span>
-                </div>
+        html += `<div class="rodada-match">
+            <div class="rodada-team rodada-team--home">
+                <span>${m.strHomeTeam}</span>
+                <img src="${m.strHomeTeamBadge || ''}" alt="" class="team-logo" onerror="this.style.display='none'">
+            </div>
+            <span class="rodada-date">${rodada} \u2022 ${data}</span>
+            <div class="rodada-team rodada-team--away">
+                <img src="${m.strAwayTeamBadge || ''}" alt="" class="team-logo" onerror="this.style.display='none'">
+                <span>${m.strAwayTeam}</span>
             </div>
         </div>`;
     });
-    html += '</div>';
+    html += '</div></div>';
     return html;
 }
 
@@ -1215,7 +1212,7 @@ function renderResultadosRodada(allMatches, latestRound) {
         Resultados
         <select class="select-team" id="roundSelector" style="font-size:12px;padding:4px 8px">${options}</select>
     </h3>
-    <div class="rodada-grid">${matchesHtml}</div>`;
+    <div class="rodada-wrapper"><div class="rodada-list">${matchesHtml}</div></div>`;
 }
 
 /**
@@ -1492,13 +1489,13 @@ function render() {
     let html = renderHeader(latestRound, selectedTeam, selectedRound, appState.lastUpdated);
 
     // Tab bar
-    const showTimeTab = selectedTeam !== 'Todos os times';
-    html += `<div class="tab-bar">
+    const timeLabel = selectedTeam !== 'Todos os times' ? selectedTeam : 'Time';
+    html += `<div class="tab-bar"><div class="tab-bar-inner">
         <button class="tab-btn ${activeTab === 'tabela' ? 'active' : ''}" data-tab="tabela">Tabela</button>
         <button class="tab-btn ${activeTab === 'estatisticas' ? 'active' : ''}" data-tab="estatisticas">Estat\u00EDsticas</button>
         <button class="tab-btn ${activeTab === 'mercado' ? 'active' : ''}" data-tab="mercado">Mercado</button>
-        ${showTimeTab ? `<button class="tab-btn tab-btn-time ${activeTab === 'time' ? 'active' : ''}" data-tab="time">\u26BD ${selectedTeam}</button>` : ''}
-    </div>`;
+        <button class="tab-btn ${activeTab === 'time' ? 'active' : ''}" data-tab="time">${timeLabel}</button>
+    </div></div>`;
 
     html += '<div class="container">';
 
@@ -1526,12 +1523,18 @@ function render() {
     html += renderMarketValues();
     html += '</div>';
 
-    // Tab: Time (condicional — só aparece quando um time está selecionado)
-    if (showTimeTab) {
-        html += `<div class="tab-content ${activeTab === 'time' ? 'active' : ''}" id="tab-time">`;
+    // Tab: Time
+    html += `<div class="tab-content ${activeTab === 'time' ? 'active' : ''}" id="tab-time">`;
+    if (selectedTeam !== 'Todos os times') {
         html += renderTimeContent();
-        html += '</div>';
+    } else {
+        html += `<div class="standings-empty" style="padding:60px 20px">
+            <div style="font-size:32px;opacity:0.3;margin-bottom:12px">\uD83C\uDFDF\uFE0F</div>
+            <div style="font-size:15px;font-weight:600;color:var(--text-secondary);margin-bottom:6px">Selecione um time</div>
+            <div style="font-size:12px;color:var(--text-muted)">Clique em um time na tabela de classifica\u00E7\u00E3o ou use o filtro no topo.</div>
+        </div>`;
     }
+    html += '</div>';
 
     html += `<div class="footer">Dados: <a href="https://www.espn.com.br" target="_blank" rel="noopener">ESPN</a> &bull; <a href="https://github.com/dcaribou/transfermarkt-datasets" target="_blank" rel="noopener">Transfermarkt (dcaribou)</a> | Brasileir\u00E3o S\u00E9rie A ${appState.season || 2026}</div>`;
     html += '</div>'; // container
@@ -1573,7 +1576,7 @@ function render() {
     if (roundSelector) {
         roundSelector.addEventListener('change', e => {
             const round = parseInt(e.target.value);
-            const container = document.querySelector('.rodada-grid');
+            const container = document.querySelector('.rodada-list');
             if (!container) return;
             // Re-render só a seção de rodada
             const matches = appState.allMatches.filter(m => parseInt(m.intRound) === round);

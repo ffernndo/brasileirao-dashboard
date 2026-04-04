@@ -322,9 +322,6 @@ body {
 .tab-bar {
     background: var(--bg-card);
     border-bottom: 1px solid var(--border-light);
-    padding: 0 32px;
-    display: flex;
-    gap: 0;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -335,6 +332,7 @@ body {
     margin: 0 auto;
     width: 100%;
     display: flex;
+    padding: 0 32px;
 }
 
 .tab-btn {
@@ -631,66 +629,7 @@ body {
 .zone-legend-item { display: flex; align-items: center; gap: 5px; }
 .zone-legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 
-/* Próximos jogos — fixture strip */
-.fixture-strip {
-    display: flex;
-    gap: 8px;
-    overflow-x: auto;
-    padding-bottom: 8px;
-    margin-bottom: 24px;
-    scrollbar-width: thin;
-    scrollbar-color: var(--border) transparent;
-}
-.fixture-strip::-webkit-scrollbar { height: 4px; }
-.fixture-strip::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
-
-.fixture-card {
-    flex-shrink: 0;
-    width: 220px;
-    background: var(--bg-card);
-    border: 1px solid var(--border-light);
-    border-radius: var(--radius-sm);
-    padding: 8px 12px;
-}
-
-.fixture-header {
-    font-size: 9px;
-    font-weight: 600;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
-    margin-bottom: 6px;
-    text-align: center;
-}
-
-.fixture-match {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
-}
-
-.fixture-team {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    font-size: 11px;
-    font-weight: 500;
-    color: var(--text-primary);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 85px;
-}
-.fixture-team--home { justify-content: flex-end; }
-.fixture-team--away { justify-content: flex-start; }
-
-.fixture-vs {
-    font-size: 12px;
-    font-weight: 700;
-    color: var(--text-muted);
-    flex-shrink: 0;
-}
+/* (fixture-strip removido — próximos jogos agora usa rodada-wrapper) */
 
 .standings-empty {
     padding: 48px 20px;
@@ -1627,34 +1566,35 @@ body {
     border-color: var(--accent-green);
 }
 
-.tab-btn-time {
-    /* posiciona junto com as outras abas */
-}
 
 /* Resultados por rodada */
-.rodada-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 6px;
+.rodada-wrapper {
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    overflow: hidden;
     margin-bottom: 24px;
 }
+
+.rodada-list { }
 
 .rodada-match {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    background: var(--bg-card);
-    border: 1px solid var(--border-light);
-    border-radius: var(--radius-sm);
-    padding: 8px 12px;
+    gap: 10px;
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--border-light);
+    transition: background 0.12s;
 }
+.rodada-match:last-child { border-bottom: none; }
+.rodada-match:hover { background: var(--bg-hover); }
 
 .rodada-team {
     display: flex;
     align-items: center;
-    gap: 5px;
-    font-size: 11px;
+    gap: 6px;
+    font-size: 12px;
     font-weight: 500;
     color: var(--text-primary);
     flex: 1;
@@ -1667,18 +1607,21 @@ body {
 .rodada-team--away { justify-content: flex-start; }
 
 .rodada-score {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 800;
     color: var(--text-primary);
-    min-width: 40px;
+    min-width: 50px;
     text-align: center;
     flex-shrink: 0;
+    background: rgba(255,255,255,0.03);
+    padding: 3px 8px;
+    border-radius: 4px;
 }
 
 .rodada-date {
     font-size: 10px;
     color: var(--text-muted);
-    min-width: 40px;
+    min-width: 50px;
     text-align: center;
     flex-shrink: 0;
 }
@@ -1763,7 +1706,8 @@ body {
     .header-content { flex-direction: column; align-items: flex-start; gap: 12px; }
     .header-controls { width: 100%; flex-wrap: wrap; }
 
-    .tab-bar { padding: 0 12px; overflow-x: auto; }
+    .tab-bar { overflow-x: auto; }
+    .tab-bar-inner { padding: 0 12px; }
     .tab-btn { padding: 12px 16px; font-size: 12px; white-space: nowrap; }
 
     .time-header { flex-direction: column; gap: 12px; padding: 16px; }
