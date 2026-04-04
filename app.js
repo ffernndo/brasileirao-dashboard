@@ -836,6 +836,225 @@ function renderMarketValues() {
 }
 
 /**
+ * Renderiza a aba dedicada de um time selecionado.
+ * Inclui: header do time, KPIs, elenco, resultados, casa/fora, próximos jogos, gráfico evolução.
+ */
+function renderTimeContent() {
+    const teamName = appState.selectedTeam;
+    if (teamName === 'Todos os times') return '';
+
+    const standings = appState.standings || [];
+    const t = standings.find(s => s.name === teamName);
+    if (!t) return `<div class="historico-empty">Time "${teamName}" n\u00E3o encontrado.</div>`;
+
+    let html = '';
+
+    // ── A. Header do time ────────────────────────────────────────
+    let zoneName = '', zoneColor = '';
+    if (t.position <= 4)       { zoneName = 'Libertadores'; zoneColor = 'var(--zone-lib)'; }
+    else if (t.position === 5) { zoneName = 'Pr\u00E9-Libertadores'; zoneColor = 'var(--zone-pre-lib)'; }
+    else if (t.position <= 11) { zoneName = 'Sul-Americana'; zoneColor = 'var(--zone-sul)'; }
+    else if (t.position >= 17) { zoneName = 'Rebaixamento'; zoneColor = 'var(--zone-rel)'; }
+    else                       { zoneName = 'Meio da tabela'; zoneColor = 'var(--text-muted)'; }
+
+    html += `<div class="time-header">
+        <div class="time-header-info">
+            <img src="${t.badge || ''}" alt="${t.name}" class="time-header-badge" onerror="this.style.display='none'">
+            <div>
+                <h2 class="time-header-name">${t.name}</h2>
+                <div class="time-header-meta">
+                    <span class="time-position-badge" style="background:${zoneColor}">${t.position}\u00BA</span>
+                    <span style="color:${zoneColor}">${zoneName}</span>
+                </div>
+            </div>
+        </div>
+        <button class="time-voltar" id="timeVoltarBtn">\u2190 Voltar</button>
+    </div>`;
+
+    // ── B. KPIs do time ──────────────────────────────────────────
+    const maxPts    = t.played * 3 || 1;
+    const aprov     = Math.round(t.points / maxPts * 100);
+    const sg        = t.goalsFor - t.goalsAgainst;
+    const sgStr     = sg > 0 ? `+${sg}` : String(sg);
+    const sgColor   = sg > 0 ? 'var(--accent-green)' : sg < 0 ? 'var(--accent-red)' : 'var(--text-secondary)';
+    const aprovColor = aprov >= 60 ? 'var(--accent-green)' : aprov >= 40 ? 'var(--accent-yellow)' : 'var(--accent-red)';
+
+    html += `<div class="kpi-grid" style="margin-bottom:24px">
+        <div class="kpi-card"><div class="kpi-label">Pontos</div><div class="kpi-value">${t.points}</div><div class="kpi-detail">${t.played} jogos</div></div>
+        <div class="kpi-card"><div class="kpi-label">Aproveitamento</div><div class="kpi-value" style="color:${aprovColor}">${aprov}%</div><div class="kpi-detail">${t.wins}V ${t.draws}E ${t.losses}D</div></div>
+        <div class="kpi-card"><div class="kpi-label">Gols</div><div class="kpi-value">${t.goalsFor}<span style="font-size:14px;color:var(--text-muted)"> / ${t.goalsAgainst}</span></div><div class="kpi-detail">Pr\u00F3 / Contra</div></div>
+        <div class="kpi-card"><div class="kpi-label">Saldo de Gols</div><div class="kpi-value" style="color:${sgColor}">${sgStr}</div><div class="kpi-detail">Posi\u00E7\u00E3o: ${t.position}\u00BA</div></div>
+    </div>`;
+
+    // ── C. Elenco (market-values) ────────────────────────────────
+    const allPlayers = (window.MARKET_VALUES_DATA || {}).players || [];
+    const teamPlayers = allPlayers.filter(p => p.team === teamName).sort((a, b) => b.value - a.value);
+
+    if (teamPlayers.length > 0) {
+        const totalVal = teamPlayers.reduce((s, p) => s + p.value, 0);
+        const avgAge = (teamPlayers.reduce((s, p) => s + p.age, 0) / teamPlayers.length).toFixed(1).replace('.', ',');
+        const topPlayer = teamPlayers[0];
+
+        html += `<h3 class="section-title">Elenco</h3>`;
+        html += `<div class="kpi-grid" style="margin-bottom:16px">
+            <div class="kpi-card"><div class="kpi-label">Jogadores</div><div class="kpi-value">${teamPlayers.length}</div></div>
+            <div class="kpi-card"><div class="kpi-label">Valor do Elenco</div><div class="kpi-value small">${formatMarketValue(totalVal)}</div><div class="kpi-detail">${formatMarketValueBRL(totalVal)}</div></div>
+            <div class="kpi-card"><div class="kpi-label">M\u00E9dia de Idade</div><div class="kpi-value">${avgAge}</div></div>
+            <div class="kpi-card"><div class="kpi-label">Mais Valioso</div><div class="kpi-value small">${topPlayer.name}</div><div class="kpi-detail" style="color:var(--accent-green)">${formatMarketValue(topPlayer.value)}</div></div>
+        </div>`;
+
+        html += `<div class="market-table-wrapper"><table class="market-table">
+            <thead><tr><th>#</th><th>Jogador</th><th class="th-center">Posi\u00E7\u00E3o</th><th class="th-center">Idade</th><th class="th-center">Valor (EUR)</th><th class="th-center">Valor (BRL)</th></tr></thead>
+            <tbody>${teamPlayers.map((p, i) => `<tr>
+                <td class="market-rank">${i + 1}</td>
+                <td style="font-weight:500">${p.name}</td>
+                <td class="stat-cell"><span class="market-position-badge">${p.position}</span></td>
+                <td class="stat-cell">${p.age}</td>
+                <td class="market-value-cell">${formatMarketValue(p.value)}</td>
+                <td class="market-value-brl">${formatMarketValueBRL(p.value)}</td>
+            </tr>`).join('')}</tbody>
+        </table></div>`;
+    }
+
+    // ── D. Resultados (todos os jogos disputados) ────────────────
+    const allMatchesForTeam = appState.allMatches.filter(m =>
+        (m.strHomeTeam === teamName || m.strAwayTeam === teamName)
+        && m.intHomeScore !== null && m.intHomeScore !== undefined && m.intHomeScore !== ''
+    ).sort((a, b) => parseInt(a.intRound) - parseInt(b.intRound));
+
+    if (allMatchesForTeam.length > 0) {
+        html += `<h3 class="section-title">Resultados</h3>`;
+        html += `<div class="charts-grid" style="margin-bottom:24px">
+            <div class="chart-wrapper" style="grid-column:1/-1">
+                <div class="market-table-wrapper"><table class="market-table">
+                    <thead><tr><th class="th-center">R</th><th class="th-center">Data</th><th>Advers\u00E1rio</th><th class="th-center">Local</th><th class="th-center">Placar</th><th class="th-center">Res.</th></tr></thead>
+                    <tbody>${allMatchesForTeam.map(m => {
+                        const isHome = m.strHomeTeam === teamName;
+                        const opponent = isHome ? m.strAwayTeam : m.strHomeTeam;
+                        const opBadge = isHome ? m.strAwayTeamBadge : m.strHomeTeamBadge;
+                        const hs = parseInt(m.intHomeScore) || 0;
+                        const as = parseInt(m.intAwayScore) || 0;
+                        const teamGoals = isHome ? hs : as;
+                        const oppGoals = isHome ? as : hs;
+                        const res = teamGoals > oppGoals ? 'V' : teamGoals === oppGoals ? 'E' : 'D';
+                        const resColor = res === 'V' ? 'var(--accent-green)' : res === 'E' ? 'var(--accent-yellow)' : 'var(--accent-red)';
+                        const where = isHome ? '\uD83C\uDFE0' : '\u2708\uFE0F';
+                        return `<tr>
+                            <td class="stat-cell">${m.intRound}</td>
+                            <td class="stat-cell">${formatDateShort(m.dateEvent)}</td>
+                            <td><div style="display:flex;align-items:center;gap:6px"><img src="${opBadge || ''}" class="team-logo" onerror="this.style.display='none'"><span>${opponent}</span></div></td>
+                            <td class="stat-cell">${where}</td>
+                            <td class="stat-cell" style="font-weight:600">${teamGoals} \u00D7 ${oppGoals}</td>
+                            <td style="text-align:center;font-weight:700;color:${resColor}">${res}</td>
+                        </tr>`;
+                    }).join('')}</tbody>
+                </table></div>
+            </div>
+        </div>`;
+    }
+
+    // ── E. Casa vs Fora ──────────────────────────────────────────
+    html += `<div class="charts-grid" style="margin-bottom:24px">
+        <div class="chart-wrapper">
+            <h3 class="chart-title">Casa vs Fora</h3>
+            <div class="market-table-wrapper"><table class="market-table">
+                <thead><tr><th>Local</th><th class="th-center">J</th><th class="th-center">V</th><th class="th-center">E</th><th class="th-center">D</th><th class="th-center">GP</th><th class="th-center">GC</th><th class="th-center">Pts</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td style="font-weight:600">\uD83C\uDFE0 Casa</td>
+                        <td class="stat-cell">${t.homeWins+t.homeDraws+t.homeLosses}</td>
+                        <td class="stat-cell">${t.homeWins}</td>
+                        <td class="stat-cell">${t.homeDraws}</td>
+                        <td class="stat-cell">${t.homeLosses}</td>
+                        <td class="stat-cell">${t.homeGoalsFor}</td>
+                        <td class="stat-cell">${t.homeGoalsAgainst}</td>
+                        <td class="points-cell">${t.homeWins*3+t.homeDraws}</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:600">\u2708\uFE0F Fora</td>
+                        <td class="stat-cell">${t.awayWins+t.awayDraws+t.awayLosses}</td>
+                        <td class="stat-cell">${t.awayWins}</td>
+                        <td class="stat-cell">${t.awayDraws}</td>
+                        <td class="stat-cell">${t.awayLosses}</td>
+                        <td class="stat-cell">${t.awayGoalsFor}</td>
+                        <td class="stat-cell">${t.awayGoalsAgainst}</td>
+                        <td class="points-cell">${t.awayWins*3+t.awayDraws}</td>
+                    </tr>
+                </tbody></table></div>
+        </div>
+        <div class="chart-wrapper">
+            <h3 class="chart-title">Evolu\u00E7\u00E3o de Pontos</h3>
+            <div class="chart-container chart-container--tall"><canvas id="timePointsChart"></canvas></div>
+        </div>
+    </div>`;
+
+    // ── F. Próximos jogos ────────────────────────────────────────
+    html += renderProximosJogos(appState.allMatches, teamName);
+
+    return html;
+}
+
+/**
+ * Inicializa o gráfico de evolução de pontos na aba Time.
+ */
+function initTimeChart() {
+    const ctx = document.getElementById('timePointsChart');
+    if (!ctx || ctx._chartInit) return;
+    ctx._chartInit = true;
+
+    const teamName = appState.selectedTeam;
+    const standings = appState.standings || [];
+    const leader = standings[0];
+    if (!leader) return;
+
+    const { rounds, series } = buildPointsProgression(appState.allMatches);
+    const teamSeries = series[teamName] || [];
+    const leaderSeries = series[leader.name] || [];
+
+    appState.chartInstances.push(new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: rounds.map(r => `R${r}`),
+            datasets: [
+                {
+                    label: teamName,
+                    data: teamSeries,
+                    borderColor: '#10b981',
+                    backgroundColor: 'rgba(16,185,129,0.1)',
+                    borderWidth: 2.5,
+                    pointRadius: 4,
+                    pointBackgroundColor: '#10b981',
+                    fill: true,
+                    tension: 0.3,
+                },
+                ...(leader.name !== teamName ? [{
+                    label: `${leader.name} (L\u00EDder)`,
+                    data: leaderSeries,
+                    borderColor: '#6b7280',
+                    borderWidth: 1.5,
+                    borderDash: [5, 3],
+                    pointRadius: 2,
+                    pointBackgroundColor: '#6b7280',
+                    fill: false,
+                    tension: 0.3,
+                }] : [])
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { labels: { font: { family: "'Inter', sans-serif", size: 11 }, color: '#8b949e' } }
+            },
+            scales: {
+                x: { grid: { color: '#21262d' }, ticks: { color: '#8b949e', font: { size: 10 } } },
+                y: { grid: { color: '#21262d' }, ticks: { color: '#8b949e', font: { size: 10 } }, beginAtZero: true }
+            }
+        }
+    }));
+}
+
+/**
  * Renderiza seção de próximos jogos agendados.
  */
 function renderProximosJogos(allMatches, selectedTeam) {
@@ -1067,10 +1286,12 @@ function render() {
     let html = renderHeader(latestRound, selectedTeam, selectedRound, appState.lastUpdated);
 
     // Tab bar
+    const showTimeTab = selectedTeam !== 'Todos os times';
     html += `<div class="tab-bar">
         <button class="tab-btn ${activeTab === 'tabela' ? 'active' : ''}" data-tab="tabela">Tabela</button>
         <button class="tab-btn ${activeTab === 'estatisticas' ? 'active' : ''}" data-tab="estatisticas">Estat\u00EDsticas</button>
         <button class="tab-btn ${activeTab === 'mercado' ? 'active' : ''}" data-tab="mercado">Mercado</button>
+        ${showTimeTab ? `<button class="tab-btn tab-btn-time ${activeTab === 'time' ? 'active' : ''}" data-tab="time">\u26BD ${selectedTeam}</button>` : ''}
     </div>`;
 
     html += '<div class="container">';
@@ -1096,7 +1317,14 @@ function render() {
     html += renderMarketValues();
     html += '</div>';
 
-    html += `<div class="footer">Dados: <a href="https://www.thesportsdb.com" target="_blank" rel="noopener">TheSportsDB</a> &bull; <a href="https://github.com/dcaribou/transfermarkt-datasets" target="_blank" rel="noopener">Transfermarkt (dcaribou)</a> | Brasileir\u00E3o S\u00E9rie A ${appState.season || 2026}</div>`;
+    // Tab: Time (condicional — só aparece quando um time está selecionado)
+    if (showTimeTab) {
+        html += `<div class="tab-content ${activeTab === 'time' ? 'active' : ''}" id="tab-time">`;
+        html += renderTimeContent();
+        html += '</div>';
+    }
+
+    html += `<div class="footer">Dados: <a href="https://www.espn.com.br" target="_blank" rel="noopener">ESPN</a> &bull; <a href="https://github.com/dcaribou/transfermarkt-datasets" target="_blank" rel="noopener">Transfermarkt (dcaribou)</a> | Brasileir\u00E3o S\u00E9rie A ${appState.season || 2026}</div>`;
     html += '</div>'; // container
 
     appDiv.innerHTML = html;
@@ -1127,6 +1355,29 @@ function render() {
     }
 
 
+    // Click em time na tabela → aba Time
+    document.querySelectorAll('.standings-table tbody tr').forEach(row => {
+        row.style.cursor = 'pointer';
+        row.addEventListener('click', () => {
+            const nameEl = row.querySelector('.team-name');
+            if (nameEl) {
+                appState.selectedTeam = nameEl.textContent;
+                appState.activeTab = 'time';
+                render();
+            }
+        });
+    });
+
+    // Botão voltar na aba Time
+    const voltarBtn = document.getElementById('timeVoltarBtn');
+    if (voltarBtn) {
+        voltarBtn.addEventListener('click', () => {
+            appState.selectedTeam = 'Todos os times';
+            appState.activeTab = 'tabela';
+            render();
+        });
+    }
+
     // Troca de abas (sem re-render, apenas toggle de classes)
     document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.addEventListener('click', e => {
@@ -1139,6 +1390,9 @@ function render() {
             if (tab === 'mercado') { initMarketCharts(); attachMercadoSortListeners(); }
             if (tab === 'estatisticas') {
                 setTimeout(() => initEstatisticasCharts(chartsRender), 50);
+            }
+            if (tab === 'time') {
+                setTimeout(() => initTimeChart(), 50);
             }
         });
     });
@@ -1159,6 +1413,9 @@ function render() {
 
         // Gráficos de mercado se aba ativa
         if (activeTab === 'mercado') initMarketCharts();
+
+        // Gráfico de evolução na aba Time
+        if (activeTab === 'time') initTimeChart();
     }, 100);
 }
 

@@ -1493,7 +1493,78 @@ body {
 .form-table { overflow-x: auto; }
 
 
-/* ─── 20. RESPONSIVO ────────────────────────────────────────────────────────── */
+/* ─── 20. ABA TIME ─────────────────────────────────────────────────────────── */
+.time-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    padding: 20px 24px;
+    margin-bottom: 24px;
+}
+
+.time-header-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.time-header-badge {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.time-header-name {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0 0 4px;
+}
+
+.time-header-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.time-position-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.time-voltar {
+    padding: 8px 16px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--bg-card-2);
+    color: var(--text-secondary);
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.time-voltar:hover {
+    background: var(--bg-hover);
+    color: var(--text-primary);
+    border-color: var(--accent-green);
+}
+
+.tab-btn-time {
+    border-left: 2px solid var(--accent-green);
+    margin-left: auto;
+}
+
+/* ─── 21. RESPONSIVO ────────────────────────────────────────────────────────── */
 @media (max-width: 1100px) {
     .main-content-grid { grid-template-columns: 1fr; }
     .charts-grid { grid-template-columns: 1fr; }
@@ -1510,6 +1581,11 @@ body {
 
     .tab-bar { padding: 0 12px; overflow-x: auto; }
     .tab-btn { padding: 12px 16px; font-size: 12px; white-space: nowrap; }
+
+    .time-header { flex-direction: column; gap: 12px; padding: 16px; }
+    .time-header-badge { width: 40px; height: 40px; }
+    .time-header-name { font-size: 18px; }
+    .time-voltar { width: 100%; text-align: center; }
 
     .container { padding: 16px; }
 
