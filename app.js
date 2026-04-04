@@ -812,7 +812,7 @@ function renderMarketValues() {
     const positions = [...new Set(players.map(p => p.position))].sort();
 
     // KPIs de mercado — dinâmicos com base no filtro
-    const mostValuable = sorted[0];
+    const mostValuable = [...players].sort((a, b) => b.value - a.value)[0];
     const totalValue = players.reduce((s, p) => s + p.value, 0);
     const avgAge = players.length > 0 ? (players.reduce((s, p) => s + p.age, 0) / players.length).toFixed(1).replace('.', ',') : '-';
 
