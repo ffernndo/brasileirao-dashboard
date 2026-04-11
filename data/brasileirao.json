@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "last_updated": "2026-04-10T10:44:32Z",
+  "last_updated": "2026-04-11T10:25:31Z",
   "latest_round": 10,
   "source": "ESPN",
   "matches": [
@@ -1433,20 +1433,6 @@
       "_espnId": "401841073"
     },
     {
-      "idEvent": "401841072",
-      "strHomeTeam": "Fluminense",
-      "strAwayTeam": "Flamengo",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "11",
-      "dateEvent": "2026-04-11",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841072"
-    },
-    {
       "idEvent": "401841076",
       "strHomeTeam": "Mirassol",
       "strAwayTeam": "Bahia",
@@ -1515,6 +1501,20 @@
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841070"
+    },
+    {
+      "idEvent": "401841072",
+      "strHomeTeam": "Fluminense",
+      "strAwayTeam": "Flamengo",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "11",
+      "dateEvent": "2026-04-12",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841072"
     },
     {
       "idEvent": "401841069",

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-10",
+  "last_updated": "2026-04-11",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -175,7 +175,7 @@
       "name": "Gabriel Mec",
       "team": "Grêmio",
       "position": "Meia Atac.",
-      "age": 17,
+      "age": 18,
       "value": 12000000
     },
     {
@@ -1820,7 +1820,7 @@
       "name": "Jordan Barrera",
       "team": "Botafogo",
       "position": "Meia Atac.",
-      "age": 19,
+      "age": 20,
       "value": 2000000
     },
     {
@@ -4508,7 +4508,7 @@
       "name": "Osvaldo",
       "team": "Vitória",
       "position": "Ponta Dir.",
-      "age": 38,
+      "age": 39,
       "value": 100000
     },
     {
