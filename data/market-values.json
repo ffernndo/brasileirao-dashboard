@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-12",
+  "last_updated": "2026-04-13",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -378,7 +378,7 @@
       "name": "Mateo Cassierra",
       "team": "Atlético-MG",
       "position": "Centroavante",
-      "age": 28,
+      "age": 29,
       "value": 9000000
     },
     {
@@ -2485,7 +2485,7 @@
       "name": "Gabriel Taliari",
       "team": "Juventude",
       "position": "Centroavante",
-      "age": 28,
+      "age": 29,
       "value": 1500000
     },
     {
