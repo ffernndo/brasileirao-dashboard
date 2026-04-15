@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "last_updated": "2026-04-14T10:57:00Z",
+  "last_updated": "2026-04-15T10:53:07Z",
   "latest_round": 11,
   "source": "ESPN",
   "matches": [
@@ -5798,7 +5798,7 @@
     },
     {
       "id": "153646",
-      "name": "Negueba",
+      "name": "Negueba ",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/153646.png",
       "cat": "goalsLeaders",
       "value": 2,
@@ -6068,7 +6068,7 @@
     },
     {
       "id": "250388",
-      "name": "Alesson",
+      "name": "Alesson ",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/250388.png",
       "cat": "assistsLeaders",
       "value": 2,
