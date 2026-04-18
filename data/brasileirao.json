@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "last_updated": "2026-04-17T10:47:27Z",
+  "last_updated": "2026-04-18T10:33:01Z",
   "latest_round": 11,
   "source": "ESPN",
   "matches": [
@@ -5368,7 +5368,7 @@
     },
     {
       "id": "235017",
-      "name": "Pedro ",
+      "name": "Pedro",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/235017.png",
       "cat": "goalsLeaders",
       "value": 5,
@@ -6038,7 +6038,7 @@
     },
     {
       "id": "235017",
-      "name": "Pedro ",
+      "name": "Pedro",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/235017.png",
       "cat": "assistsLeaders",
       "value": 2,

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-17",
+  "last_updated": "2026-04-18",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -1631,7 +1631,7 @@
       "name": "Lucas Romero",
       "team": "Cruzeiro",
       "position": "Vol. Defensivo",
-      "age": 31,
+      "age": 32,
       "value": 2800000
     },
     {
@@ -4053,7 +4053,7 @@
       "name": "Léo Andrade",
       "team": "Remo",
       "position": "Zagueiro",
-      "age": 27,
+      "age": 28,
       "value": 350000
     },
     {
