@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-18",
+  "last_updated": "2026-04-19",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -91,7 +91,7 @@
       "name": "Allan",
       "team": "Palmeiras",
       "position": "Ponta Dir.",
-      "age": 21,
+      "age": 22,
       "value": 15000000
     },
     {
@@ -1869,7 +1869,7 @@
       "name": "JP",
       "team": "Vasco da Gama",
       "position": "Meia Central",
-      "age": 20,
+      "age": 21,
       "value": 2000000
     },
     {
