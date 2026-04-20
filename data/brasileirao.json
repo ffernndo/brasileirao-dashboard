@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "last_updated": "2026-04-19T10:31:59Z",
+  "last_updated": "2026-04-20T11:13:17Z",
   "latest_round": 12,
   "source": "ESPN",
   "matches": [
@@ -1604,13 +1604,13 @@
       "idEvent": "401841085",
       "strHomeTeam": "Internacional",
       "strAwayTeam": "Mirassol",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": 1,
+      "intAwayScore": 2,
       "intRound": "12",
       "dateEvent": "2026-04-19",
       "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
       "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_FULL_TIME",
       "venue": "",
       "_espnId": "401841085"
     },
@@ -1618,13 +1618,13 @@
       "idEvent": "401841079",
       "strHomeTeam": "Coritiba",
       "strAwayTeam": "Atlético-MG",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": 2,
+      "intAwayScore": 0,
       "intRound": "12",
       "dateEvent": "2026-04-19",
       "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
       "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_FULL_TIME",
       "venue": "",
       "_espnId": "401841079"
     },
@@ -1632,13 +1632,13 @@
       "idEvent": "401841082",
       "strHomeTeam": "Santos",
       "strAwayTeam": "Fluminense",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": 2,
+      "intAwayScore": 3,
       "intRound": "12",
       "dateEvent": "2026-04-19",
       "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
       "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_FULL_TIME",
       "venue": "",
       "_espnId": "401841082"
     },
@@ -1646,13 +1646,13 @@
       "idEvent": "401841084",
       "strHomeTeam": "Palmeiras",
       "strAwayTeam": "Athletico-PR",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": 1,
+      "intAwayScore": 0,
       "intRound": "12",
       "dateEvent": "2026-04-19",
       "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
       "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_FULL_TIME",
       "venue": "",
       "_espnId": "401841084"
     },
@@ -1660,13 +1660,13 @@
       "idEvent": "401841083",
       "strHomeTeam": "Red Bull Bragantino",
       "strAwayTeam": "Remo",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": 4,
+      "intAwayScore": 2,
       "intRound": "12",
       "dateEvent": "2026-04-19",
       "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
       "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_FULL_TIME",
       "venue": "",
       "_espnId": "401841083"
     },
@@ -1674,13 +1674,13 @@
       "idEvent": "401841086",
       "strHomeTeam": "Flamengo",
       "strAwayTeam": "Bahia",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": 2,
+      "intAwayScore": 0,
       "intRound": "12",
       "dateEvent": "2026-04-19",
       "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
       "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_FULL_TIME",
       "venue": "",
       "_espnId": "401841086"
     },
@@ -5342,7 +5342,7 @@
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/268476.png",
       "cat": "goalsLeaders",
       "value": 6,
-      "matches": 11,
+      "matches": 12,
       "goals": 6,
       "assists": 1
     },
@@ -5382,9 +5382,39 @@
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/235017.png",
       "cat": "goalsLeaders",
       "value": 5,
-      "matches": 10,
+      "matches": 11,
       "goals": 5,
-      "assists": 2
+      "assists": 3
+    },
+    {
+      "id": "312741",
+      "name": "John Kennedy",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/312741.png",
+      "cat": "goalsLeaders",
+      "value": 5,
+      "matches": 11,
+      "goals": 5,
+      "assists": 0
+    },
+    {
+      "id": "236324",
+      "name": "Breno",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/236324.png",
+      "cat": "goalsLeaders",
+      "value": 5,
+      "matches": 11,
+      "goals": 5,
+      "assists": 1
+    },
+    {
+      "id": "287035",
+      "name": "Isidro Pitta",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/287035.png",
+      "cat": "goalsLeaders",
+      "value": 5,
+      "matches": 11,
+      "goals": 5,
+      "assists": 1
     },
     {
       "id": "197049",
@@ -5392,9 +5422,19 @@
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/197049.png",
       "cat": "goalsLeaders",
       "value": 4,
-      "matches": 11,
+      "matches": 12,
       "goals": 4,
       "assists": 0
+    },
+    {
+      "id": "304757",
+      "name": "Luciano Juba",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/304757.png",
+      "cat": "goalsLeaders",
+      "value": 4,
+      "matches": 11,
+      "goals": 4,
+      "assists": 1
     },
     {
       "id": "314841",
@@ -5407,36 +5447,6 @@
       "assists": 0
     },
     {
-      "id": "304757",
-      "name": "Luciano Juba",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/304757.png",
-      "cat": "goalsLeaders",
-      "value": 4,
-      "matches": 10,
-      "goals": 4,
-      "assists": 1
-    },
-    {
-      "id": "312741",
-      "name": "John Kennedy",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/312741.png",
-      "cat": "goalsLeaders",
-      "value": 4,
-      "matches": 10,
-      "goals": 4,
-      "assists": 0
-    },
-    {
-      "id": "236324",
-      "name": "Breno",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/236324.png",
-      "cat": "goalsLeaders",
-      "value": 4,
-      "matches": 10,
-      "goals": 4,
-      "assists": 1
-    },
-    {
       "id": "196849",
       "name": "Edenilson",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/196849.png",
@@ -5445,6 +5455,66 @@
       "matches": 10,
       "goals": 4,
       "assists": 2
+    },
+    {
+      "id": "182522",
+      "name": "Gabriel Barbosa",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/182522.png",
+      "cat": "goalsLeaders",
+      "value": 4,
+      "matches": 7,
+      "goals": 4,
+      "assists": 2
+    },
+    {
+      "id": "216846",
+      "name": "Pedro Rocha",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/216846.png",
+      "cat": "goalsLeaders",
+      "value": 3,
+      "matches": 12,
+      "goals": 3,
+      "assists": 0
+    },
+    {
+      "id": "334382",
+      "name": "Victor Hugo",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/334382.png",
+      "cat": "goalsLeaders",
+      "value": 3,
+      "matches": 12,
+      "goals": 3,
+      "assists": 1
+    },
+    {
+      "id": "382966",
+      "name": "Allan Andrade",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/382966.png",
+      "cat": "goalsLeaders",
+      "value": 3,
+      "matches": 12,
+      "goals": 3,
+      "assists": 0
+    },
+    {
+      "id": "311743",
+      "name": "Flaco López",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/311743.png",
+      "cat": "goalsLeaders",
+      "value": 3,
+      "matches": 12,
+      "goals": 3,
+      "assists": 3
+    },
+    {
+      "id": "118395",
+      "name": "Gustavo Gómez",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/118395.png",
+      "cat": "goalsLeaders",
+      "value": 3,
+      "matches": 11,
+      "goals": 3,
+      "assists": 0
     },
     {
       "id": "201717",
@@ -5457,29 +5527,9 @@
       "assists": 1
     },
     {
-      "id": "334382",
-      "name": "Victor Hugo",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/334382.png",
-      "cat": "goalsLeaders",
-      "value": 3,
-      "matches": 11,
-      "goals": 3,
-      "assists": 1
-    },
-    {
-      "id": "311743",
-      "name": "Flaco López",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/311743.png",
-      "cat": "goalsLeaders",
-      "value": 3,
-      "matches": 11,
-      "goals": 3,
-      "assists": 3
-    },
-    {
-      "id": "382966",
-      "name": "Allan Andrade",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/382966.png",
+      "id": "299967",
+      "name": "Igor Marques",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/299967.png",
       "cat": "goalsLeaders",
       "value": 3,
       "matches": 11,
@@ -5497,9 +5547,19 @@
       "assists": 1
     },
     {
-      "id": "299967",
-      "name": "Igor Marques",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/299967.png",
+      "id": "333306",
+      "name": "Joaquín Lavega",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/333306.png",
+      "cat": "goalsLeaders",
+      "value": 3,
+      "matches": 11,
+      "goals": 3,
+      "assists": 0
+    },
+    {
+      "id": "165232",
+      "name": "Alan Patrick",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/165232.png",
       "cat": "goalsLeaders",
       "value": 3,
       "matches": 10,
@@ -5515,6 +5575,16 @@
       "matches": 10,
       "goals": 3,
       "assists": 1
+    },
+    {
+      "id": "336622",
+      "name": "Hércules",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/336622.png",
+      "cat": "goalsLeaders",
+      "value": 3,
+      "matches": 10,
+      "goals": 3,
+      "assists": 0
     },
     {
       "id": "357720",
@@ -5537,9 +5607,9 @@
       "assists": 3
     },
     {
-      "id": "333306",
-      "name": "Joaquín Lavega",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/333306.png",
+      "id": "234715",
+      "name": "Lucas Paquetá",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/234715.png",
       "cat": "goalsLeaders",
       "value": 3,
       "matches": 10,
@@ -5567,9 +5637,9 @@
       "assists": 1
     },
     {
-      "id": "336622",
-      "name": "Hércules",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/336622.png",
+      "id": "167845",
+      "name": "Everaldo",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/167845.png",
       "cat": "goalsLeaders",
       "value": 3,
       "matches": 9,
@@ -5587,14 +5657,24 @@
       "assists": 1
     },
     {
-      "id": "167845",
-      "name": "Everaldo",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/167845.png",
+      "id": "239566",
+      "name": "Jhon Arias",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/239566.png",
       "cat": "goalsLeaders",
       "value": 3,
       "matches": 8,
       "goals": 3,
       "assists": 0
+    },
+    {
+      "id": "116395",
+      "name": "Rodrigo Castillo",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/116395.png",
+      "cat": "goalsLeaders",
+      "value": 3,
+      "matches": 8,
+      "goals": 3,
+      "assists": 1
     },
     {
       "id": "296573",
@@ -5603,16 +5683,6 @@
       "cat": "goalsLeaders",
       "value": 3,
       "matches": 8,
-      "goals": 3,
-      "assists": 0
-    },
-    {
-      "id": "239566",
-      "name": "Jhon Arias",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/239566.png",
-      "cat": "goalsLeaders",
-      "value": 3,
-      "matches": 7,
       "goals": 3,
       "assists": 0
     },
@@ -5627,22 +5697,12 @@
       "assists": 0
     },
     {
-      "id": "182522",
-      "name": "Gabriel Barbosa",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/182522.png",
-      "cat": "goalsLeaders",
-      "value": 3,
-      "matches": 6,
-      "goals": 3,
-      "assists": 1
-    },
-    {
       "id": "329383",
       "name": "Vitor Roque",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/329383.png",
       "cat": "goalsLeaders",
       "value": 3,
-      "matches": 6,
+      "matches": 7,
       "goals": 3,
       "assists": 0
     },
@@ -5652,9 +5712,19 @@
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/132948.png",
       "cat": "goalsLeaders",
       "value": 3,
-      "matches": 5,
+      "matches": 6,
       "goals": 3,
       "assists": 2
+    },
+    {
+      "id": "235385",
+      "name": "Gabriel Taliari",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/235385.png",
+      "cat": "goalsLeaders",
+      "value": 3,
+      "matches": 6,
+      "goals": 3,
+      "assists": 0
     },
     {
       "id": "216098",
@@ -5663,6 +5733,46 @@
       "cat": "goalsLeaders",
       "value": 2,
       "matches": 19,
+      "goals": 2,
+      "assists": 2
+    },
+    {
+      "id": "301188",
+      "name": "Alef Manga",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/301188.png",
+      "cat": "goalsLeaders",
+      "value": 2,
+      "matches": 12,
+      "goals": 2,
+      "assists": 3
+    },
+    {
+      "id": "252197",
+      "name": "Tomás Cuello",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/252197.png",
+      "cat": "goalsLeaders",
+      "value": 2,
+      "matches": 12,
+      "goals": 2,
+      "assists": 1
+    },
+    {
+      "id": "248584",
+      "name": "Lucas Barbosa",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/248584.png",
+      "cat": "goalsLeaders",
+      "value": 2,
+      "matches": 11,
+      "goals": 2,
+      "assists": 1
+    },
+    {
+      "id": "229555",
+      "name": "Juninho Capixaba",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/229555.png",
+      "cat": "goalsLeaders",
+      "value": 2,
+      "matches": 11,
       "goals": 2,
       "assists": 2
     },
@@ -5697,134 +5807,24 @@
       "assists": 0
     },
     {
-      "id": "216846",
-      "name": "Pedro Rocha",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/216846.png",
-      "cat": "goalsLeaders",
-      "value": 2,
-      "matches": 11,
-      "goals": 2,
-      "assists": 0
-    },
-    {
-      "id": "301188",
-      "name": "Alef Manga",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/301188.png",
-      "cat": "goalsLeaders",
-      "value": 2,
-      "matches": 11,
-      "goals": 2,
-      "assists": 3
-    },
-    {
-      "id": "252197",
-      "name": "Tomás Cuello",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/252197.png",
-      "cat": "goalsLeaders",
-      "value": 2,
-      "matches": 11,
-      "goals": 2,
-      "assists": 1
-    },
-    {
-      "id": "218972",
-      "name": "Matheus",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/218972.png",
-      "cat": "goalsLeaders",
-      "value": 2,
-      "matches": 11,
-      "goals": 2,
-      "assists": 0
-    },
-    {
-      "id": "198580",
-      "name": "Jean",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/198580.png",
-      "cat": "goalsLeaders",
-      "value": 2,
-      "matches": 11,
-      "goals": 2,
-      "assists": 2
-    },
-    {
-      "id": "248584",
-      "name": "Lucas Barbosa",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/248584.png",
-      "cat": "goalsLeaders",
-      "value": 2,
-      "matches": 10,
-      "goals": 2,
-      "assists": 1
-    },
-    {
-      "id": "118395",
-      "name": "Gustavo Gómez",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/118395.png",
-      "cat": "goalsLeaders",
-      "value": 2,
-      "matches": 10,
-      "goals": 2,
-      "assists": 0
-    },
-    {
-      "id": "269852",
-      "name": "Gabriel Baralhas",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/269852.png",
-      "cat": "goalsLeaders",
-      "value": 2,
-      "matches": 10,
-      "goals": 2,
-      "assists": 3
-    },
-    {
-      "id": "229555",
-      "name": "Juninho Capixaba",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/229555.png",
-      "cat": "goalsLeaders",
-      "value": 2,
-      "matches": 10,
-      "goals": 2,
-      "assists": 2
-    },
-    {
       "id": "269910",
       "name": "Jean Lucas",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/269910.png",
       "cat": "goalsLeaders",
       "value": 2,
-      "matches": 10,
+      "matches": 11,
       "goals": 2,
       "assists": 2
     },
     {
-      "id": "199734",
-      "name": "Alex Telles",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/199734.png",
+      "id": "279454",
+      "name": "Álvaro Barreal",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/279454.png",
       "cat": "goalsLeaders",
       "value": 2,
-      "matches": 10,
+      "matches": 11,
       "goals": 2,
-      "assists": 1
-    },
-    {
-      "id": "287035",
-      "name": "Isidro Pitta",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/287035.png",
-      "cat": "goalsLeaders",
-      "value": 2,
-      "matches": 10,
-      "goals": 2,
-      "assists": 1
-    },
-    {
-      "id": "219005",
-      "name": "David",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/219005.png",
-      "cat": "goalsLeaders",
-      "value": 2,
-      "matches": 10,
-      "goals": 2,
-      "assists": 1
+      "assists": 0
     },
     {
       "id": "210143",
@@ -5832,7 +5832,7 @@
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/210143.png",
       "cat": "assistsLeaders",
       "value": 8,
-      "matches": 11,
+      "matches": 12,
       "goals": 1,
       "assists": 8
     },
@@ -5842,7 +5842,17 @@
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/150215.png",
       "cat": "assistsLeaders",
       "value": 4,
-      "matches": 10,
+      "matches": 11,
+      "goals": 0,
+      "assists": 4
+    },
+    {
+      "id": "250388",
+      "name": "Alesson",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/250388.png",
+      "cat": "assistsLeaders",
+      "value": 4,
+      "matches": 11,
       "goals": 0,
       "assists": 4
     },
@@ -5857,6 +5867,36 @@
       "assists": 4
     },
     {
+      "id": "124068",
+      "name": "Hulk",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/124068.png",
+      "cat": "assistsLeaders",
+      "value": 3,
+      "matches": 12,
+      "goals": 1,
+      "assists": 3
+    },
+    {
+      "id": "311743",
+      "name": "Flaco López",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/311743.png",
+      "cat": "assistsLeaders",
+      "value": 3,
+      "matches": 12,
+      "goals": 3,
+      "assists": 3
+    },
+    {
+      "id": "301188",
+      "name": "Alef Manga",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/301188.png",
+      "cat": "assistsLeaders",
+      "value": 3,
+      "matches": 12,
+      "goals": 2,
+      "assists": 3
+    },
+    {
       "id": "270562",
       "name": "Rodrigo Garro",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/270562.png",
@@ -5867,33 +5907,33 @@
       "assists": 3
     },
     {
-      "id": "301188",
-      "name": "Alef Manga",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/301188.png",
+      "id": "235017",
+      "name": "Pedro",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/235017.png",
+      "cat": "assistsLeaders",
+      "value": 3,
+      "matches": 11,
+      "goals": 5,
+      "assists": 3
+    },
+    {
+      "id": "287903",
+      "name": "Vitinho",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/287903.png",
+      "cat": "assistsLeaders",
+      "value": 3,
+      "matches": 11,
+      "goals": 0,
+      "assists": 3
+    },
+    {
+      "id": "253937",
+      "name": "Samuel Lino",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/253937.png",
       "cat": "assistsLeaders",
       "value": 3,
       "matches": 11,
       "goals": 2,
-      "assists": 3
-    },
-    {
-      "id": "311743",
-      "name": "Flaco López",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/311743.png",
-      "cat": "assistsLeaders",
-      "value": 3,
-      "matches": 11,
-      "goals": 3,
-      "assists": 3
-    },
-    {
-      "id": "124068",
-      "name": "Hulk",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/124068.png",
-      "cat": "assistsLeaders",
-      "value": 3,
-      "matches": 11,
-      "goals": 1,
       "assists": 3
     },
     {
@@ -5917,13 +5957,13 @@
       "assists": 3
     },
     {
-      "id": "287903",
-      "name": "Vitinho",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/287903.png",
+      "id": "309499",
+      "name": "Lucas Esquivel",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/309499.png",
       "cat": "assistsLeaders",
       "value": 3,
       "matches": 10,
-      "goals": 0,
+      "goals": 1,
       "assists": 3
     },
     {
@@ -5934,26 +5974,6 @@
       "value": 3,
       "matches": 10,
       "goals": 3,
-      "assists": 3
-    },
-    {
-      "id": "253937",
-      "name": "Samuel Lino",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/253937.png",
-      "cat": "assistsLeaders",
-      "value": 3,
-      "matches": 10,
-      "goals": 2,
-      "assists": 3
-    },
-    {
-      "id": "309499",
-      "name": "Lucas Esquivel",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/309499.png",
-      "cat": "assistsLeaders",
-      "value": 3,
-      "matches": 9,
-      "goals": 1,
       "assists": 3
     },
     {
@@ -5987,6 +6007,26 @@
       "assists": 2
     },
     {
+      "id": "360137",
+      "name": "Lucas Ronier",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/360137.png",
+      "cat": "assistsLeaders",
+      "value": 2,
+      "matches": 12,
+      "goals": 1,
+      "assists": 2
+    },
+    {
+      "id": "229555",
+      "name": "Juninho Capixaba",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/229555.png",
+      "cat": "assistsLeaders",
+      "value": 2,
+      "matches": 11,
+      "goals": 2,
+      "assists": 2
+    },
+    {
       "id": "317233",
       "name": "Kaiki",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/317233.png",
@@ -6007,13 +6047,13 @@
       "assists": 2
     },
     {
-      "id": "360137",
-      "name": "Lucas Ronier",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/360137.png",
+      "id": "269910",
+      "name": "Jean Lucas",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/269910.png",
       "cat": "assistsLeaders",
       "value": 2,
       "matches": 11,
-      "goals": 1,
+      "goals": 2,
       "assists": 2
     },
     {
@@ -6067,16 +6107,6 @@
       "assists": 2
     },
     {
-      "id": "229555",
-      "name": "Juninho Capixaba",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/229555.png",
-      "cat": "assistsLeaders",
-      "value": 2,
-      "matches": 10,
-      "goals": 2,
-      "assists": 2
-    },
-    {
       "id": "333314",
       "name": "Henry Mosquera",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/333314.png",
@@ -6087,33 +6117,13 @@
       "assists": 2
     },
     {
-      "id": "269910",
-      "name": "Jean Lucas",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/269910.png",
+      "id": "177219",
+      "name": "Jefferson Savarino",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/177219.png",
       "cat": "assistsLeaders",
       "value": 2,
       "matches": 10,
       "goals": 2,
-      "assists": 2
-    },
-    {
-      "id": "235017",
-      "name": "Pedro",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/235017.png",
-      "cat": "assistsLeaders",
-      "value": 2,
-      "matches": 10,
-      "goals": 5,
-      "assists": 2
-    },
-    {
-      "id": "250388",
-      "name": "Alesson",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/250388.png",
-      "cat": "assistsLeaders",
-      "value": 2,
-      "matches": 10,
-      "goals": 0,
       "assists": 2
     },
     {
@@ -6167,22 +6177,12 @@
       "assists": 2
     },
     {
-      "id": "177219",
-      "name": "Jefferson Savarino",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/177219.png",
-      "cat": "assistsLeaders",
-      "value": 2,
-      "matches": 9,
-      "goals": 1,
-      "assists": 2
-    },
-    {
       "id": "188368",
       "name": "Gullermo Varela",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/188368.png",
       "cat": "assistsLeaders",
       "value": 2,
-      "matches": 8,
+      "matches": 9,
       "goals": 0,
       "assists": 2
     },
@@ -6192,7 +6192,7 @@
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/173588.png",
       "cat": "assistsLeaders",
       "value": 2,
-      "matches": 7,
+      "matches": 8,
       "goals": 0,
       "assists": 2
     },
@@ -6202,8 +6202,48 @@
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/199017.png",
       "cat": "assistsLeaders",
       "value": 2,
-      "matches": 6,
+      "matches": 7,
       "goals": 0,
+      "assists": 2
+    },
+    {
+      "id": "182522",
+      "name": "Gabriel Barbosa",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/182522.png",
+      "cat": "assistsLeaders",
+      "value": 2,
+      "matches": 7,
+      "goals": 4,
+      "assists": 2
+    },
+    {
+      "id": "271557",
+      "name": "Guga",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/271557.png",
+      "cat": "assistsLeaders",
+      "value": 2,
+      "matches": 7,
+      "goals": 0,
+      "assists": 2
+    },
+    {
+      "id": "361359",
+      "name": "João Cruz",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/361359.png",
+      "cat": "assistsLeaders",
+      "value": 2,
+      "matches": 7,
+      "goals": 0,
+      "assists": 2
+    },
+    {
+      "id": "132948",
+      "name": "Neymar",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/132948.png",
+      "cat": "assistsLeaders",
+      "value": 2,
+      "matches": 6,
+      "goals": 3,
       "assists": 2
     },
     {
@@ -6227,24 +6267,14 @@
       "assists": 2
     },
     {
-      "id": "361359",
-      "name": "João Cruz",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/361359.png",
+      "id": "223953",
+      "name": "Éverson",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/223953.png",
       "cat": "assistsLeaders",
-      "value": 2,
-      "matches": 6,
+      "value": 1,
+      "matches": 12,
       "goals": 0,
-      "assists": 2
-    },
-    {
-      "id": "132948",
-      "name": "Neymar",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/132948.png",
-      "cat": "assistsLeaders",
-      "value": 2,
-      "matches": 5,
-      "goals": 3,
-      "assists": 2
+      "assists": 1
     },
     {
       "id": "198983",
@@ -6257,32 +6287,12 @@
       "assists": 1
     },
     {
-      "id": "287788",
-      "name": "Christian",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/287788.png",
-      "cat": "assistsLeaders",
-      "value": 1,
-      "matches": 12,
-      "goals": 5,
-      "assists": 1
-    },
-    {
-      "id": "223953",
-      "name": "Éverson",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/223953.png",
-      "cat": "assistsLeaders",
-      "value": 1,
-      "matches": 11,
-      "goals": 0,
-      "assists": 1
-    },
-    {
       "id": "245858",
       "name": "Renan Lodi",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/245858.png",
       "cat": "assistsLeaders",
       "value": 1,
-      "matches": 11,
+      "matches": 12,
       "goals": 0,
       "assists": 1
     },
@@ -6292,38 +6302,28 @@
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/268476.png",
       "cat": "assistsLeaders",
       "value": 1,
-      "matches": 11,
+      "matches": 12,
       "goals": 6,
       "assists": 1
     },
     {
-      "id": "234016",
-      "name": "Marlon Freitas",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/234016.png",
+      "id": "334382",
+      "name": "Victor Hugo",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/334382.png",
       "cat": "assistsLeaders",
       "value": 1,
-      "matches": 11,
-      "goals": 2,
-      "assists": 1
-    },
-    {
-      "id": "330924",
-      "name": "Andres Gomez",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/330924.png",
-      "cat": "assistsLeaders",
-      "value": 1,
-      "matches": 11,
-      "goals": 2,
-      "assists": 1
-    },
-    {
-      "id": "201717",
-      "name": "Thiago Mendes",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/201717.png",
-      "cat": "assistsLeaders",
-      "value": 1,
-      "matches": 11,
+      "matches": 12,
       "goals": 3,
+      "assists": 1
+    },
+    {
+      "id": "287788",
+      "name": "Christian",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/287788.png",
+      "cat": "assistsLeaders",
+      "value": 1,
+      "matches": 12,
+      "goals": 5,
       "assists": 1
     }
   ]

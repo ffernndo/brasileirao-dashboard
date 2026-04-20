@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-19",
+  "last_updated": "2026-04-20",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -3584,7 +3584,7 @@
       "name": "Yuri Lara",
       "team": "Mirassol",
       "position": "Vol. Defensivo",
-      "age": 31,
+      "age": 32,
       "value": 600000
     },
     {
