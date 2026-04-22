@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-04-22",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -3675,7 +3675,7 @@
       "name": "David Luiz",
       "team": "Fortaleza",
       "position": "Zagueiro",
-      "age": 38,
+      "age": 39,
       "value": 500000
     },
     {
