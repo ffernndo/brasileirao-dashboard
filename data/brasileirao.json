@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "last_updated": "2026-04-22T10:58:02Z",
+  "last_updated": "2026-04-23T11:01:29Z",
   "latest_round": 12,
   "source": "ESPN",
   "matches": [
@@ -5648,7 +5648,7 @@
     },
     {
       "id": "241466",
-      "name": "Agustín Canobbio",
+      "name": "Agustín Cano",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/241466.png",
       "cat": "goalsLeaders",
       "value": 3,
