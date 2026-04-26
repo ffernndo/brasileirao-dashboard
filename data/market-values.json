@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-25",
+  "last_updated": "2026-04-26",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -1232,7 +1232,7 @@
       "name": "Kevin Viveros",
       "team": "Athletico Paranaense",
       "position": "Centroavante",
-      "age": 25,
+      "age": 26,
       "value": 4000000
     },
     {
@@ -1939,7 +1939,7 @@
       "name": "Diego Tarzia",
       "team": "Vitória",
       "position": "Ponta Esq.",
-      "age": 22,
+      "age": 23,
       "value": 2000000
     },
     {
@@ -4228,7 +4228,7 @@
       "name": "Davi Schuindt",
       "team": "Fluminense",
       "position": "Zagueiro",
-      "age": 21,
+      "age": 22,
       "value": 250000
     },
     {
