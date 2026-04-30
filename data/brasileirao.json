@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "last_updated": "2026-04-29T11:24:21Z",
+  "last_updated": "2026-04-30T11:23:26Z",
   "latest_round": 13,
   "source": "ESPN",
   "matches": [
@@ -5358,7 +5358,7 @@
     },
     {
       "id": "306764",
-      "name": "Danilo ",
+      "name": "Danilo",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/306764.png",
       "cat": "goalsLeaders",
       "value": 7,
@@ -5388,7 +5388,7 @@
     },
     {
       "id": "287788",
-      "name": "Christian ",
+      "name": "Christian",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/287788.png",
       "cat": "goalsLeaders",
       "value": 5,
@@ -5468,7 +5468,7 @@
     },
     {
       "id": "196849",
-      "name": "Edenilson ",
+      "name": "Edenilson",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/196849.png",
       "cat": "goalsLeaders",
       "value": 4,
@@ -5708,7 +5708,7 @@
     },
     {
       "id": "296573",
-      "name": "Ferreira ",
+      "name": "Ferreira",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/296573.png",
       "cat": "goalsLeaders",
       "value": 3,
@@ -5738,7 +5738,7 @@
     },
     {
       "id": "132948",
-      "name": "Neymar ",
+      "name": "Neymar",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/132948.png",
       "cat": "goalsLeaders",
       "value": 3,
@@ -6038,7 +6038,7 @@
     },
     {
       "id": "317233",
-      "name": "Kaiki ",
+      "name": "Kaiki",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/317233.png",
       "cat": "assistsLeaders",
       "value": 2,
@@ -6058,7 +6058,7 @@
     },
     {
       "id": "268700",
-      "name": "Vitinho ",
+      "name": "Vitinho",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/268700.png",
       "cat": "assistsLeaders",
       "value": 2,
@@ -6148,7 +6148,7 @@
     },
     {
       "id": "196849",
-      "name": "Edenilson ",
+      "name": "Edenilson",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/196849.png",
       "cat": "assistsLeaders",
       "value": 2,
@@ -6158,7 +6158,7 @@
     },
     {
       "id": "306764",
-      "name": "Danilo ",
+      "name": "Danilo",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/306764.png",
       "cat": "assistsLeaders",
       "value": 2,
@@ -6218,7 +6218,7 @@
     },
     {
       "id": "199065",
-      "name": "Wendell ",
+      "name": "Wendell",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/199065.png",
       "cat": "assistsLeaders",
       "value": 2,
@@ -6268,7 +6268,7 @@
     },
     {
       "id": "132948",
-      "name": "Neymar ",
+      "name": "Neymar",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/132948.png",
       "cat": "assistsLeaders",
       "value": 2,

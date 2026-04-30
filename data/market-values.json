@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-29",
+  "last_updated": "2026-04-30",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -952,7 +952,7 @@
       "name": "Luighi",
       "team": "Palmeiras",
       "position": "Centroavante",
-      "age": 19,
+      "age": 20,
       "value": 5000000
     },
     {
