@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22",
+  "last_updated": "2026-05-24",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -1834,7 +1834,7 @@
       "name": "Matheus Cunha",
       "team": "Cruzeiro",
       "position": "Goleiro",
-      "age": 24,
+      "age": 25,
       "value": 2000000
     },
     {
@@ -2114,7 +2114,7 @@
       "name": "Mateo Ponte",
       "team": "Botafogo",
       "position": "Lateral Dir.",
-      "age": 22,
+      "age": 23,
       "value": 2000000
     },
     {
@@ -4438,7 +4438,7 @@
       "name": "Yannick Bolasie",
       "team": "Chapecoense",
       "position": "Centroavante",
-      "age": 36,
+      "age": 37,
       "value": 200000
     },
     {
