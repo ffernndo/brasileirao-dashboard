@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-27",
+  "last_updated": "2026-05-28",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -4067,7 +4067,7 @@
       "name": "Vinicius Balieiro",
       "team": "Chapecoense",
       "position": "Vol. Defensivo",
-      "age": 26,
+      "age": 27,
       "value": 400000
     },
     {
@@ -4606,7 +4606,7 @@
       "name": "Luiz Filipe",
       "team": "Mirassol",
       "position": "Ponta Dir.",
-      "age": 24,
+      "age": 25,
       "value": 100000
     },
     {
