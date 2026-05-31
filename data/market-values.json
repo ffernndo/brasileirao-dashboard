@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-30",
+  "last_updated": "2026-05-31",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -882,7 +882,7 @@
       "name": "Luciano Acosta",
       "team": "Fluminense",
       "position": "Meia Atac.",
-      "age": 31,
+      "age": 32,
       "value": 5000000
     },
     {
@@ -4529,7 +4529,7 @@
       "name": "Bruno Bertinato",
       "team": "Mirassol",
       "position": "Goleiro",
-      "age": 27,
+      "age": 28,
       "value": 200000
     },
     {
