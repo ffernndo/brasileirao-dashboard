@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31",
+  "last_updated": "2026-06-01",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -147,7 +147,7 @@
       "name": "Giorgian de Arrascaeta",
       "team": "Flamengo",
       "position": "Meia Atac.",
-      "age": 31,
+      "age": 32,
       "value": 14000000
     },
     {
@@ -385,7 +385,7 @@
       "name": "Cristian Medina",
       "team": "Botafogo",
       "position": "Meia Central",
-      "age": 23,
+      "age": 24,
       "value": 9000000
     },
     {
@@ -497,7 +497,7 @@
       "name": "Nicolás de la Cruz",
       "team": "Flamengo",
       "position": "Meia Central",
-      "age": 28,
+      "age": 29,
       "value": 8000000
     },
     {
@@ -2569,7 +2569,7 @@
       "name": "Christian Oliva",
       "team": "Santos",
       "position": "Vol. Defensivo",
-      "age": 29,
+      "age": 30,
       "value": 1400000
     },
     {
