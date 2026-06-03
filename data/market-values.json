@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-02",
+  "last_updated": "2026-06-03",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -651,7 +651,7 @@
       "name": "André Silva",
       "team": "São Paulo",
       "position": "Centroavante",
-      "age": 28,
+      "age": 29,
       "value": 3500000
     },
     {
