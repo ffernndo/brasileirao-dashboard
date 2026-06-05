@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-04",
+  "last_updated": "2026-06-05",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -217,7 +217,7 @@
       "name": "Deivid Washington",
       "team": "Santos",
       "position": "Centroavante",
-      "age": 20,
+      "age": 21,
       "value": 9000000
     },
     {
@@ -511,7 +511,7 @@
       "name": "Martin Braithwaite",
       "team": "Grêmio",
       "position": "Centroavante",
-      "age": 34,
+      "age": 35,
       "value": 5000000
     },
     {
@@ -1526,7 +1526,7 @@
       "name": "Gilberto",
       "team": "Juventude",
       "position": "Centroavante",
-      "age": 36,
+      "age": 37,
       "value": 700000
     },
     {

@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "last_updated": "2026-06-04T12:38:37Z",
+  "last_updated": "2026-06-05T12:31:39Z",
   "latest_round": 18,
   "source": "ESPN",
   "matches": [
@@ -5698,7 +5698,7 @@
     },
     {
       "id": "330924",
-      "name": "Andres Gomez",
+      "name": "Andrés Gómez",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/330924.png",
       "cat": "goalsLeaders",
       "value": 3,
