@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "last_updated": "2026-06-07T11:42:48Z",
+  "last_updated": "2026-06-08T13:59:33Z",
   "latest_round": 18,
   "source": "ESPN",
   "matches": [
@@ -5418,7 +5418,7 @@
     },
     {
       "id": "311743",
-      "name": "Flaco López",
+      "name": "José Manuel López",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/311743.png",
       "cat": "goalsLeaders",
       "value": 6,
@@ -5958,7 +5958,7 @@
     },
     {
       "id": "311743",
-      "name": "Flaco López",
+      "name": "José Manuel López",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/311743.png",
       "cat": "assistsLeaders",
       "value": 3,
