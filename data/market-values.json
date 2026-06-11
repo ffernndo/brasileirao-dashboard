@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -266,7 +266,7 @@
       "name": "Kayky",
       "team": "Internacional",
       "position": "Ponta Dir.",
-      "age": 22,
+      "age": 23,
       "value": 8000000
     },
     {
@@ -1379,7 +1379,7 @@
       "name": "Fagner",
       "team": "Cruzeiro",
       "position": "Lateral Dir.",
-      "age": 36,
+      "age": 37,
       "value": 900000
     },
     {
