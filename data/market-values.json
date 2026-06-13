@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12",
+  "last_updated": "2026-06-13",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -623,7 +623,7 @@
       "name": "Marcos Antônio",
       "team": "São Paulo",
       "position": "Meia Central",
-      "age": 25,
+      "age": 26,
       "value": 4000000
     },
     {
@@ -1568,7 +1568,7 @@
       "name": "João Marcelo",
       "team": "Cruzeiro",
       "position": "Zagueiro",
-      "age": 25,
+      "age": 26,
       "value": 700000
     },
     {
