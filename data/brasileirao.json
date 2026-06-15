@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "last_updated": "2026-06-14T11:49:26Z",
+  "last_updated": "2026-06-15T15:37:03Z",
   "latest_round": 18,
   "source": "ESPN",
   "matches": [
@@ -2595,20 +2595,6 @@
       "_espnId": "401841152"
     },
     {
-      "idEvent": "401841153",
-      "strHomeTeam": "Fluminense",
-      "strAwayTeam": "Red Bull Bragantino",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "19",
-      "dateEvent": "2026-07-22",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841153"
-    },
-    {
       "idEvent": "401841154",
       "strHomeTeam": "Internacional",
       "strAwayTeam": "Cruzeiro",
@@ -2663,6 +2649,20 @@
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841157"
+    },
+    {
+      "idEvent": "401841153",
+      "strHomeTeam": "Fluminense",
+      "strAwayTeam": "Red Bull Bragantino",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "19",
+      "dateEvent": "2026-07-22",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841153"
     },
     {
       "idEvent": "401841158",
@@ -2749,20 +2749,6 @@
       "_espnId": "401841164"
     },
     {
-      "idEvent": "401841163",
-      "strHomeTeam": "Red Bull Bragantino",
-      "strAwayTeam": "Coritiba",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "19",
-      "dateEvent": "2026-07-25",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841163"
-    },
-    {
       "idEvent": "401841162",
       "strHomeTeam": "Remo",
       "strAwayTeam": "Vitória",
@@ -2805,18 +2791,18 @@
       "_espnId": "401841160"
     },
     {
-      "idEvent": "401841168",
-      "strHomeTeam": "Atlético-MG",
-      "strAwayTeam": "Red Bull Bragantino",
+      "idEvent": "401841163",
+      "strHomeTeam": "Red Bull Bragantino",
+      "strAwayTeam": "Coritiba",
       "intHomeScore": null,
       "intAwayScore": null,
-      "intRound": "20",
-      "dateEvent": "2026-07-29",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "intRound": "19",
+      "dateEvent": "2026-07-25",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
       "status": "STATUS_SCHEDULED",
       "venue": "",
-      "_espnId": "401841168"
+      "_espnId": "401841163"
     },
     {
       "idEvent": "401841176",
@@ -2945,6 +2931,20 @@
       "_espnId": "401841172"
     },
     {
+      "idEvent": "401841168",
+      "strHomeTeam": "Atlético-MG",
+      "strAwayTeam": "Red Bull Bragantino",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "20",
+      "dateEvent": "2026-07-29",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841168"
+    },
+    {
       "idEvent": "401841186",
       "strHomeTeam": "Bahia",
       "strAwayTeam": "Vasco da Gama",
@@ -3043,20 +3043,6 @@
       "_espnId": "401841180"
     },
     {
-      "idEvent": "401841179",
-      "strHomeTeam": "Red Bull Bragantino",
-      "strAwayTeam": "Corinthians",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "21",
-      "dateEvent": "2026-08-08",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841179"
-    },
-    {
       "idEvent": "401841178",
       "strHomeTeam": "Remo",
       "strAwayTeam": "Atlético-MG",
@@ -3085,18 +3071,18 @@
       "_espnId": "401841182"
     },
     {
-      "idEvent": "401841196",
-      "strHomeTeam": "Athletico-PR",
-      "strAwayTeam": "Red Bull Bragantino",
+      "idEvent": "401841179",
+      "strHomeTeam": "Red Bull Bragantino",
+      "strAwayTeam": "Corinthians",
       "intHomeScore": null,
       "intAwayScore": null,
-      "intRound": "22",
-      "dateEvent": "2026-08-15",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "intRound": "21",
+      "dateEvent": "2026-08-08",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
       "status": "STATUS_SCHEDULED",
       "venue": "",
-      "_espnId": "401841196"
+      "_espnId": "401841179"
     },
     {
       "idEvent": "401841195",
@@ -3225,6 +3211,20 @@
       "_espnId": "401841197"
     },
     {
+      "idEvent": "401841196",
+      "strHomeTeam": "Athletico-PR",
+      "strAwayTeam": "Red Bull Bragantino",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "22",
+      "dateEvent": "2026-08-15",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841196"
+    },
+    {
       "idEvent": "401841198",
       "strHomeTeam": "Botafogo",
       "strAwayTeam": "Athletico-PR",
@@ -3323,20 +3323,6 @@
       "_espnId": "401841203"
     },
     {
-      "idEvent": "401841202",
-      "strHomeTeam": "Red Bull Bragantino",
-      "strAwayTeam": "Grêmio",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "23",
-      "dateEvent": "2026-08-22",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841202"
-    },
-    {
       "idEvent": "401841201",
       "strHomeTeam": "Santos",
       "strAwayTeam": "Mirassol",
@@ -3363,6 +3349,20 @@
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841200"
+    },
+    {
+      "idEvent": "401841202",
+      "strHomeTeam": "Red Bull Bragantino",
+      "strAwayTeam": "Grêmio",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "23",
+      "dateEvent": "2026-08-22",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841202"
     },
     {
       "idEvent": "401841208",
@@ -3477,20 +3477,6 @@
       "_espnId": "401841210"
     },
     {
-      "idEvent": "401841209",
-      "strHomeTeam": "São Paulo",
-      "strAwayTeam": "Red Bull Bragantino",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "24",
-      "dateEvent": "2026-08-29",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841209"
-    },
-    {
       "idEvent": "401841212",
       "strHomeTeam": "Vasco da Gama",
       "strAwayTeam": "Cruzeiro",
@@ -3503,6 +3489,20 @@
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841212"
+    },
+    {
+      "idEvent": "401841209",
+      "strHomeTeam": "São Paulo",
+      "strAwayTeam": "Red Bull Bragantino",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "24",
+      "dateEvent": "2026-08-29",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841209"
     },
     {
       "idEvent": "401841221",
@@ -3589,20 +3589,6 @@
       "_espnId": "401841223"
     },
     {
-      "idEvent": "401841224",
-      "strHomeTeam": "Red Bull Bragantino",
-      "strAwayTeam": "Bahia",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "25",
-      "dateEvent": "2026-09-05",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841224"
-    },
-    {
       "idEvent": "401841225",
       "strHomeTeam": "Remo",
       "strAwayTeam": "Flamengo",
@@ -3645,6 +3631,20 @@
       "_espnId": "401841222"
     },
     {
+      "idEvent": "401841224",
+      "strHomeTeam": "Red Bull Bragantino",
+      "strAwayTeam": "Bahia",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "25",
+      "dateEvent": "2026-09-05",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841224"
+    },
+    {
       "idEvent": "401841231",
       "strHomeTeam": "Atlético-MG",
       "strAwayTeam": "Fluminense",
@@ -3671,20 +3671,6 @@
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841230"
-    },
-    {
-      "idEvent": "401841229",
-      "strHomeTeam": "Botafogo",
-      "strAwayTeam": "Red Bull Bragantino",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "26",
-      "dateEvent": "2026-09-12",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841229"
     },
     {
       "idEvent": "401841228",
@@ -3785,6 +3771,20 @@
       "_espnId": "401841233"
     },
     {
+      "idEvent": "401841229",
+      "strHomeTeam": "Botafogo",
+      "strAwayTeam": "Red Bull Bragantino",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "26",
+      "dateEvent": "2026-09-12",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841229"
+    },
+    {
       "idEvent": "401841238",
       "strHomeTeam": "Athletico-PR",
       "strAwayTeam": "Bahia",
@@ -3825,20 +3825,6 @@
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841240"
-    },
-    {
-      "idEvent": "401841241",
-      "strHomeTeam": "Flamengo",
-      "strAwayTeam": "Red Bull Bragantino",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "27",
-      "dateEvent": "2026-09-19",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841241"
     },
     {
       "idEvent": "401841246",
@@ -3925,6 +3911,20 @@
       "_espnId": "401841242"
     },
     {
+      "idEvent": "401841241",
+      "strHomeTeam": "Flamengo",
+      "strAwayTeam": "Red Bull Bragantino",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "27",
+      "dateEvent": "2026-09-19",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841241"
+    },
+    {
       "idEvent": "401841256",
       "strHomeTeam": "Athletico-PR",
       "strAwayTeam": "Atlético-MG",
@@ -4009,20 +4009,6 @@
       "_espnId": "401841254"
     },
     {
-      "idEvent": "401841253",
-      "strHomeTeam": "Red Bull Bragantino",
-      "strAwayTeam": "Mirassol",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "28",
-      "dateEvent": "2026-10-07",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841253"
-    },
-    {
       "idEvent": "401841252",
       "strHomeTeam": "Remo",
       "strAwayTeam": "Grêmio",
@@ -4063,6 +4049,20 @@
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841250"
+    },
+    {
+      "idEvent": "401841253",
+      "strHomeTeam": "Red Bull Bragantino",
+      "strAwayTeam": "Mirassol",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "28",
+      "dateEvent": "2026-10-07",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841253"
     },
     {
       "idEvent": "401841258",
@@ -4163,20 +4163,6 @@
       "_espnId": "401841261"
     },
     {
-      "idEvent": "401841260",
-      "strHomeTeam": "Red Bull Bragantino",
-      "strAwayTeam": "Cruzeiro",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "28",
-      "dateEvent": "2026-10-10",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841260"
-    },
-    {
       "idEvent": "401841259",
       "strHomeTeam": "São Paulo",
       "strAwayTeam": "Vitória",
@@ -4203,6 +4189,20 @@
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841262"
+    },
+    {
+      "idEvent": "401841260",
+      "strHomeTeam": "Red Bull Bragantino",
+      "strAwayTeam": "Cruzeiro",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "28",
+      "dateEvent": "2026-10-10",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841260"
     },
     {
       "idEvent": "401841271",
@@ -4317,20 +4317,6 @@
       "_espnId": "401841275"
     },
     {
-      "idEvent": "401841274",
-      "strHomeTeam": "Remo",
-      "strAwayTeam": "Red Bull Bragantino",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "29",
-      "dateEvent": "2026-10-17",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841274"
-    },
-    {
       "idEvent": "401841273",
       "strHomeTeam": "São Paulo",
       "strAwayTeam": "Vasco da Gama",
@@ -4343,6 +4329,20 @@
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841273"
+    },
+    {
+      "idEvent": "401841274",
+      "strHomeTeam": "Remo",
+      "strAwayTeam": "Red Bull Bragantino",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "29",
+      "dateEvent": "2026-10-17",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841274"
     },
     {
       "idEvent": "401841278",
@@ -4429,20 +4429,6 @@
       "_espnId": "401841284"
     },
     {
-      "idEvent": "401841283",
-      "strHomeTeam": "Palmeiras",
-      "strAwayTeam": "Red Bull Bragantino",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "30",
-      "dateEvent": "2026-10-24",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841283"
-    },
-    {
       "idEvent": "401841282",
       "strHomeTeam": "Santos",
       "strAwayTeam": "Bahia",
@@ -4483,6 +4469,20 @@
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841280"
+    },
+    {
+      "idEvent": "401841283",
+      "strHomeTeam": "Palmeiras",
+      "strAwayTeam": "Red Bull Bragantino",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "30",
+      "dateEvent": "2026-10-24",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841283"
     },
     {
       "idEvent": "401841288",
@@ -4569,20 +4569,6 @@
       "_espnId": "401841290"
     },
     {
-      "idEvent": "401841291",
-      "strHomeTeam": "Red Bull Bragantino",
-      "strAwayTeam": "Chapecoense",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "30",
-      "dateEvent": "2026-10-28",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841291"
-    },
-    {
       "idEvent": "401841297",
       "strHomeTeam": "Remo",
       "strAwayTeam": "Botafogo",
@@ -4623,6 +4609,20 @@
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841292"
+    },
+    {
+      "idEvent": "401841291",
+      "strHomeTeam": "Red Bull Bragantino",
+      "strAwayTeam": "Chapecoense",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "30",
+      "dateEvent": "2026-10-28",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841291"
     },
     {
       "idEvent": "401841306",
@@ -4723,20 +4723,6 @@
       "_espnId": "401841300"
     },
     {
-      "idEvent": "401841299",
-      "strHomeTeam": "Red Bull Bragantino",
-      "strAwayTeam": "Santos",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "31",
-      "dateEvent": "2026-11-04",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841299"
-    },
-    {
       "idEvent": "401841298",
       "strHomeTeam": "São Paulo",
       "strAwayTeam": "Corinthians",
@@ -4763,6 +4749,20 @@
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841302"
+    },
+    {
+      "idEvent": "401841299",
+      "strHomeTeam": "Red Bull Bragantino",
+      "strAwayTeam": "Santos",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "31",
+      "dateEvent": "2026-11-04",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841299"
     },
     {
       "idEvent": "401841316",
@@ -5017,20 +5017,6 @@
       "_espnId": "401841322"
     },
     {
-      "idEvent": "401841321",
-      "strHomeTeam": "Red Bull Bragantino",
-      "strAwayTeam": "Vasco da Gama",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "32",
-      "dateEvent": "2026-11-21",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841321"
-    },
-    {
       "idEvent": "401841320",
       "strHomeTeam": "Santos",
       "strAwayTeam": "Grêmio",
@@ -5043,6 +5029,20 @@
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841320"
+    },
+    {
+      "idEvent": "401841321",
+      "strHomeTeam": "Red Bull Bragantino",
+      "strAwayTeam": "Vasco da Gama",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "32",
+      "dateEvent": "2026-11-21",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841321"
     },
     {
       "idEvent": "401841328",
@@ -5129,20 +5129,6 @@
       "_espnId": "401841337"
     },
     {
-      "idEvent": "401841331",
-      "strHomeTeam": "Internacional",
-      "strAwayTeam": "Red Bull Bragantino",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "33",
-      "dateEvent": "2026-11-28",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841331"
-    },
-    {
       "idEvent": "401841330",
       "strHomeTeam": "Mirassol",
       "strAwayTeam": "Athletico-PR",
@@ -5183,6 +5169,20 @@
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841332"
+    },
+    {
+      "idEvent": "401841331",
+      "strHomeTeam": "Internacional",
+      "strAwayTeam": "Red Bull Bragantino",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "33",
+      "dateEvent": "2026-11-28",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841331"
     },
     {
       "idEvent": "401841338",
@@ -5269,20 +5269,6 @@
       "_espnId": "401841343"
     },
     {
-      "idEvent": "401841344",
-      "strHomeTeam": "Red Bull Bragantino",
-      "strAwayTeam": "Fluminense",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "33",
-      "dateEvent": "2026-12-02",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841344"
-    },
-    {
       "idEvent": "401841345",
       "strHomeTeam": "Remo",
       "strAwayTeam": "Corinthians",
@@ -5323,6 +5309,20 @@
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841342"
+    },
+    {
+      "idEvent": "401841344",
+      "strHomeTeam": "Red Bull Bragantino",
+      "strAwayTeam": "Fluminense",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "33",
+      "dateEvent": "2026-12-02",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841344"
     }
   ],
   "player_stats": [
