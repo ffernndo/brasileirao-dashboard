@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15",
+  "last_updated": "2026-06-16",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -483,7 +483,7 @@
       "name": "Nuno Moreira",
       "team": "Vasco da Gama",
       "position": "Ponta Dir.",
-      "age": 26,
+      "age": 27,
       "value": 5000000
     },
     {
@@ -1050,7 +1050,7 @@
       "name": "Pedro Henrique",
       "team": "Ceará",
       "position": "Ponta Dir.",
-      "age": 35,
+      "age": 36,
       "value": 1700000
     },
     {
