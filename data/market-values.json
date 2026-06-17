@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-16",
+  "last_updated": "2026-06-17",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -91,7 +91,7 @@
       "name": "Luis Sinisterra",
       "team": "Cruzeiro",
       "position": "Ponta Esq.",
-      "age": 26,
+      "age": 27,
       "value": 12000000
     },
     {
@@ -1533,7 +1533,7 @@
       "name": "Neris",
       "team": "Vitória",
       "position": "Zagueiro",
-      "age": 33,
+      "age": 34,
       "value": 700000
     },
     {
