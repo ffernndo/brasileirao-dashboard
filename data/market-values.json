@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-06-19",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -168,7 +168,7 @@
       "name": "Ayrton Lucas",
       "team": "Flamengo",
       "position": "Lateral Esq.",
-      "age": 28,
+      "age": 29,
       "value": 9000000
     },
     {
@@ -1302,7 +1302,7 @@
       "name": "Charles",
       "team": "Corinthians",
       "position": "Vol. Defensivo",
-      "age": 29,
+      "age": 30,
       "value": 1000000
     },
     {
@@ -1645,7 +1645,7 @@
       "name": "Kike Saverio",
       "team": "Vitória",
       "position": "Ponta Esq.",
-      "age": 26,
+      "age": 27,
       "value": 500000
     },
     {
