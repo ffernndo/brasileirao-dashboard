@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19",
+  "last_updated": "2026-06-20",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -28,7 +28,7 @@
       "name": "Pedro",
       "team": "Flamengo",
       "position": "Centroavante",
-      "age": 28,
+      "age": 29,
       "value": 22000000
     },
     {
