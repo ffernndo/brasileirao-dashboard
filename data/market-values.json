@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20",
+  "last_updated": "2026-06-21",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -924,7 +924,7 @@
       "name": "Pablo",
       "team": "Flamengo",
       "position": "Zagueiro",
-      "age": 34,
+      "age": 35,
       "value": 2000000
     },
     {
