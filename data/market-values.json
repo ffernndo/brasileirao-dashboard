@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21",
+  "last_updated": "2026-06-22",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -469,7 +469,7 @@
       "name": "Jean Lucas",
       "team": "Bahia",
       "position": "Meia Central",
-      "age": 27,
+      "age": 28,
       "value": 5000000
     },
     {
