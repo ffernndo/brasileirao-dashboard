@@ -1,55 +1,69 @@
 {
-  "last_updated": "2026-06-23",
+  "last_updated": "2026-06-24",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
     {
-      "name": "Neymar",
-      "team": "Santos",
-      "position": "Meia Atac.",
-      "age": 34,
-      "value": 50000000
+      "name": "Vitor Roque",
+      "team": "Palmeiras",
+      "position": "Centroavante",
+      "age": 21,
+      "value": 38000000
     },
     {
       "name": "Lucas Paquetá",
       "team": "Flamengo",
       "position": "Meia Atac.",
       "age": 28,
-      "value": 35000000
-    },
-    {
-      "name": "Vitor Roque",
-      "team": "Palmeiras",
-      "position": "Centroavante",
-      "age": 21,
-      "value": 35000000
-    },
-    {
-      "name": "Pedro",
-      "team": "Flamengo",
-      "position": "Centroavante",
-      "age": 29,
-      "value": 22000000
+      "value": 32000000
     },
     {
       "name": "Danilo",
       "team": "Botafogo",
       "position": "Meia Central",
       "age": 25,
+      "value": 32000000
+    },
+    {
+      "name": "Kaio Jorge",
+      "team": "Cruzeiro",
+      "position": "Centroavante",
+      "age": 24,
+      "value": 25000000
+    },
+    {
+      "name": "Flaco López",
+      "team": "Palmeiras",
+      "position": "Centroavante",
+      "age": 25,
+      "value": 25000000
+    },
+    {
+      "name": "Yuri Alberto",
+      "team": "Corinthians",
+      "position": "Centroavante",
+      "age": 25,
+      "value": 23000000
+    },
+    {
+      "name": "Breno Bidon",
+      "team": "Corinthians",
+      "position": "Meia Central",
+      "age": 21,
       "value": 22000000
     },
     {
-      "name": "Gabriel Barbosa",
-      "team": "Santos",
+      "name": "Pedro",
+      "team": "Flamengo",
       "position": "Centroavante",
       "age": 29,
       "value": 20000000
     },
     {
-      "name": "Samuel Lino",
-      "team": "Flamengo",
-      "position": "Ponta Esq.",
-      "age": 26,
+      "name": "Allan",
+      "team": "Palmeiras",
+      "position": "Ponta Dir.",
+      "age": 22,
       "value": 20000000
     },
     {
@@ -60,150 +74,304 @@
       "value": 18000000
     },
     {
-      "name": "Emerson Royal",
-      "team": "Flamengo",
-      "position": "Lateral Dir.",
-      "age": 27,
-      "value": 18000000
-    },
-    {
-      "name": "Renan Lodi",
-      "team": "Atlético-MG",
-      "position": "Lateral Esq.",
-      "age": 28,
-      "value": 18000000
-    },
-    {
-      "name": "Yuri Alberto",
+      "name": "André",
       "team": "Corinthians",
-      "position": "Centroavante",
-      "age": 25,
+      "position": "Meia Central",
+      "age": 20,
       "value": 16000000
+    },
+    {
+      "name": "Martinelli",
+      "team": "Fluminense",
+      "position": "Vol. Defensivo",
+      "age": 24,
+      "value": 16000000
+    },
+    {
+      "name": "Gabriel Mec",
+      "team": "Grêmio",
+      "position": "Meia Atac.",
+      "age": 18,
+      "value": 16000000
+    },
+    {
+      "name": "Mauricio",
+      "team": "Palmeiras",
+      "position": "Meia Atac.",
+      "age": 25,
+      "value": 15000000
+    },
+    {
+      "name": "Hércules",
+      "team": "Fluminense",
+      "position": "Meia Central",
+      "age": 25,
+      "value": 15000000
+    },
+    {
+      "name": "Samuel Lino",
+      "team": "Flamengo",
+      "position": "Ponta Esq.",
+      "age": 26,
+      "value": 15000000
+    },
+    {
+      "name": "Jhon Arias",
+      "team": "Palmeiras",
+      "position": "Ponta Dir.",
+      "age": 28,
+      "value": 15000000
+    },
+    {
+      "name": "Luciano Juba",
+      "team": "Bahia",
+      "position": "Lateral Esq.",
+      "age": 26,
+      "value": 14000000
     },
     {
       "name": "Andreas Pereira",
       "team": "Palmeiras",
       "position": "Meia Central",
       "age": 30,
-      "value": 15000000
+      "value": 14000000
     },
     {
-      "name": "Luis Sinisterra",
+      "name": "Kaiki",
       "team": "Cruzeiro",
-      "position": "Ponta Esq.",
-      "age": 27,
-      "value": 12000000
-    },
-    {
-      "name": "Ramón Sosa",
-      "team": "Palmeiras",
-      "position": "Segundo Atac.",
-      "age": 26,
-      "value": 11000000
-    },
-    {
-      "name": "Tetê",
-      "team": "Grêmio",
-      "position": "Ponta Dir.",
-      "age": 26,
-      "value": 11000000
-    },
-    {
-      "name": "Fernando",
-      "team": "Red Bull Bragantino",
-      "position": "Centroavante",
-      "age": 27,
-      "value": 10000000
-    },
-    {
-      "name": "Guilherme Arana",
-      "team": "Fluminense",
       "position": "Lateral Esq.",
-      "age": 29,
-      "value": 10000000
+      "age": 23,
+      "value": 14000000
     },
     {
-      "name": "Memphis Depay",
-      "team": "Corinthians",
-      "position": "Centroavante",
+      "name": "Giorgian de Arrascaeta",
+      "team": "Flamengo",
+      "position": "Meia Atac.",
       "age": 32,
-      "value": 10000000
+      "value": 14000000
     },
     {
-      "name": "Paulinho",
-      "team": "Palmeiras",
-      "position": "Segundo Atac.",
-      "age": 25,
-      "value": 10000000
-    },
-    {
-      "name": "Arthur Cabral",
-      "team": "Botafogo",
-      "position": "Centroavante",
-      "age": 28,
-      "value": 9000000
-    },
-    {
-      "name": "Keny Arroyo",
+      "name": "Matheus Pereira",
       "team": "Cruzeiro",
-      "position": "Ponta Dir.",
-      "age": 20,
-      "value": 9000000
-    },
-    {
-      "name": "Emiliano Martínez",
-      "team": "Palmeiras",
-      "position": "Vol. Defensivo",
-      "age": 26,
-      "value": 9000000
-    },
-    {
-      "name": "Everton",
-      "team": "Flamengo",
-      "position": "Ponta Esq.",
+      "position": "Meia Atac.",
       "age": 30,
-      "value": 9000000
+      "value": 14000000
     },
     {
-      "name": "Ayrton Lucas",
-      "team": "Flamengo",
-      "position": "Lateral Esq.",
-      "age": 29,
-      "value": 9000000
-    },
-    {
-      "name": "Robert Renan",
-      "team": "Vasco da Gama",
-      "position": "Zagueiro",
-      "age": 22,
-      "value": 9000000
+      "name": "Jean Lucas",
+      "team": "Bahia",
+      "position": "Meia Central",
+      "age": 28,
+      "value": 13000000
     },
     {
       "name": "Jorge Carrascal",
       "team": "Flamengo",
       "position": "Meia Atac.",
       "age": 28,
-      "value": 9000000
+      "value": 13000000
     },
     {
-      "name": "Dudu",
-      "team": "Atlético-MG",
-      "position": "Ponta Esq.",
-      "age": 34,
-      "value": 9000000
+      "name": "Gabriel Brazão",
+      "team": "Santos",
+      "position": "Goleiro",
+      "age": 25,
+      "value": 12000000
     },
     {
-      "name": "Mateo Cassierra",
-      "team": "Atlético-MG",
-      "position": "Centroavante",
-      "age": 29,
-      "value": 9000000
+      "name": "Santiago Ramos Mingo",
+      "team": "Bahia",
+      "position": "Zagueiro",
+      "age": 24,
+      "value": 12000000
     },
     {
-      "name": "Matheus França",
-      "team": "Vasco da Gama",
+      "name": "Marcos Antônio",
+      "team": "São Paulo",
+      "position": "Meia Central",
+      "age": 26,
+      "value": 12000000
+    },
+    {
+      "name": "Rodrigo Garro",
+      "team": "Corinthians",
       "position": "Meia Atac.",
+      "age": 28,
+      "value": 12000000
+    },
+    {
+      "name": "Léo Ortiz",
+      "team": "Flamengo",
+      "position": "Zagueiro",
+      "age": 30,
+      "value": 12000000
+    },
+    {
+      "name": "Christian",
+      "team": "Cruzeiro",
+      "position": "Meia Central",
+      "age": 25,
+      "value": 12000000
+    },
+    {
+      "name": "Léo Pereira",
+      "team": "Flamengo",
+      "position": "Zagueiro",
+      "age": 30,
+      "value": 12000000
+    },
+    {
+      "name": "Fabrício Bruno",
+      "team": "Cruzeiro",
+      "position": "Zagueiro",
+      "age": 30,
+      "value": 12000000
+    },
+    {
+      "name": "Joaquín Piquerez",
+      "team": "Palmeiras",
+      "position": "Lateral Esq.",
+      "age": 27,
+      "value": 12000000
+    },
+    {
+      "name": "Hugo Souza",
+      "team": "Corinthians",
+      "position": "Goleiro",
+      "age": 27,
+      "value": 11000000
+    },
+    {
+      "name": "Renan Lodi",
+      "team": "Atlético-MG",
+      "position": "Lateral Esq.",
+      "age": 28,
+      "value": 11000000
+    },
+    {
+      "name": "Erick Pulga",
+      "team": "Bahia",
+      "position": "Ponta Esq.",
+      "age": 25,
+      "value": 11000000
+    },
+    {
+      "name": "Andrés Gómez",
+      "team": "Vasco da Gama",
+      "position": "Ponta Esq.",
+      "age": 23,
+      "value": 11000000
+    },
+    {
+      "name": "Luis Sinisterra",
+      "team": "Cruzeiro",
+      "position": "Ponta Esq.",
+      "age": 27,
+      "value": 11000000
+    },
+    {
+      "name": "Ramón Sosa",
+      "team": "Palmeiras",
+      "position": "Segundo Atac.",
+      "age": 26,
+      "value": 10000000
+    },
+    {
+      "name": "Cuiabano",
+      "team": "Vasco da Gama",
+      "position": "Lateral Esq.",
+      "age": 23,
+      "value": 10000000
+    },
+    {
+      "name": "Agustín Rossi",
+      "team": "Flamengo",
+      "position": "Goleiro",
+      "age": 30,
+      "value": 10000000
+    },
+    {
+      "name": "Kevin Viveros",
+      "team": "Athletico Paranaense",
+      "position": "Centroavante",
+      "age": 26,
+      "value": 10000000
+    },
+    {
+      "name": "Vitão",
+      "team": "Flamengo",
+      "position": "Zagueiro",
+      "age": 26,
+      "value": 10000000
+    },
+    {
+      "name": "Evertton Araújo",
+      "team": "Flamengo",
+      "position": "Vol. Defensivo",
+      "age": 23,
+      "value": 10000000
+    },
+    {
+      "name": "Álvaro Montoro",
+      "team": "Botafogo",
+      "position": "Ponta Esq.",
+      "age": 19,
+      "value": 10000000
+    },
+    {
+      "name": "Kauã Prates",
+      "team": "Cruzeiro",
+      "position": "Lateral Esq.",
+      "age": 17,
+      "value": 10000000
+    },
+    {
+      "name": "Robert Renan",
+      "team": "Vasco da Gama",
+      "position": "Zagueiro",
       "age": 22,
+      "value": 10000000
+    },
+    {
+      "name": "Agustín Giay",
+      "team": "Palmeiras",
+      "position": "Lateral Dir.",
+      "age": 22,
+      "value": 10000000
+    },
+    {
+      "name": "Keny Arroyo",
+      "team": "Cruzeiro",
+      "position": "Ponta Dir.",
+      "age": 20,
+      "value": 10000000
+    },
+    {
+      "name": "Gonzalo Plata",
+      "team": "Flamengo",
+      "position": "Ponta Dir.",
+      "age": 25,
+      "value": 9000000
+    },
+    {
+      "name": "Tetê",
+      "team": "Grêmio",
+      "position": "Ponta Dir.",
+      "age": 26,
+      "value": 9000000
+    },
+    {
+      "name": "Vitinho",
+      "team": "Botafogo",
+      "position": "Lateral Dir.",
+      "age": 26,
+      "value": 9000000
+    },
+    {
+      "name": "Gabriel Bontempo",
+      "team": "Santos",
+      "position": "Meia Central",
+      "age": 21,
       "value": 9000000
     },
     {
@@ -214,79 +382,142 @@
       "value": 9000000
     },
     {
-      "name": "Wanderson",
-      "team": "Cruzeiro",
+      "name": "Francis Amuzu",
+      "team": "Grêmio",
       "position": "Ponta Esq.",
-      "age": 31,
+      "age": 26,
       "value": 9000000
     },
     {
-      "name": "Matheus Henrique",
-      "team": "Cruzeiro",
+      "name": "Cristian Medina",
+      "team": "Botafogo",
       "position": "Meia Central",
-      "age": 28,
-      "value": 8500000
+      "age": 24,
+      "value": 9000000
     },
     {
-      "name": "Gustavo Gómez",
-      "team": "Palmeiras",
-      "position": "Zagueiro",
-      "age": 33,
-      "value": 8500000
-    },
-    {
-      "name": "Murilo",
-      "team": "Palmeiras",
-      "position": "Zagueiro",
-      "age": 29,
-      "value": 8500000
-    },
-    {
-      "name": "Júnior Alonso",
-      "team": "Atlético-MG",
-      "position": "Zagueiro",
-      "age": 33,
-      "value": 8000000
-    },
-    {
-      "name": "Rafael Borré",
-      "team": "Internacional",
-      "position": "Centroavante",
-      "age": 30,
-      "value": 8000000
-    },
-    {
-      "name": "Gustavo Scarpa",
-      "team": "Atlético-MG",
-      "position": "Meia Atac.",
-      "age": 32,
-      "value": 8000000
-    },
-    {
-      "name": "Kayky",
-      "team": "Internacional",
-      "position": "Ponta Dir.",
+      "name": "Juan Nardoni",
+      "team": "Grêmio",
+      "position": "Meia Central",
       "age": 23,
-      "value": 8000000
+      "value": 9000000
     },
     {
-      "name": "Felipe Anderson",
+      "name": "Paulinho",
       "team": "Palmeiras",
-      "position": "Ponta Esq.",
-      "age": 33,
+      "position": "Segundo Atac.",
+      "age": 25,
+      "value": 9000000
+    },
+    {
+      "name": "Arthur Cabral",
+      "team": "Botafogo",
+      "position": "Centroavante",
+      "age": 28,
+      "value": 9000000
+    },
+    {
+      "name": "Benjamín Rollheiser",
+      "team": "Santos",
+      "position": "Ponta Dir.",
+      "age": 26,
+      "value": 9000000
+    },
+    {
+      "name": "John Kennedy",
+      "team": "Fluminense",
+      "position": "Centroavante",
+      "age": 24,
+      "value": 9000000
+    },
+    {
+      "name": "Artur",
+      "team": "São Paulo",
+      "position": "Ponta Dir.",
+      "age": 28,
       "value": 8000000
     },
     {
-      "name": "Philippe Coutinho",
+      "name": "Matheuzinho",
+      "team": "Corinthians",
+      "position": "Lateral Dir.",
+      "age": 25,
+      "value": 8000000
+    },
+    {
+      "name": "Agustín Canobbio",
+      "team": "Fluminense",
+      "position": "Ponta Dir.",
+      "age": 27,
+      "value": 8000000
+    },
+    {
+      "name": "Alexandro Bernabei",
+      "team": "Internacional",
+      "position": "Lateral Esq.",
+      "age": 25,
+      "value": 8000000
+    },
+    {
+      "name": "Jefferson Savarino",
+      "team": "Fluminense",
+      "position": "Meia Atac.",
+      "age": 29,
+      "value": 8000000
+    },
+    {
+      "name": "Juninho Capixaba",
+      "team": "Red Bull Bragantino",
+      "position": "Lateral Esq.",
+      "age": 28,
+      "value": 8000000
+    },
+    {
+      "name": "Jonathan Jesus",
+      "team": "Cruzeiro",
+      "position": "Zagueiro",
+      "age": 22,
+      "value": 8000000
+    },
+    {
+      "name": "Carlos Cuesta",
       "team": "Vasco da Gama",
+      "position": "Zagueiro",
+      "age": 27,
+      "value": 8000000
+    },
+    {
+      "name": "Neymar",
+      "team": "Santos",
       "position": "Meia Atac.",
       "age": 34,
-      "value": 7500000
+      "value": 8000000
     },
     {
-      "name": "Vitão",
+      "name": "Mateo Cassierra",
+      "team": "Atlético-MG",
+      "position": "Centroavante",
+      "age": 29,
+      "value": 8000000
+    },
+    {
+      "name": "Nicolás de la Cruz",
       "team": "Flamengo",
-      "position": "Zagueiro",
+      "position": "Meia Central",
+      "age": 29,
+      "value": 8000000
+    },
+    {
+      "name": "Ruan Pablo",
+      "team": "Bahia",
+      "position": "Ponta Esq.",
+      "age": 17,
+      "value": 8000000
+    },
+    {
+      "name": "Isidro Pitta",
+      "team": "Red Bull Bragantino",
+      "position": "Centroavante",
       "age": 26,
       "value": 7500000
     },
@@ -298,38 +529,108 @@
       "value": 7500000
     },
     {
-      "name": "Artur",
-      "team": "São Paulo",
-      "position": "Ponta Dir.",
-      "age": 28,
-      "value": 7000000
-    },
-    {
-      "name": "Alex Telles",
-      "team": "Botafogo",
-      "position": "Lateral Esq.",
-      "age": 33,
-      "value": 7000000
-    },
-    {
-      "name": "Matheus Pereira",
-      "team": "Cruzeiro",
+      "name": "Philippe Coutinho",
+      "team": "Vasco da Gama",
       "position": "Meia Atac.",
+      "age": 34,
+      "value": 7500000
+    },
+    {
+      "name": "Álvaro Barreal",
+      "team": "Santos",
+      "position": "Ponta Esq.",
+      "age": 25,
+      "value": 7000000
+    },
+    {
+      "name": "Victor Hugo",
+      "team": "Atlético-MG",
+      "position": "Meia Central",
+      "age": 22,
+      "value": 7000000
+    },
+    {
+      "name": "Nuno Moreira",
+      "team": "Vasco da Gama",
+      "position": "Ponta Dir.",
+      "age": 27,
+      "value": 7000000
+    },
+    {
+      "name": "Luiz Araújo",
+      "team": "Flamengo",
+      "position": "Ponta Dir.",
       "age": 30,
       "value": 7000000
     },
     {
-      "name": "Andrew",
-      "team": "Flamengo",
-      "position": "Goleiro",
+      "name": "Lucas Esquivel",
+      "team": "Athletico Paranaense",
+      "position": "Lateral Esq.",
       "age": 24,
       "value": 7000000
     },
     {
-      "name": "Benjamín Rollheiser",
+      "name": "Everton",
+      "team": "Flamengo",
+      "position": "Ponta Esq.",
+      "age": 30,
+      "value": 7000000
+    },
+    {
+      "name": "Carlos Miguel",
+      "team": "Palmeiras",
+      "position": "Goleiro",
+      "age": 27,
+      "value": 7000000
+    },
+    {
+      "name": "Caio Alexandre",
+      "team": "Bahia",
+      "position": "Vol. Defensivo",
+      "age": 27,
+      "value": 7000000
+    },
+    {
+      "name": "Rodrigo Nestor",
+      "team": "Bahia",
+      "position": "Meia Central",
+      "age": 25,
+      "value": 7000000
+    },
+    {
+      "name": "Carlos Vinícius",
+      "team": "Grêmio",
+      "position": "Centroavante",
+      "age": 31,
+      "value": 7000000
+    },
+    {
+      "name": "Memphis Depay",
+      "team": "Corinthians",
+      "position": "Centroavante",
+      "age": 32,
+      "value": 7000000
+    },
+    {
+      "name": "Gabriel Menino",
       "team": "Santos",
-      "position": "Ponta Dir.",
-      "age": 26,
+      "position": "Meia Central",
+      "age": 25,
+      "value": 7000000
+    },
+    {
+      "name": "Léo Jardim",
+      "team": "Vasco da Gama",
+      "position": "Goleiro",
+      "age": 31,
+      "value": 7000000
+    },
+    {
+      "name": "Gui Negão",
+      "team": "Corinthians",
+      "position": "Centroavante",
+      "age": 19,
       "value": 7000000
     },
     {
@@ -340,18 +641,109 @@
       "value": 7000000
     },
     {
-      "name": "Marquinhos",
-      "team": "Cruzeiro",
-      "position": "Ponta Dir.",
-      "age": 23,
+      "name": "Matheus Bidu",
+      "team": "Corinthians",
+      "position": "Lateral Esq.",
+      "age": 27,
       "value": 7000000
     },
     {
-      "name": "Allan",
-      "team": "Corinthians",
-      "position": "Vol. Defensivo",
-      "age": 29,
+      "name": "Bruninho",
+      "team": "Athletico Paranaense",
+      "position": "Ponta Dir.",
+      "age": 17,
       "value": 7000000
+    },
+    {
+      "name": "Emiliano Martínez",
+      "team": "Palmeiras",
+      "position": "Vol. Defensivo",
+      "age": 26,
+      "value": 6500000
+    },
+    {
+      "name": "Damián Bobadilla",
+      "team": "São Paulo",
+      "position": "Meia Central",
+      "age": 24,
+      "value": 6000000
+    },
+    {
+      "name": "Marlon Freitas",
+      "team": "Palmeiras",
+      "position": "Vol. Defensivo",
+      "age": 31,
+      "value": 6000000
+    },
+    {
+      "name": "Bruno Gomes",
+      "team": "Internacional",
+      "position": "Lateral Dir.",
+      "age": 25,
+      "value": 6000000
+    },
+    {
+      "name": "Lucas Barbosa",
+      "team": "Red Bull Bragantino",
+      "position": "Ponta Dir.",
+      "age": 25,
+      "value": 6000000
+    },
+    {
+      "name": "Guilherme Arana",
+      "team": "Fluminense",
+      "position": "Lateral Esq.",
+      "age": 29,
+      "value": 6000000
+    },
+    {
+      "name": "Nicolás Acevedo",
+      "team": "Bahia",
+      "position": "Vol. Defensivo",
+      "age": 27,
+      "value": 6000000
+    },
+    {
+      "name": "Rodriguinho",
+      "team": "Red Bull Bragantino",
+      "position": "Meia Atac.",
+      "age": 22,
+      "value": 6000000
+    },
+    {
+      "name": "Matheus França",
+      "team": "Vasco da Gama",
+      "position": "Meia Atac.",
+      "age": 22,
+      "value": 6000000
+    },
+    {
+      "name": "Santiago Rodríguez",
+      "team": "Botafogo",
+      "position": "Meia Atac.",
+      "age": 26,
+      "value": 6000000
+    },
+    {
+      "name": "Rodrigo Castillo",
+      "team": "Fluminense",
+      "position": "Centroavante",
+      "age": 27,
+      "value": 6000000
+    },
+    {
+      "name": "Paulo Henrique",
+      "team": "Vasco da Gama",
+      "position": "Lateral Dir.",
+      "age": 29,
+      "value": 6000000
+    },
+    {
+      "name": "Johan Carbonero",
+      "team": "Internacional",
+      "position": "Ponta Esq.",
+      "age": 26,
+      "value": 6000000
     },
     {
       "name": "Khellven",
@@ -361,73 +753,157 @@
       "value": 6000000
     },
     {
-      "name": "Thiago Maia",
-      "team": "Internacional",
+      "name": "Leonel Pérez",
+      "team": "Grêmio",
       "position": "Vol. Defensivo",
-      "age": 29,
+      "age": 21,
       "value": 6000000
     },
     {
-      "name": "Jesse Lingard",
-      "team": "Corinthians",
-      "position": "Meia Atac.",
-      "age": 33,
+      "name": "Facundo Bernal",
+      "team": "Fluminense",
+      "position": "Vol. Defensivo",
+      "age": 22,
       "value": 6000000
     },
     {
-      "name": "Lucas Moura",
-      "team": "São Paulo",
+      "name": "Riquelme",
+      "team": "Fluminense",
       "position": "Ponta Dir.",
-      "age": 33,
+      "age": 19,
       "value": 6000000
     },
     {
-      "name": "Erick Pulgar",
-      "team": "Flamengo",
-      "position": "Vol. Defensivo",
-      "age": 32,
-      "value": 6000000
-    },
-    {
-      "name": "Lucas Veríssimo",
-      "team": "Santos",
-      "position": "Zagueiro",
-      "age": 30,
-      "value": 6000000
-    },
-    {
-      "name": "Walace",
-      "team": "Cruzeiro",
-      "position": "Vol. Defensivo",
-      "age": 31,
-      "value": 6000000
-    },
-    {
-      "name": "Luiz Araújo",
-      "team": "Flamengo",
+      "name": "Lucas Ronier",
+      "team": "Coritiba",
       "position": "Ponta Dir.",
-      "age": 30,
+      "age": 21,
       "value": 6000000
     },
     {
-      "name": "Carlos Cuesta",
-      "team": "Vasco da Gama",
-      "position": "Zagueiro",
-      "age": 27,
-      "value": 6000000
-    },
-    {
-      "name": "Allan",
+      "name": "Matheus Martins",
       "team": "Botafogo",
+      "position": "Ponta Esq.",
+      "age": 22,
+      "value": 6000000
+    },
+    {
+      "name": "Lucas Piton",
+      "team": "Vasco da Gama",
+      "position": "Lateral Esq.",
+      "age": 25,
+      "value": 6000000
+    },
+    {
+      "name": "Viery",
+      "team": "Grêmio",
+      "position": "Zagueiro",
+      "age": 21,
+      "value": 6000000
+    },
+    {
+      "name": "Tomás Cuello",
+      "team": "Atlético-MG",
+      "position": "Ponta Esq.",
+      "age": 26,
+      "value": 6000000
+    },
+    {
+      "name": "Alexsander",
+      "team": "Atlético-MG",
       "position": "Vol. Defensivo",
-      "age": 35,
+      "age": 22,
       "value": 5500000
     },
     {
-      "name": "Carlos Vinícius",
+      "name": "Robinho Junior",
+      "team": "Santos",
+      "position": "Ponta Dir.",
+      "age": 18,
+      "value": 5000000
+    },
+    {
+      "name": "Juan Portilla",
+      "team": "Athletico Paranaense",
+      "position": "Meia Central",
+      "age": 27,
+      "value": 5000000
+    },
+    {
+      "name": "Cauan Barros",
+      "team": "Vasco da Gama",
+      "position": "Vol. Defensivo",
+      "age": 22,
+      "value": 5000000
+    },
+    {
+      "name": "Fabinho",
+      "team": "Red Bull Bragantino",
+      "position": "Vol. Defensivo",
+      "age": 24,
+      "value": 5000000
+    },
+    {
+      "name": "Gustavo Marques",
+      "team": "Red Bull Bragantino",
+      "position": "Zagueiro",
+      "age": 24,
+      "value": 5000000
+    },
+    {
+      "name": "Juan Pablo Freytes",
+      "team": "Fluminense",
+      "position": "Zagueiro",
+      "age": 26,
+      "value": 5000000
+    },
+    {
+      "name": "Murilo",
+      "team": "Palmeiras",
+      "position": "Zagueiro",
+      "age": 29,
+      "value": 5000000
+    },
+    {
+      "name": "Pedro Morisco",
+      "team": "Coritiba",
+      "position": "Goleiro",
+      "age": 22,
+      "value": 5000000
+    },
+    {
+      "name": "Erick Noriega",
       "team": "Grêmio",
+      "position": "Vol. Defensivo",
+      "age": 24,
+      "value": 5000000
+    },
+    {
+      "name": "Wallace Yan",
+      "team": "Flamengo",
       "position": "Centroavante",
-      "age": 31,
+      "age": 21,
+      "value": 5000000
+    },
+    {
+      "name": "Luciano Acosta",
+      "team": "Fluminense",
+      "position": "Meia Atac.",
+      "age": 32,
+      "value": 5000000
+    },
+    {
+      "name": "Ignacio Sosa",
+      "team": "Red Bull Bragantino",
+      "position": "Meia Central",
+      "age": 22,
+      "value": 5000000
+    },
+    {
+      "name": "Cleiton",
+      "team": "Red Bull Bragantino",
+      "position": "Goleiro",
+      "age": 28,
       "value": 5000000
     },
     {
@@ -438,143 +914,192 @@
       "value": 5000000
     },
     {
-      "name": "Gonzalo Plata",
-      "team": "Flamengo",
-      "position": "Ponta Dir.",
-      "age": 25,
+      "name": "Alexander Barboza",
+      "team": "Botafogo",
+      "position": "Zagueiro",
+      "age": 31,
       "value": 5000000
     },
     {
-      "name": "Andrés Gómez",
-      "team": "Vasco da Gama",
-      "position": "Ponta Esq.",
+      "name": "Emerson Royal",
+      "team": "Flamengo",
+      "position": "Lateral Dir.",
+      "age": 27,
+      "value": 5000000
+    },
+    {
+      "name": "Victor Gabriel",
+      "team": "Internacional",
+      "position": "Zagueiro",
+      "age": 22,
+      "value": 5000000
+    },
+    {
+      "name": "Cristian Olivera",
+      "team": "Bahia",
+      "position": "Ponta Dir.",
+      "age": 24,
+      "value": 5000000
+    },
+    {
+      "name": "Pablo Maia",
+      "team": "São Paulo",
+      "position": "Vol. Defensivo",
+      "age": 24,
+      "value": 5000000
+    },
+    {
+      "name": "Miguelito",
+      "team": "Santos",
+      "position": "Meia Atac.",
+      "age": 22,
+      "value": 5000000
+    },
+    {
+      "name": "Dudu",
+      "team": "Athletico Paranaense",
+      "position": "Meia Atac.",
+      "age": 20,
+      "value": 5000000
+    },
+    {
+      "name": "Andrew",
+      "team": "Flamengo",
+      "position": "Goleiro",
+      "age": 24,
+      "value": 5000000
+    },
+    {
+      "name": "Kayky",
+      "team": "Internacional",
+      "position": "Ponta Dir.",
       "age": 23,
       "value": 5000000
     },
     {
-      "name": "Angelo Preciado",
-      "team": "Atlético-MG",
-      "position": "Lateral Dir.",
+      "name": "Vitinho",
+      "team": "Internacional",
+      "position": "Ponta Esq.",
+      "age": 27,
+      "value": 5000000
+    },
+    {
+      "name": "Kevin Serna",
+      "team": "Fluminense",
+      "position": "Ponta Dir.",
       "age": 28,
       "value": 5000000
+    },
+    {
+      "name": "Marino Hinestroza",
+      "team": "Vasco da Gama",
+      "position": "Ponta Dir.",
+      "age": 23,
+      "value": 4800000
+    },
+    {
+      "name": "Rony",
+      "team": "Santos",
+      "position": "Centroavante",
+      "age": 31,
+      "value": 4500000
+    },
+    {
+      "name": "Bruno Zapelli",
+      "team": "Athletico Paranaense",
+      "position": "Meia Atac.",
+      "age": 24,
+      "value": 4500000
+    },
+    {
+      "name": "Matheus Henrique",
+      "team": "Cruzeiro",
+      "position": "Meia Central",
+      "age": 28,
+      "value": 4500000
+    },
+    {
+      "name": "Lucas Veríssimo",
+      "team": "Santos",
+      "position": "Zagueiro",
+      "age": 30,
+      "value": 4500000
+    },
+    {
+      "name": "Nahuel Ferraresi",
+      "team": "Botafogo",
+      "position": "Zagueiro",
+      "age": 27,
+      "value": 4500000
+    },
+    {
+      "name": "Natanael",
+      "team": "Atlético-MG",
+      "position": "Lateral Dir.",
+      "age": 24,
+      "value": 4500000
+    },
+    {
+      "name": "Lyanco",
+      "team": "Atlético-MG",
+      "position": "Zagueiro",
+      "age": 29,
+      "value": 4500000
+    },
+    {
+      "name": "Ryan Francisco",
+      "team": "São Paulo",
+      "position": "Centroavante",
+      "age": 19,
+      "value": 4500000
+    },
+    {
+      "name": "Gustavo Scarpa",
+      "team": "Atlético-MG",
+      "position": "Meia Atac.",
+      "age": 32,
+      "value": 4500000
+    },
+    {
+      "name": "Erick Pulgar",
+      "team": "Flamengo",
+      "position": "Vol. Defensivo",
+      "age": 32,
+      "value": 4500000
+    },
+    {
+      "name": "Alan Franco",
+      "team": "Atlético-MG",
+      "position": "Meia Central",
+      "age": 27,
+      "value": 4500000
+    },
+    {
+      "name": "Dell",
+      "team": "Bahia",
+      "position": "Centroavante",
+      "age": 18,
+      "value": 4000000
     },
     {
       "name": "Jorginho",
       "team": "Flamengo",
       "position": "Vol. Defensivo",
       "age": 34,
-      "value": 5000000
+      "value": 4000000
     },
     {
-      "name": "Jean Lucas",
-      "team": "Bahia",
-      "position": "Meia Central",
-      "age": 28,
-      "value": 5000000
-    },
-    {
-      "name": "Maycon",
-      "team": "Atlético-MG",
-      "position": "Meia Central",
-      "age": 28,
-      "value": 5000000
-    },
-    {
-      "name": "Nuno Moreira",
-      "team": "Vasco da Gama",
-      "position": "Ponta Dir.",
-      "age": 27,
-      "value": 5000000
-    },
-    {
-      "name": "Francis Amuzu",
-      "team": "Grêmio",
-      "position": "Ponta Esq.",
-      "age": 26,
-      "value": 5000000
-    },
-    {
-      "name": "Vitinho",
-      "team": "Internacional",
-      "position": "Ponta Esq.",
-      "age": 27,
-      "value": 5000000
-    },
-    {
-      "name": "Martin Braithwaite",
-      "team": "Grêmio",
-      "position": "Centroavante",
-      "age": 35,
-      "value": 5000000
-    },
-    {
-      "name": "Vitinho",
-      "team": "Botafogo",
-      "position": "Lateral Dir.",
-      "age": 26,
-      "value": 5000000
-    },
-    {
-      "name": "Adson",
-      "team": "Vasco da Gama",
-      "position": "Ponta Dir.",
-      "age": 25,
-      "value": 4500000
-    },
-    {
-      "name": "Otávio",
-      "team": "Fluminense",
-      "position": "Vol. Defensivo",
-      "age": 32,
-      "value": 4500000
-    },
-    {
-      "name": "Matheus Dória",
-      "team": "São Paulo",
-      "position": "Zagueiro",
-      "age": 31,
-      "value": 4500000
-    },
-    {
-      "name": "Kaio César",
+      "name": "Raniele",
       "team": "Corinthians",
-      "position": "Ponta Dir.",
-      "age": 22,
-      "value": 4500000
-    },
-    {
-      "name": "Thiago Mendes",
-      "team": "Vasco da Gama",
       "position": "Vol. Defensivo",
-      "age": 34,
-      "value": 4500000
-    },
-    {
-      "name": "Alan Patrick",
-      "team": "Internacional",
-      "position": "Meia Atac.",
-      "age": 35,
+      "age": 29,
       "value": 4000000
     },
     {
-      "name": "Rodrigo Villagra",
-      "team": "Internacional",
-      "position": "Vol. Defensivo",
-      "age": 25,
-      "value": 4000000
-    },
-    {
-      "name": "Carlos Miguel",
-      "team": "Palmeiras",
-      "position": "Goleiro",
-      "age": 27,
-      "value": 4000000
-    },
-    {
-      "name": "Jonathan Calleri",
-      "team": "São Paulo",
-      "position": "Centroavante",
-      "age": 32,
+      "name": "Gustavo Martins",
+      "team": "Grêmio",
+      "position": "Zagueiro",
+      "age": 23,
       "value": 4000000
     },
     {
@@ -585,9 +1110,23 @@
       "value": 4000000
     },
     {
-      "name": "Chris Ramos",
-      "team": "Botafogo",
-      "position": "Centroavante",
+      "name": "Luis Benedetti",
+      "team": "Palmeiras",
+      "position": "Zagueiro",
+      "age": 20,
+      "value": 4000000
+    },
+    {
+      "name": "Ayrton Lucas",
+      "team": "Flamengo",
+      "position": "Lateral Esq.",
+      "age": 29,
+      "value": 4000000
+    },
+    {
+      "name": "Mathías Villasanti",
+      "team": "Grêmio",
+      "position": "Vol. Defensivo",
       "age": 29,
       "value": 4000000
     },
@@ -599,10 +1138,66 @@
       "value": 4000000
     },
     {
-      "name": "Tiquinho Soares",
-      "team": "Mirassol",
+      "name": "Erick",
+      "team": "Bahia",
+      "position": "Vol. Defensivo",
+      "age": 28,
+      "value": 4000000
+    },
+    {
+      "name": "Ruan",
+      "team": "Atlético-MG",
+      "position": "Zagueiro",
+      "age": 27,
+      "value": 4000000
+    },
+    {
+      "name": "Bruno Fuchs",
+      "team": "Palmeiras",
+      "position": "Zagueiro",
+      "age": 27,
+      "value": 4000000
+    },
+    {
+      "name": "Vinicius Lira",
+      "team": "Santos",
+      "position": "Lateral Esq.",
+      "age": 18,
+      "value": 4000000
+    },
+    {
+      "name": "JP Chermont",
+      "team": "Coritiba",
+      "position": "Lateral Dir.",
+      "age": 20,
+      "value": 4000000
+    },
+    {
+      "name": "Ferreirinha",
+      "team": "São Paulo",
+      "position": "Ponta Esq.",
+      "age": 28,
+      "value": 4000000
+    },
+    {
+      "name": "Gabriel Xavier",
+      "team": "Bahia",
+      "position": "Zagueiro",
+      "age": 25,
+      "value": 4000000
+    },
+    {
+      "name": "Luighi",
+      "team": "Palmeiras",
       "position": "Centroavante",
-      "age": 35,
+      "age": 20,
+      "value": 4000000
+    },
+    {
+      "name": "Néiser Villarreal",
+      "team": "Cruzeiro",
+      "position": "Centroavante",
+      "age": 21,
       "value": 4000000
     },
     {
@@ -613,6 +1208,55 @@
       "value": 4000000
     },
     {
+      "name": "Dieguinho",
+      "team": "Corinthians",
+      "position": "Ponta Dir.",
+      "age": 18,
+      "value": 4000000
+    },
+    {
+      "name": "Joaquín Lavega",
+      "team": "Coritiba",
+      "position": "Ponta Esq.",
+      "age": 21,
+      "value": 4000000
+    },
+    {
+      "name": "Tchoca",
+      "team": "Corinthians",
+      "position": "Zagueiro",
+      "age": 22,
+      "value": 4000000
+    },
+    {
+      "name": "Jefté",
+      "team": "Palmeiras",
+      "position": "Lateral Esq.",
+      "age": 22,
+      "value": 4000000
+    },
+    {
+      "name": "Lucas Evangelista",
+      "team": "Palmeiras",
+      "position": "Meia Central",
+      "age": 31,
+      "value": 4000000
+    },
+    {
+      "name": "Nathan Fernandes",
+      "team": "Botafogo",
+      "position": "Ponta Dir.",
+      "age": 21,
+      "value": 4000000
+    },
+    {
+      "name": "Alan Franco",
+      "team": "São Paulo",
+      "position": "Zagueiro",
+      "age": 29,
+      "value": 4000000
+    },
+    {
       "name": "Arthur Melo",
       "team": "Grêmio",
       "position": "Meia Central",
@@ -620,87 +1264,234 @@
       "value": 4000000
     },
     {
-      "name": "Marcos Antônio",
-      "team": "São Paulo",
+      "name": "Kaio César",
+      "team": "Corinthians",
+      "position": "Ponta Dir.",
+      "age": 22,
+      "value": 4000000
+    },
+    {
+      "name": "Johan Rojas",
+      "team": "Vasco da Gama",
+      "position": "Meia Atac.",
+      "age": 23,
+      "value": 3800000
+    },
+    {
+      "name": "Eric Ramires",
+      "team": "Red Bull Bragantino",
       "position": "Meia Central",
-      "age": 26,
-      "value": 4000000
-    },
-    {
-      "name": "Gilberto",
-      "team": "Bahia",
-      "position": "Lateral Dir.",
-      "age": 33,
-      "value": 4000000
-    },
-    {
-      "name": "Kaio Jorge",
-      "team": "Cruzeiro",
-      "position": "Centroavante",
-      "age": 24,
-      "value": 4000000
+      "age": 25,
+      "value": 3500000
     },
     {
       "name": "Iago",
       "team": "Bahia",
       "position": "Lateral Esq.",
       "age": 29,
-      "value": 4000000
-    },
-    {
-      "name": "André Silva",
-      "team": "São Paulo",
-      "position": "Centroavante",
-      "age": 29,
       "value": 3500000
     },
     {
-      "name": "Victor Hugo",
+      "name": "Henry Mosquera",
+      "team": "Red Bull Bragantino",
+      "position": "Ponta Esq.",
+      "age": 24,
+      "value": 3500000
+    },
+    {
+      "name": "Vinicinho",
+      "team": "Red Bull Bragantino",
+      "position": "Ponta Esq.",
+      "age": 22,
+      "value": 3500000
+    },
+    {
+      "name": "Angelo Preciado",
       "team": "Atlético-MG",
+      "position": "Lateral Dir.",
+      "age": 28,
+      "value": 3500000
+    },
+    {
+      "name": "Miguel Monsalve",
+      "team": "Grêmio",
+      "position": "Meia Atac.",
+      "age": 22,
+      "value": 3500000
+    },
+    {
+      "name": "Gustavo Neves",
+      "team": "Red Bull Bragantino",
       "position": "Meia Central",
       "age": 22,
       "value": 3500000
     },
     {
-      "name": "Lucas Evangelista",
-      "team": "Palmeiras",
-      "position": "Meia Central",
-      "age": 31,
+      "name": "Yeferson Soteldo",
+      "team": "Fluminense",
+      "position": "Ponta Esq.",
+      "age": 28,
       "value": 3500000
     },
     {
-      "name": "Reinier",
-      "team": "Atlético-MG",
-      "position": "Meia Atac.",
-      "age": 24,
-      "value": 3500000
-    },
-    {
-      "name": "Sergio Rochet",
+      "name": "Rafael Borré",
       "team": "Internacional",
-      "position": "Goleiro",
+      "position": "Centroavante",
+      "age": 30,
+      "value": 3500000
+    },
+    {
+      "name": "Rodrigo Villagra",
+      "team": "Internacional",
+      "position": "Vol. Defensivo",
+      "age": 25,
+      "value": 3500000
+    },
+    {
+      "name": "Guzmán Rodríguez",
+      "team": "Red Bull Bragantino",
+      "position": "Zagueiro",
+      "age": 26,
+      "value": 3500000
+    },
+    {
+      "name": "Pedro Henrique",
+      "team": "Red Bull Bragantino",
+      "position": "Zagueiro",
+      "age": 30,
+      "value": 3500000
+    },
+    {
+      "name": "Gustavo Gómez",
+      "team": "Palmeiras",
+      "position": "Zagueiro",
       "age": 33,
       "value": 3500000
     },
     {
-      "name": "Lyanco",
-      "team": "Atlético-MG",
-      "position": "Zagueiro",
-      "age": 29,
-      "value": 3200000
+      "name": "Gonzalo Tapia",
+      "team": "São Paulo",
+      "position": "Centroavante",
+      "age": 24,
+      "value": 3500000
     },
     {
-      "name": "Alan Minda",
-      "team": "Atlético-MG",
+      "name": "Antonio Galeano",
+      "team": "Mirassol",
       "position": "Ponta Dir.",
-      "age": 23,
+      "age": 26,
+      "value": 3500000
+    },
+    {
+      "name": "Julián Millán",
+      "team": "Fluminense",
+      "position": "Zagueiro",
+      "age": 28,
+      "value": 3500000
+    },
+    {
+      "name": "Agustín Sant'Anna",
+      "team": "Red Bull Bragantino",
+      "position": "Lateral Dir.",
+      "age": 28,
+      "value": 3500000
+    },
+    {
+      "name": "Gastón Benavídez",
+      "team": "Athletico Paranaense",
+      "position": "Lateral Dir.",
+      "age": 30,
+      "value": 3500000
+    },
+    {
+      "name": "Enzo Díaz",
+      "team": "São Paulo",
+      "position": "Lateral Esq.",
+      "age": 30,
       "value": 3000000
     },
     {
-      "name": "Vitinho",
-      "team": "Corinthians",
+      "name": "Lucca",
+      "team": "São Paulo",
       "position": "Ponta Esq.",
-      "age": 32,
+      "age": 19,
+      "value": 3000000
+    },
+    {
+      "name": "Chiqueti",
+      "team": "Athletico Paranaense",
+      "position": "Meia Atac.",
+      "age": 20,
+      "value": 3000000
+    },
+    {
+      "name": "José Andrés Hurtado",
+      "team": "Red Bull Bragantino",
+      "position": "Lateral Dir.",
+      "age": 24,
+      "value": 3000000
+    },
+    {
+      "name": "Breno Lopes",
+      "team": "Coritiba",
+      "position": "Ponta Esq.",
+      "age": 30,
+      "value": 3000000
+    },
+    {
+      "name": "João Marcelo",
+      "team": "Cruzeiro",
+      "position": "Zagueiro",
+      "age": 26,
+      "value": 3000000
+    },
+    {
+      "name": "Matheuzinho",
+      "team": "Vitória",
+      "position": "Meia Atac.",
+      "age": 28,
+      "value": 3000000
+    },
+    {
+      "name": "Negueba",
+      "team": "Mirassol",
+      "position": "Ponta Dir.",
+      "age": 26,
+      "value": 3000000
+    },
+    {
+      "name": "Anthoni",
+      "team": "Internacional",
+      "position": "Goleiro",
+      "age": 24,
+      "value": 3000000
+    },
+    {
+      "name": "Wanderson",
+      "team": "Cruzeiro",
+      "position": "Ponta Esq.",
+      "age": 31,
+      "value": 3000000
+    },
+    {
+      "name": "Arthur Dias",
+      "team": "Athletico Paranaense",
+      "position": "Zagueiro",
+      "age": 19,
+      "value": 3000000
+    },
+    {
+      "name": "Matheus Cunha",
+      "team": "Cruzeiro",
+      "position": "Goleiro",
+      "age": 25,
+      "value": 3000000
+    },
+    {
+      "name": "Kaique Kenji",
+      "team": "Cruzeiro",
+      "position": "Ponta Esq.",
+      "age": 20,
       "value": 3000000
     },
     {
@@ -711,10 +1502,66 @@
       "value": 3000000
     },
     {
+      "name": "José Enamorado",
+      "team": "Grêmio",
+      "position": "Ponta Dir.",
+      "age": 27,
+      "value": 3000000
+    },
+    {
+      "name": "Gabriel Barbosa",
+      "team": "Santos",
+      "position": "Centroavante",
+      "age": 29,
+      "value": 3000000
+    },
+    {
+      "name": "Alix",
+      "team": "Red Bull Bragantino",
+      "position": "Zagueiro",
+      "age": 26,
+      "value": 3000000
+    },
+    {
+      "name": "Cauly",
+      "team": "São Paulo",
+      "position": "Meia Atac.",
+      "age": 30,
+      "value": 3000000
+    },
+    {
       "name": "Adryelson",
       "team": "Botafogo",
       "position": "Zagueiro",
       "age": 28,
+      "value": 3000000
+    },
+    {
+      "name": "André Silva",
+      "team": "São Paulo",
+      "position": "Centroavante",
+      "age": 29,
+      "value": 3000000
+    },
+    {
+      "name": "Arthur Gabriel",
+      "team": "Palmeiras",
+      "position": "Lateral Esq.",
+      "age": 20,
+      "value": 3000000
+    },
+    {
+      "name": "Kanu",
+      "team": "Bahia",
+      "position": "Zagueiro",
+      "age": 29,
+      "value": 3000000
+    },
+    {
+      "name": "Jemmes",
+      "team": "Fluminense",
+      "position": "Zagueiro",
+      "age": 26,
       "value": 3000000
     },
     {
@@ -725,10 +1572,52 @@
       "value": 3000000
     },
     {
-      "name": "Riccieli",
-      "team": "Vitória",
-      "position": "Zagueiro",
+      "name": "Matheus Bahia",
+      "team": "Internacional",
+      "position": "Lateral Esq.",
+      "age": 26,
+      "value": 3000000
+    },
+    {
+      "name": "Newton",
+      "team": "Botafogo",
+      "position": "Vol. Defensivo",
+      "age": 26,
+      "value": 3000000
+    },
+    {
+      "name": "Alan Minda",
+      "team": "Atlético-MG",
+      "position": "Ponta Dir.",
+      "age": 23,
+      "value": 3000000
+    },
+    {
+      "name": "Leonel Picco",
+      "team": "Remo",
+      "position": "Vol. Defensivo",
       "age": 27,
+      "value": 3000000
+    },
+    {
+      "name": "Júnior Santos",
+      "team": "Botafogo",
+      "position": "Ponta Dir.",
+      "age": 31,
+      "value": 3000000
+    },
+    {
+      "name": "Luan Cândido",
+      "team": "Vitória",
+      "position": "Lateral Esq.",
+      "age": 25,
+      "value": 3000000
+    },
+    {
+      "name": "André Henrique",
+      "team": "Grêmio",
+      "position": "Centroavante",
+      "age": 24,
       "value": 3000000
     },
     {
@@ -739,108 +1628,115 @@
       "value": 3000000
     },
     {
-      "name": "Léo Jardim",
+      "name": "Wagner Leonardo",
+      "team": "Grêmio",
+      "position": "Zagueiro",
+      "age": 26,
+      "value": 3000000
+    },
+    {
+      "name": "William",
+      "team": "Cruzeiro",
+      "position": "Lateral Dir.",
+      "age": 31,
+      "value": 3000000
+    },
+    {
+      "name": "Claudio Spinelli",
       "team": "Vasco da Gama",
-      "position": "Goleiro",
-      "age": 31,
-      "value": 3000000
-    },
-    {
-      "name": "Joaquín Correa",
-      "team": "Botafogo",
-      "position": "Segundo Atac.",
-      "age": 31,
-      "value": 3000000
-    },
-    {
-      "name": "Cauly",
-      "team": "São Paulo",
-      "position": "Meia Atac.",
-      "age": 30,
-      "value": 2500000
-    },
-    {
-      "name": "Danilo",
-      "team": "Flamengo",
-      "position": "Zagueiro",
-      "age": 34,
-      "value": 2500000
-    },
-    {
-      "name": "Rafael Tolói",
-      "team": "São Paulo",
-      "position": "Zagueiro",
-      "age": 35,
-      "value": 2500000
-    },
-    {
-      "name": "Bruno Tabata",
-      "team": "Internacional",
-      "position": "Ponta Dir.",
+      "position": "Centroavante",
       "age": 29,
-      "value": 2500000
+      "value": 3000000
     },
     {
-      "name": "Ruan",
-      "team": "Atlético-MG",
-      "position": "Zagueiro",
-      "age": 27,
-      "value": 2500000
-    },
-    {
-      "name": "Ramon",
-      "team": "Vitória",
+      "name": "Vanderlan",
+      "team": "Red Bull Bragantino",
       "position": "Lateral Esq.",
+      "age": 23,
+      "value": 3000000
+    },
+    {
+      "name": "Adonis Frías",
+      "team": "Santos",
+      "position": "Zagueiro",
+      "age": 28,
+      "value": 3000000
+    },
+    {
+      "name": "Alex Telles",
+      "team": "Botafogo",
+      "position": "Lateral Esq.",
+      "age": 33,
+      "value": 2800000
+    },
+    {
+      "name": "Adson",
+      "team": "Vasco da Gama",
+      "position": "Ponta Dir.",
       "age": 25,
       "value": 2500000
     },
     {
-      "name": "Saúl Ñíguez",
-      "team": "Flamengo",
-      "position": "Meia Central",
-      "age": 31,
+      "name": "Patrick de Paula",
+      "team": "Remo",
+      "position": "Vol. Defensivo",
+      "age": 26,
       "value": 2500000
     },
     {
-      "name": "Bruno Rodrigues",
-      "team": "Cruzeiro",
-      "position": "Ponta Esq.",
-      "age": 29,
-      "value": 2500000
-    },
-    {
-      "name": "Bernard",
-      "team": "Atlético-MG",
-      "position": "Ponta Esq.",
-      "age": 33,
-      "value": 2500000
-    },
-    {
-      "name": "Luciano",
-      "team": "São Paulo",
-      "position": "Centroavante",
-      "age": 33,
-      "value": 2500000
-    },
-    {
-      "name": "Bruno Henrique",
-      "team": "Flamengo",
-      "position": "Centroavante",
-      "age": 35,
-      "value": 2500000
-    },
-    {
-      "name": "Lucas Cunha",
-      "team": "Red Bull Bragantino",
-      "position": "Zagueiro",
-      "age": 29,
-      "value": 2500000
-    },
-    {
-      "name": "André Ramalho",
+      "name": "Pedro Raul",
       "team": "Corinthians",
-      "position": "Zagueiro",
-      "age": 34,
+      "position": "Centroavante",
+      "age": 29,
+      "value": 2500000
+    },
+    {
+      "name": "Carvalheira",
+      "team": "Chapecoense",
+      "position": "Vol. Defensivo",
+      "age": 27,
+      "value": 2500000
+    },
+    {
+      "name": "Braian Aguirre",
+      "team": "Internacional",
+      "position": "Lateral Dir.",
+      "age": 25,
+      "value": 2500000
+    },
+    {
+      "name": "Lucas Romero",
+      "team": "Cruzeiro",
+      "position": "Vol. Defensivo",
+      "age": 32,
+      "value": 2500000
+    },
+    {
+      "name": "Baralhas",
+      "team": "Vitória",
+      "position": "Vol. Defensivo",
+      "age": 27,
+      "value": 2500000
+    },
+    {
+      "name": "Thiago Maia",
+      "team": "Internacional",
+      "position": "Vol. Defensivo",
+      "age": 29,
+      "value": 2500000
+    },
+    {
+      "name": "Chris Ramos",
+      "team": "Botafogo",
+      "position": "Centroavante",
+      "age": 29,
+      "value": 2500000
+    },
+    {
+      "name": "Jordan Barrera",
+      "team": "Botafogo",
+      "position": "Meia Atac.",
+      "age": 20,
       "value": 2500000
     },
     {
@@ -851,11 +1747,368 @@
       "value": 2500000
     },
     {
-      "name": "Wendell",
-      "team": "São Paulo",
-      "position": "Lateral Esq.",
-      "age": 32,
+      "name": "Lucas Arcanjo",
+      "team": "Vitória",
+      "position": "Goleiro",
+      "age": 27,
       "value": 2500000
+    },
+    {
+      "name": "Matheus Pereira",
+      "team": "Corinthians",
+      "position": "Meia Central",
+      "age": 28,
+      "value": 2500000
+    },
+    {
+      "name": "Walace",
+      "team": "Cruzeiro",
+      "position": "Vol. Defensivo",
+      "age": 31,
+      "value": 2500000
+    },
+    {
+      "name": "Alesson",
+      "team": "Mirassol",
+      "position": "Ponta Esq.",
+      "age": 27,
+      "value": 2500000
+    },
+    {
+      "name": "Léo Linck",
+      "team": "Botafogo",
+      "position": "Goleiro",
+      "age": 25,
+      "value": 2500000
+    },
+    {
+      "name": "Michel Araújo",
+      "team": "Bahia",
+      "position": "Ponta Dir.",
+      "age": 29,
+      "value": 2500000
+    },
+    {
+      "name": "Lucas Cunha",
+      "team": "Red Bull Bragantino",
+      "position": "Zagueiro",
+      "age": 29,
+      "value": 2500000
+    },
+    {
+      "name": "Allan",
+      "team": "Corinthians",
+      "position": "Vol. Defensivo",
+      "age": 29,
+      "value": 2500000
+    },
+    {
+      "name": "Erick",
+      "team": "Vitória",
+      "position": "Ponta Dir.",
+      "age": 28,
+      "value": 2500000
+    },
+    {
+      "name": "Jacy",
+      "team": "Coritiba",
+      "position": "Zagueiro",
+      "age": 28,
+      "value": 2500000
+    },
+    {
+      "name": "Marquinhos",
+      "team": "Cruzeiro",
+      "position": "Ponta Dir.",
+      "age": 23,
+      "value": 2500000
+    },
+    {
+      "name": "José Herrera",
+      "team": "Red Bull Bragantino",
+      "position": "Ponta Dir.",
+      "age": 23,
+      "value": 2500000
+    },
+    {
+      "name": "Léo Derik",
+      "team": "Athletico Paranaense",
+      "position": "Lateral Esq.",
+      "age": 20,
+      "value": 2500000
+    },
+    {
+      "name": "Igor Gomes",
+      "team": "Atlético-MG",
+      "position": "Meia Atac.",
+      "age": 27,
+      "value": 2500000
+    },
+    {
+      "name": "Alan Rodríguez",
+      "team": "Internacional",
+      "position": "Meia Central",
+      "age": 26,
+      "value": 2300000
+    },
+    {
+      "name": "Gilberto",
+      "team": "Bahia",
+      "position": "Lateral Dir.",
+      "age": 33,
+      "value": 2200000
+    },
+    {
+      "name": "Pablo",
+      "team": "Flamengo",
+      "position": "Zagueiro",
+      "age": 35,
+      "value": 2000000
+    },
+    {
+      "name": "Felipe Jonatan",
+      "team": "Coritiba",
+      "position": "Lateral Esq.",
+      "age": 28,
+      "value": 2000000
+    },
+    {
+      "name": "Mycael",
+      "team": "Athletico Paranaense",
+      "position": "Goleiro",
+      "age": 22,
+      "value": 2000000
+    },
+    {
+      "name": "Ignácio",
+      "team": "Fluminense",
+      "position": "Zagueiro",
+      "age": 29,
+      "value": 2000000
+    },
+    {
+      "name": "Reinier",
+      "team": "Atlético-MG",
+      "position": "Meia Atac.",
+      "age": 24,
+      "value": 2000000
+    },
+    {
+      "name": "Nathan",
+      "team": "Grêmio",
+      "position": "Meia Atac.",
+      "age": 30,
+      "value": 2000000
+    },
+    {
+      "name": "JP",
+      "team": "Vasco da Gama",
+      "position": "Meia Central",
+      "age": 21,
+      "value": 2000000
+    },
+    {
+      "name": "João Paulo",
+      "team": "Bahia",
+      "position": "Goleiro",
+      "age": 30,
+      "value": 2000000
+    },
+    {
+      "name": "Nonato",
+      "team": "Fluminense",
+      "position": "Meia Central",
+      "age": 28,
+      "value": 2000000
+    },
+    {
+      "name": "Ronaldo",
+      "team": "Internacional",
+      "position": "Vol. Defensivo",
+      "age": 29,
+      "value": 2000000
+    },
+    {
+      "name": "Igor Vinícius",
+      "team": "Santos",
+      "position": "Lateral Dir.",
+      "age": 29,
+      "value": 2000000
+    },
+    {
+      "name": "Nathan",
+      "team": "Internacional",
+      "position": "Lateral Dir.",
+      "age": 24,
+      "value": 2000000
+    },
+    {
+      "name": "Gilberto Junior",
+      "team": "Athletico Paranaense",
+      "position": "Lateral Dir.",
+      "age": 21,
+      "value": 2000000
+    },
+    {
+      "name": "Caio Paulista",
+      "team": "Grêmio",
+      "position": "Lateral Esq.",
+      "age": 28,
+      "value": 2000000
+    },
+    {
+      "name": "Moisés",
+      "team": "Santos",
+      "position": "Ponta Esq.",
+      "age": 29,
+      "value": 2000000
+    },
+    {
+      "name": "Julimar",
+      "team": "Athletico Paranaense",
+      "position": "Ponta Esq.",
+      "age": 25,
+      "value": 2000000
+    },
+    {
+      "name": "Mateo Sanabria",
+      "team": "Bahia",
+      "position": "Ponta Esq.",
+      "age": 22,
+      "value": 2000000
+    },
+    {
+      "name": "Igor Formiga",
+      "team": "Mirassol",
+      "position": "Lateral Dir.",
+      "age": 27,
+      "value": 2000000
+    },
+    {
+      "name": "Kauã Moraes",
+      "team": "Cruzeiro",
+      "position": "Lateral Dir.",
+      "age": 19,
+      "value": 2000000
+    },
+    {
+      "name": "Zanocelo",
+      "team": "Ceará",
+      "position": "Vol. Defensivo",
+      "age": 25,
+      "value": 2000000
+    },
+    {
+      "name": "Lucas Moura",
+      "team": "São Paulo",
+      "position": "Ponta Dir.",
+      "age": 33,
+      "value": 2000000
+    },
+    {
+      "name": "Carlos Terán",
+      "team": "Athletico Paranaense",
+      "position": "Zagueiro",
+      "age": 25,
+      "value": 2000000
+    },
+    {
+      "name": "Jesse Lingard",
+      "team": "Corinthians",
+      "position": "Meia Atac.",
+      "age": 33,
+      "value": 2000000
+    },
+    {
+      "name": "Denilson",
+      "team": "Mirassol",
+      "position": "Meia Central",
+      "age": 25,
+      "value": 2000000
+    },
+    {
+      "name": "Maycon",
+      "team": "Atlético-MG",
+      "position": "Meia Central",
+      "age": 28,
+      "value": 2000000
+    },
+    {
+      "name": "Pedro Gabriel",
+      "team": "Grêmio",
+      "position": "Lateral Esq.",
+      "age": 19,
+      "value": 2000000
+    },
+    {
+      "name": "Neto Moura",
+      "team": "Mirassol",
+      "position": "Vol. Defensivo",
+      "age": 29,
+      "value": 2000000
+    },
+    {
+      "name": "Diego Rosa",
+      "team": "Internacional",
+      "position": "Vol. Defensivo",
+      "age": 23,
+      "value": 2000000
+    },
+    {
+      "name": "Diego Tarzia",
+      "team": "Vitória",
+      "position": "Ponta Esq.",
+      "age": 23,
+      "value": 2000000
+    },
+    {
+      "name": "Zé Ivaldo",
+      "team": "Santos",
+      "position": "Zagueiro",
+      "age": 29,
+      "value": 2000000
+    },
+    {
+      "name": "Ronaldo",
+      "team": "Bahia",
+      "position": "Goleiro",
+      "age": 29,
+      "value": 2000000
+    },
+    {
+      "name": "João Cruz",
+      "team": "Athletico Paranaense",
+      "position": "Meia Central",
+      "age": 20,
+      "value": 2000000
+    },
+    {
+      "name": "Kadir Barría",
+      "team": "Botafogo",
+      "position": "Centroavante",
+      "age": 18,
+      "value": 2000000
+    },
+    {
+      "name": "Ramon",
+      "team": "Vitória",
+      "position": "Lateral Esq.",
+      "age": 25,
+      "value": 2000000
+    },
+    {
+      "name": "Riquelme",
+      "team": "Grêmio",
+      "position": "Meia Atac.",
+      "age": 19,
+      "value": 2000000
+    },
+    {
+      "name": "Fernando",
+      "team": "Internacional",
+      "position": "Vol. Defensivo",
+      "age": 38,
+      "value": 2000000
     },
     {
       "name": "Wendel",
@@ -872,24 +2125,45 @@
       "value": 2000000
     },
     {
-      "name": "Fernando",
-      "team": "Internacional",
-      "position": "Vol. Defensivo",
-      "age": 38,
+      "name": "Danilo",
+      "team": "Flamengo",
+      "position": "Zagueiro",
+      "age": 34,
       "value": 2000000
     },
     {
-      "name": "Diego Rosa",
-      "team": "Internacional",
+      "name": "Camilo",
+      "team": "Chapecoense",
       "position": "Vol. Defensivo",
+      "age": 27,
+      "value": 2000000
+    },
+    {
+      "name": "Alan Patrick",
+      "team": "Internacional",
+      "position": "Meia Atac.",
+      "age": 35,
+      "value": 2000000
+    },
+    {
+      "name": "Mateo Ponte",
+      "team": "Botafogo",
+      "position": "Lateral Dir.",
       "age": 23,
       "value": 2000000
     },
     {
-      "name": "Alexandro Bernabei",
-      "team": "Internacional",
-      "position": "Lateral Esq.",
-      "age": 25,
+      "name": "Willian Machado",
+      "team": "Mirassol",
+      "position": "Zagueiro",
+      "age": 29,
+      "value": 2000000
+    },
+    {
+      "name": "Guga",
+      "team": "Fluminense",
+      "position": "Lateral Dir.",
+      "age": 27,
       "value": 2000000
     },
     {
@@ -900,83 +2174,6 @@
       "value": 2000000
     },
     {
-      "name": "Alexis Duarte",
-      "team": "Santos",
-      "position": "Zagueiro",
-      "age": 26,
-      "value": 2000000
-    },
-    {
-      "name": "Alex Sandro",
-      "team": "Flamengo",
-      "position": "Lateral Esq.",
-      "age": 35,
-      "value": 2000000
-    },
-    {
-      "name": "Zanocelo",
-      "team": "Ceará",
-      "position": "Vol. Defensivo",
-      "age": 25,
-      "value": 2000000
-    },
-    {
-      "name": "Pablo",
-      "team": "Flamengo",
-      "position": "Zagueiro",
-      "age": 35,
-      "value": 2000000
-    },
-    {
-      "name": "André Carrillo",
-      "team": "Corinthians",
-      "position": "Meia Central",
-      "age": 35,
-      "value": 2000000
-    },
-    {
-      "name": "Nathan",
-      "team": "Grêmio",
-      "position": "Meia Atac.",
-      "age": 30,
-      "value": 2000000
-    },
-    {
-      "name": "Hulk",
-      "team": "Atlético-MG",
-      "position": "Centroavante",
-      "age": 39,
-      "value": 2000000
-    },
-    {
-      "name": "Guillermo Varela",
-      "team": "Flamengo",
-      "position": "Lateral Dir.",
-      "age": 33,
-      "value": 2000000
-    },
-    {
-      "name": "William",
-      "team": "Cruzeiro",
-      "position": "Lateral Dir.",
-      "age": 31,
-      "value": 2000000
-    },
-    {
-      "name": "Cédric Soares",
-      "team": "São Paulo",
-      "position": "Lateral Dir.",
-      "age": 34,
-      "value": 2000000
-    },
-    {
-      "name": "Nathan",
-      "team": "Internacional",
-      "position": "Lateral Dir.",
-      "age": 24,
-      "value": 2000000
-    },
-    {
       "name": "Dimitri Payet",
       "team": "Vasco da Gama",
       "position": "Meia Atac.",
@@ -984,44 +2181,30 @@
       "value": 1800000
     },
     {
-      "name": "Tchê Tchê",
-      "team": "Vasco da Gama",
+      "name": "Sebastián Gómez",
+      "team": "Coritiba",
       "position": "Meia Central",
-      "age": 33,
-      "value": 1800000
-    },
-    {
-      "name": "Kaio",
-      "team": "Botafogo",
-      "position": "Zagueiro",
       "age": 30,
-      "value": 1800000
-    },
-    {
-      "name": "Gustavo Henrique",
-      "team": "Corinthians",
-      "position": "Zagueiro",
-      "age": 33,
-      "value": 1800000
-    },
-    {
-      "name": "Bruno Fuchs",
-      "team": "Palmeiras",
-      "position": "Zagueiro",
-      "age": 27,
-      "value": 1800000
-    },
-    {
-      "name": "Edenilson",
-      "team": "Botafogo",
-      "position": "Meia Central",
-      "age": 36,
       "value": 1800000
     },
     {
       "name": "Aitor Cantalapiedra",
       "team": "Vitória",
       "position": "Meia Atac.",
+      "age": 30,
+      "value": 1800000
+    },
+    {
+      "name": "Riccieli",
+      "team": "Vitória",
+      "position": "Zagueiro",
+      "age": 27,
+      "value": 1800000
+    },
+    {
+      "name": "Kaio",
+      "team": "Botafogo",
+      "position": "Zagueiro",
       "age": 30,
       "value": 1800000
     },
@@ -1033,17 +2216,45 @@
       "value": 1800000
     },
     {
-      "name": "Ivan",
-      "team": "Remo",
+      "name": "Sergio Rochet",
+      "team": "Internacional",
       "position": "Goleiro",
-      "age": 28,
+      "age": 33,
       "value": 1800000
     },
     {
-      "name": "Jemerson",
-      "team": "Grêmio",
+      "name": "Alexis Duarte",
+      "team": "Santos",
       "position": "Zagueiro",
-      "age": 33,
+      "age": 26,
+      "value": 1800000
+    },
+    {
+      "name": "Gabriel Taliari",
+      "team": "Remo",
+      "position": "Centroavante",
+      "age": 29,
+      "value": 1800000
+    },
+    {
+      "name": "Claudinho",
+      "team": "Vitória",
+      "position": "Lateral Dir.",
+      "age": 25,
+      "value": 1700000
+    },
+    {
+      "name": "Lucas Villalba",
+      "team": "Cruzeiro",
+      "position": "Zagueiro",
+      "age": 31,
+      "value": 1700000
+    },
+    {
+      "name": "Cristian Pavón",
+      "team": "Grêmio",
+      "position": "Lateral Dir.",
+      "age": 30,
       "value": 1700000
     },
     {
@@ -1054,52 +2265,45 @@
       "value": 1700000
     },
     {
-      "name": "Renato Augusto",
-      "team": "Fluminense",
-      "position": "Meia Central",
-      "age": 38,
-      "value": 1500000
-    },
-    {
-      "name": "Vitor Bueno",
-      "team": "Remo",
-      "position": "Meia Atac.",
-      "age": 31,
-      "value": 1500000
-    },
-    {
-      "name": "André Luis",
-      "team": "Mirassol",
-      "position": "Centroavante",
-      "age": 32,
-      "value": 1500000
-    },
-    {
-      "name": "Mauricio Lemos",
-      "team": "Vasco da Gama",
+      "name": "Jemerson",
+      "team": "Grêmio",
       "position": "Zagueiro",
-      "age": 30,
-      "value": 1500000
+      "age": 33,
+      "value": 1700000
     },
     {
-      "name": "Braian Cufré",
-      "team": "Remo",
-      "position": "Lateral Esq.",
+      "name": "Bruno Tabata",
+      "team": "Internacional",
+      "position": "Ponta Dir.",
       "age": 29,
       "value": 1500000
     },
     {
-      "name": "Matheusinho",
-      "team": "Sport Recife",
-      "position": "Meia Atac.",
+      "name": "Pedro Henrique",
+      "team": "Vitória",
+      "position": "Centroavante",
+      "age": 29,
+      "value": 1500000
+    },
+    {
+      "name": "Wendell",
+      "team": "São Paulo",
+      "position": "Lateral Esq.",
+      "age": 32,
+      "value": 1500000
+    },
+    {
+      "name": "João Victor",
+      "team": "Mirassol",
+      "position": "Zagueiro",
       "age": 28,
       "value": 1500000
     },
     {
-      "name": "Hugo Souza",
-      "team": "Corinthians",
-      "position": "Goleiro",
-      "age": 27,
+      "name": "Román Gómez",
+      "team": "Bahia",
+      "position": "Lateral Dir.",
+      "age": 21,
       "value": 1500000
     },
     {
@@ -1110,38 +2314,66 @@
       "value": 1500000
     },
     {
-      "name": "Eduardo",
-      "team": "Mirassol",
-      "position": "Meia Atac.",
-      "age": 36,
+      "name": "Iván Román",
+      "team": "Atlético-MG",
+      "position": "Zagueiro",
+      "age": 19,
       "value": 1500000
     },
     {
-      "name": "Gabriel",
-      "team": "Vitória",
-      "position": "Goleiro",
+      "name": "Lautaro Díaz",
+      "team": "Santos",
+      "position": "Centroavante",
+      "age": 28,
+      "value": 1500000
+    },
+    {
+      "name": "Mauricio Lemos",
+      "team": "Vasco da Gama",
+      "position": "Zagueiro",
+      "age": 30,
+      "value": 1500000
+    },
+    {
+      "name": "Fernando",
+      "team": "Red Bull Bragantino",
+      "position": "Centroavante",
+      "age": 27,
+      "value": 1500000
+    },
+    {
+      "name": "Felipe Anderson",
+      "team": "Palmeiras",
+      "position": "Ponta Esq.",
       "age": 33,
       "value": 1500000
     },
     {
-      "name": "Matheus Fernandes",
-      "team": "Red Bull Bragantino",
-      "position": "Vol. Defensivo",
-      "age": 27,
+      "name": "Renato Augusto",
+      "team": "Fluminense",
+      "position": "Meia Central",
+      "age": 38,
       "value": 1500000
     },
     {
-      "name": "Fabián Balbuena",
-      "team": "Grêmio",
-      "position": "Zagueiro",
-      "age": 34,
+      "name": "Fernando Sobral",
+      "team": "Coritiba",
+      "position": "Meia Central",
+      "age": 31,
       "value": 1500000
     },
     {
-      "name": "Nahuel Ferraresi",
-      "team": "Botafogo",
-      "position": "Zagueiro",
-      "age": 27,
+      "name": "Jonathan Calleri",
+      "team": "São Paulo",
+      "position": "Centroavante",
+      "age": 32,
+      "value": 1500000
+    },
+    {
+      "name": "David",
+      "team": "Vasco da Gama",
+      "position": "Ponta Esq.",
+      "age": 30,
       "value": 1500000
     },
     {
@@ -1152,10 +2384,150 @@
       "value": 1500000
     },
     {
-      "name": "Vitor Hugo",
+      "name": "Gabriel Grando",
+      "team": "Grêmio",
+      "position": "Goleiro",
+      "age": 26,
+      "value": 1500000
+    },
+    {
+      "name": "David Duarte",
+      "team": "Bahia",
+      "position": "Zagueiro",
+      "age": 31,
+      "value": 1500000
+    },
+    {
+      "name": "Cacá",
+      "team": "Vitória",
+      "position": "Zagueiro",
+      "age": 27,
+      "value": 1500000
+    },
+    {
+      "name": "Patrick",
+      "team": "Atlético-MG",
+      "position": "Vol. Defensivo",
+      "age": 22,
+      "value": 1500000
+    },
+    {
+      "name": "Kayke",
+      "team": "Corinthians",
+      "position": "Ponta Esq.",
+      "age": 22,
+      "value": 1500000
+    },
+    {
+      "name": "José Aldo",
+      "team": "Mirassol",
+      "position": "Meia Central",
+      "age": 27,
+      "value": 1500000
+    },
+    {
+      "name": "Renan Peixoto",
+      "team": "Athletico Paranaense",
+      "position": "Centroavante",
+      "age": 26,
+      "value": 1500000
+    },
+    {
+      "name": "Edson Carioca",
+      "team": "Mirassol",
+      "position": "Centroavante",
+      "age": 29,
+      "value": 1500000
+    },
+    {
+      "name": "Juan Felipe Aguirre",
+      "team": "Athletico Paranaense",
+      "position": "Zagueiro",
+      "age": 29,
+      "value": 1500000
+    },
+    {
+      "name": "Nathan Mendes",
+      "team": "Vitória",
+      "position": "Lateral Dir.",
+      "age": 23,
+      "value": 1500000
+    },
+    {
+      "name": "Carlos Coronel",
+      "team": "São Paulo",
+      "position": "Goleiro",
+      "age": 29,
+      "value": 1500000
+    },
+    {
+      "name": "Tiago Cóser",
+      "team": "Coritiba",
+      "position": "Zagueiro",
+      "age": 22,
+      "value": 1500000
+    },
+    {
+      "name": "Diego Hernández",
+      "team": "Remo",
+      "position": "Ponta Esq.",
+      "age": 26,
+      "value": 1500000
+    },
+    {
+      "name": "Joaquín Correa",
+      "team": "Botafogo",
+      "position": "Segundo Atac.",
+      "age": 31,
+      "value": 1500000
+    },
+    {
+      "name": "Pedro Milans",
+      "team": "Corinthians",
+      "position": "Lateral Dir.",
+      "age": 24,
+      "value": 1500000
+    },
+    {
+      "name": "José Luis Rodríguez",
+      "team": "Vasco da Gama",
+      "position": "Lateral Dir.",
+      "age": 29,
+      "value": 1500000
+    },
+    {
+      "name": "Nathan Fogaça",
+      "team": "Mirassol",
+      "position": "Centroavante",
+      "age": 27,
+      "value": 1500000
+    },
+    {
+      "name": "Maik",
+      "team": "São Paulo",
+      "position": "Lateral Dir.",
+      "age": 21,
+      "value": 1500000
+    },
+    {
+      "name": "Zé Rafael",
+      "team": "Santos",
+      "position": "Meia Central",
+      "age": 33,
+      "value": 1500000
+    },
+    {
+      "name": "Júnior Alonso",
       "team": "Atlético-MG",
       "position": "Zagueiro",
-      "age": 35,
+      "age": 33,
+      "value": 1500000
+    },
+    {
+      "name": "João Pedro",
+      "team": "Grêmio",
+      "position": "Lateral Dir.",
+      "age": 29,
       "value": 1500000
     },
     {
@@ -1166,31 +2538,52 @@
       "value": 1500000
     },
     {
-      "name": "Wagner Leonardo",
-      "team": "Grêmio",
-      "position": "Zagueiro",
-      "age": 26,
+      "name": "João Lucas",
+      "team": "Remo",
+      "position": "Lateral Dir.",
+      "age": 28,
       "value": 1500000
     },
     {
-      "name": "Willian José",
-      "team": "Bahia",
-      "position": "Centroavante",
-      "age": 34,
-      "value": 1400000
-    },
-    {
-      "name": "Gustavo Marques",
-      "team": "Red Bull Bragantino",
-      "position": "Zagueiro",
-      "age": 24,
-      "value": 1400000
-    },
-    {
-      "name": "Luan Peres",
+      "name": "Mayke",
       "team": "Santos",
+      "position": "Lateral Dir.",
+      "age": 33,
+      "value": 1500000
+    },
+    {
+      "name": "Matheusinho",
+      "team": "Sport Recife",
+      "position": "Meia Atac.",
+      "age": 28,
+      "value": 1500000
+    },
+    {
+      "name": "Lucas Villalba",
+      "team": "Botafogo",
+      "position": "Ponta Dir.",
+      "age": 25,
+      "value": 1500000
+    },
+    {
+      "name": "Christian Oliva",
+      "team": "Santos",
+      "position": "Vol. Defensivo",
+      "age": 30,
+      "value": 1400000
+    },
+    {
+      "name": "Igor Rabello",
+      "team": "Fluminense",
       "position": "Zagueiro",
       "age": 31,
+      "value": 1400000
+    },
+    {
+      "name": "Thiago Mendes",
+      "team": "Vasco da Gama",
+      "position": "Vol. Defensivo",
+      "age": 34,
       "value": 1300000
     },
     {
@@ -1201,6 +2594,34 @@
       "value": 1300000
     },
     {
+      "name": "Luciano",
+      "team": "São Paulo",
+      "position": "Centroavante",
+      "age": 33,
+      "value": 1300000
+    },
+    {
+      "name": "Doma",
+      "team": "Chapecoense",
+      "position": "Zagueiro",
+      "age": 27,
+      "value": 1200000
+    },
+    {
+      "name": "Mateus Carvalho",
+      "team": "Vasco da Gama",
+      "position": "Vol. Defensivo",
+      "age": 24,
+      "value": 1200000
+    },
+    {
+      "name": "Ademir",
+      "team": "Bahia",
+      "position": "Ponta Dir.",
+      "age": 31,
+      "value": 1200000
+    },
+    {
       "name": "Guilherme",
       "team": "Mirassol",
       "position": "Meia Atac.",
@@ -1208,17 +2629,24 @@
       "value": 1200000
     },
     {
-      "name": "Camilo",
-      "team": "Chapecoense",
-      "position": "Vol. Defensivo",
-      "age": 27,
+      "name": "Bruno Rodrigues",
+      "team": "Cruzeiro",
+      "position": "Ponta Esq.",
+      "age": 29,
       "value": 1200000
     },
     {
-      "name": "Willian Arão",
-      "team": "Santos",
+      "name": "Isaac",
+      "team": "Athletico Paranaense",
+      "position": "Ponta Esq.",
+      "age": 22,
+      "value": 1200000
+    },
+    {
+      "name": "Otávio",
+      "team": "Fluminense",
       "position": "Vol. Defensivo",
-      "age": 34,
+      "age": 32,
       "value": 1200000
     },
     {
@@ -1229,45 +2657,24 @@
       "value": 1200000
     },
     {
-      "name": "Matheus Pereira",
-      "team": "Corinthians",
-      "position": "Meia Central",
-      "age": 28,
-      "value": 1200000
-    },
-    {
-      "name": "Neto",
-      "team": "Botafogo",
-      "position": "Goleiro",
-      "age": 36,
-      "value": 1200000
-    },
-    {
-      "name": "Vinícius",
-      "team": "Fortaleza",
-      "position": "Goleiro",
-      "age": 32,
-      "value": 1200000
-    },
-    {
-      "name": "Bastos",
-      "team": "Botafogo",
+      "name": "Alan Saldivia",
+      "team": "Vasco da Gama",
       "position": "Zagueiro",
-      "age": 35,
+      "age": 24,
       "value": 1200000
     },
     {
-      "name": "Lucas Fernandes",
-      "team": "Juventude",
-      "position": "Meia Atac.",
-      "age": 28,
+      "name": "Praxedes",
+      "team": "Red Bull Bragantino",
+      "position": "Meia Central",
+      "age": 24,
       "value": 1200000
     },
     {
-      "name": "Erick",
-      "team": "Vitória",
-      "position": "Ponta Dir.",
-      "age": 28,
+      "name": "Léo",
+      "team": "Athletico Paranaense",
+      "position": "Zagueiro",
+      "age": 30,
       "value": 1200000
     },
     {
@@ -1278,10 +2685,45 @@
       "value": 1200000
     },
     {
-      "name": "Pablo Roberto",
+      "name": "Vinícius",
       "team": "Fortaleza",
+      "position": "Goleiro",
+      "age": 32,
+      "value": 1200000
+    },
+    {
+      "name": "Willian José",
+      "team": "Bahia",
+      "position": "Centroavante",
+      "age": 34,
+      "value": 1200000
+    },
+    {
+      "name": "Lucas Fernandes",
+      "team": "Juventude",
+      "position": "Meia Atac.",
+      "age": 28,
+      "value": 1200000
+    },
+    {
+      "name": "Emmanuel Martínez",
+      "team": "Vitória",
+      "position": "Meia Atac.",
+      "age": 32,
+      "value": 1200000
+    },
+    {
+      "name": "Braian Cufré",
+      "team": "Remo",
+      "position": "Lateral Esq.",
+      "age": 29,
+      "value": 1200000
+    },
+    {
+      "name": "Danielzinho",
+      "team": "São Paulo",
       "position": "Meia Central",
-      "age": 26,
+      "age": 31,
       "value": 1000000
     },
     {
@@ -1292,59 +2734,80 @@
       "value": 1000000
     },
     {
-      "name": "Gabriel Pires",
-      "team": "Mirassol",
-      "position": "Vol. Defensivo",
+      "name": "Renê",
+      "team": "Vitória",
+      "position": "Ponta Esq.",
+      "age": 22,
+      "value": 1000000
+    },
+    {
+      "name": "Ivan",
+      "team": "Remo",
+      "position": "Goleiro",
+      "age": 28,
+      "value": 1000000
+    },
+    {
+      "name": "Jádson",
+      "team": "Athletico Paranaense",
+      "position": "Meia Central",
       "age": 32,
       "value": 1000000
     },
     {
-      "name": "Charles",
-      "team": "Corinthians",
-      "position": "Vol. Defensivo",
+      "name": "Renato Kayzer",
+      "team": "Vitória",
+      "position": "Centroavante",
       "age": 30,
       "value": 1000000
     },
     {
-      "name": "Dalbert",
-      "team": "Sport Recife",
-      "position": "Lateral Esq.",
-      "age": 32,
+      "name": "Fabinho",
+      "team": "Coritiba",
+      "position": "Ponta Dir.",
+      "age": 26,
       "value": 1000000
     },
     {
-      "name": "Juninho",
+      "name": "Raykkonen",
       "team": "Internacional",
-      "position": "Zagueiro",
-      "age": 31,
+      "position": "Centroavante",
+      "age": 17,
       "value": 1000000
     },
     {
-      "name": "Helton Leite",
-      "team": "Fortaleza",
+      "name": "Matheus Donelli",
+      "team": "Corinthians",
       "position": "Goleiro",
-      "age": 35,
+      "age": 24,
       "value": 1000000
     },
     {
-      "name": "Stiven Mendoza",
-      "team": "Athletico Paranaense",
-      "position": "Ponta Esq.",
-      "age": 33,
-      "value": 1000000
-    },
-    {
-      "name": "Bruninho",
-      "team": "Red Bull Bragantino",
+      "name": "Everton Ribeiro",
+      "team": "Bahia",
       "position": "Meia Atac.",
-      "age": 23,
+      "age": 37,
       "value": 1000000
     },
     {
-      "name": "Jamerson",
-      "team": "Vitória",
-      "position": "Lateral Esq.",
-      "age": 27,
+      "name": "Sabino",
+      "team": "São Paulo",
+      "position": "Zagueiro",
+      "age": 29,
+      "value": 1000000
+    },
+    {
+      "name": "Everton Galdino",
+      "team": "Mirassol",
+      "position": "Ponta Dir.",
+      "age": 29,
+      "value": 1000000
+    },
+    {
+      "name": "Felipe Negrucci",
+      "team": "São Paulo",
+      "position": "Vol. Defensivo",
+      "age": 22,
       "value": 1000000
     },
     {
@@ -1355,59 +2818,290 @@
       "value": 1000000
     },
     {
-      "name": "Marçal",
-      "team": "Botafogo",
-      "position": "Lateral Esq.",
-      "age": 37,
+      "name": "Tetê",
+      "team": "São Paulo",
+      "position": "Ponta Esq.",
+      "age": 19,
       "value": 1000000
     },
     {
-      "name": "Fabrizio Angileri",
-      "team": "Corinthians",
-      "position": "Lateral Esq.",
-      "age": 32,
-      "value": 1000000
-    },
-    {
-      "name": "Richard",
-      "team": "Internacional",
+      "name": "Vini Paulista",
+      "team": "Coritiba",
       "position": "Vol. Defensivo",
-      "age": 32,
-      "value": 950000
+      "age": 25,
+      "value": 1000000
     },
     {
-      "name": "Fagner",
+      "name": "Chico da Costa",
       "team": "Cruzeiro",
-      "position": "Lateral Dir.",
-      "age": 37,
-      "value": 900000
+      "position": "Centroavante",
+      "age": 31,
+      "value": 1000000
     },
     {
-      "name": "João Pedro",
-      "team": "Grêmio",
-      "position": "Lateral Dir.",
+      "name": "Lucas Oliveira",
+      "team": "Mirassol",
+      "position": "Zagueiro",
+      "age": 30,
+      "value": 1000000
+    },
+    {
+      "name": "Zé Welison",
+      "team": "Remo",
+      "position": "Vol. Defensivo",
+      "age": 31,
+      "value": 1000000
+    },
+    {
+      "name": "Félix Torres",
+      "team": "Internacional",
+      "position": "Zagueiro",
       "age": 29,
-      "value": 900000
+      "value": 1000000
     },
     {
-      "name": "Jádson",
+      "name": "Italo Vargas",
+      "team": "Chapecoense",
+      "position": "Ponta Esq.",
+      "age": 23,
+      "value": 1000000
+    },
+    {
+      "name": "Hugo Moura",
+      "team": "Vasco da Gama",
+      "position": "Vol. Defensivo",
+      "age": 28,
+      "value": 1000000
+    },
+    {
+      "name": "Felipinho",
       "team": "Athletico Paranaense",
       "position": "Meia Central",
-      "age": 32,
-      "value": 900000
+      "age": 24,
+      "value": 1000000
     },
     {
-      "name": "Pedro Henrique",
-      "team": "Vitória",
+      "name": "Renato Marques",
+      "team": "Coritiba",
+      "position": "Centroavante",
+      "age": 22,
+      "value": 1000000
+    },
+    {
+      "name": "Matheus Dória",
+      "team": "São Paulo",
+      "position": "Zagueiro",
+      "age": 31,
+      "value": 1000000
+    },
+    {
+      "name": "Riquelme Fillipi",
+      "team": "Palmeiras",
+      "position": "Ponta Esq.",
+      "age": 19,
+      "value": 1000000
+    },
+    {
+      "name": "Matheus Fernandes",
+      "team": "Red Bull Bragantino",
+      "position": "Vol. Defensivo",
+      "age": 27,
+      "value": 1000000
+    },
+    {
+      "name": "Saúl Ñíguez",
+      "team": "Flamengo",
+      "position": "Meia Central",
+      "age": 31,
+      "value": 1000000
+    },
+    {
+      "name": "André Luis",
+      "team": "Mirassol",
+      "position": "Centroavante",
+      "age": 32,
+      "value": 1000000
+    },
+    {
+      "name": "Erick Belé",
+      "team": "Palmeiras",
+      "position": "Meia Atac.",
+      "age": 19,
+      "value": 1000000
+    },
+    {
+      "name": "Luan",
+      "team": "São Paulo",
+      "position": "Vol. Defensivo",
+      "age": 27,
+      "value": 1000000
+    },
+    {
+      "name": "Mamady Cissé",
+      "team": "Atlético-MG",
+      "position": "Meia Central",
+      "age": 18,
+      "value": 1000000
+    },
+    {
+      "name": "Lucas Freitas",
+      "team": "Vasco da Gama",
+      "position": "Zagueiro",
+      "age": 25,
+      "value": 1000000
+    },
+    {
+      "name": "Martin Braithwaite",
+      "team": "Grêmio",
+      "position": "Centroavante",
+      "age": 35,
+      "value": 1000000
+    },
+    {
+      "name": "David Terans",
+      "team": "Fluminense",
+      "position": "Meia Atac.",
+      "age": 31,
+      "value": 1000000
+    },
+    {
+      "name": "Shaylon",
+      "team": "Mirassol",
+      "position": "Meia Atac.",
+      "age": 29,
+      "value": 1000000
+    },
+    {
+      "name": "Helton Leite",
+      "team": "Fortaleza",
+      "position": "Goleiro",
+      "age": 35,
+      "value": 1000000
+    },
+    {
+      "name": "Pedro Rangel",
+      "team": "Coritiba",
+      "position": "Goleiro",
+      "age": 25,
+      "value": 1000000
+    },
+    {
+      "name": "Allex",
+      "team": "Internacional",
+      "position": "Meia Atac.",
+      "age": 20,
+      "value": 1000000
+    },
+    {
+      "name": "João Moreira",
+      "team": "São Paulo",
+      "position": "Lateral Dir.",
+      "age": 22,
+      "value": 1000000
+    },
+    {
+      "name": "Alex Santana",
+      "team": "Corinthians",
+      "position": "Meia Central",
+      "age": 31,
+      "value": 1000000
+    },
+    {
+      "name": "Allan",
+      "team": "Botafogo",
+      "position": "Vol. Defensivo",
+      "age": 35,
+      "value": 1000000
+    },
+    {
+      "name": "Alex Sandro",
+      "team": "Flamengo",
+      "position": "Lateral Esq.",
+      "age": 35,
+      "value": 1000000
+    },
+    {
+      "name": "Japa",
+      "team": "Cruzeiro",
+      "position": "Meia Central",
+      "age": 22,
+      "value": 1000000
+    },
+    {
+      "name": "Bruninho",
+      "team": "Red Bull Bragantino",
+      "position": "Meia Atac.",
+      "age": 23,
+      "value": 1000000
+    },
+    {
+      "name": "Pablo Roberto",
+      "team": "Fortaleza",
+      "position": "Meia Central",
+      "age": 26,
+      "value": 1000000
+    },
+    {
+      "name": "Vitor Bueno",
+      "team": "Remo",
+      "position": "Meia Atac.",
+      "age": 31,
+      "value": 1000000
+    },
+    {
+      "name": "Wallace Davi",
+      "team": "Botafogo",
+      "position": "Vol. Defensivo",
+      "age": 19,
+      "value": 1000000
+    },
+    {
+      "name": "Thaciano",
+      "team": "Santos",
+      "position": "Meia Atac.",
+      "age": 31,
+      "value": 1000000
+    },
+    {
+      "name": "Robert Santos",
+      "team": "Chapecoense",
+      "position": "Meia Atac.",
+      "age": 22,
+      "value": 1000000
+    },
+    {
+      "name": "Hulk",
+      "team": "Atlético-MG",
+      "position": "Centroavante",
+      "age": 39,
+      "value": 1000000
+    },
+    {
+      "name": "Ryan Augusto",
+      "team": "Red Bull Bragantino",
+      "position": "Lateral Dir.",
+      "age": 18,
+      "value": 1000000
+    },
+    {
+      "name": "Guillermo Varela",
+      "team": "Flamengo",
+      "position": "Lateral Dir.",
+      "age": 33,
+      "value": 1000000
+    },
+    {
+      "name": "Dalbert",
+      "team": "Sport Recife",
+      "position": "Lateral Esq.",
+      "age": 32,
+      "value": 1000000
+    },
+    {
+      "name": "Carlinhos",
+      "team": "Remo",
       "position": "Centroavante",
       "age": 29,
-      "value": 900000
-    },
-    {
-      "name": "Ricardo Ryller",
-      "team": "Vitória",
-      "position": "Vol. Defensivo",
-      "age": 32,
       "value": 900000
     },
     {
@@ -1418,31 +3112,234 @@
       "value": 900000
     },
     {
-      "name": "Carlos Eduardo",
-      "team": "Mirassol",
-      "position": "Ponta Dir.",
+      "name": "Matheus Alexandre",
+      "team": "Remo",
+      "position": "Lateral Dir.",
+      "age": 27,
+      "value": 900000
+    },
+    {
+      "name": "Tiago Volpi",
+      "team": "Red Bull Bragantino",
+      "position": "Goleiro",
+      "age": 35,
+      "value": 900000
+    },
+    {
+      "name": "Ricardo Ryller",
+      "team": "Vitória",
+      "position": "Vol. Defensivo",
+      "age": 32,
+      "value": 900000
+    },
+    {
+      "name": "Neto",
+      "team": "Botafogo",
+      "position": "Goleiro",
+      "age": 36,
+      "value": 900000
+    },
+    {
+      "name": "Fabián Balbuena",
+      "team": "Grêmio",
+      "position": "Zagueiro",
+      "age": 34,
+      "value": 900000
+    },
+    {
+      "name": "Fabri",
+      "team": "Vitória",
+      "position": "Centroavante",
+      "age": 25,
+      "value": 900000
+    },
+    {
+      "name": "Gabriel",
+      "team": "Red Bull Bragantino",
+      "position": "Vol. Defensivo",
+      "age": 33,
+      "value": 900000
+    },
+    {
+      "name": "Lucas Braga",
+      "team": "Vitória",
+      "position": "Ponta Esq.",
       "age": 29,
       "value": 900000
     },
     {
-      "name": "Tomás Rincón",
-      "team": "Santos",
+      "name": "Charles",
+      "team": "Corinthians",
       "position": "Vol. Defensivo",
-      "age": 38,
+      "age": 30,
+      "value": 900000
+    },
+    {
+      "name": "Wallisson",
+      "team": "Coritiba",
+      "position": "Vol. Defensivo",
+      "age": 28,
+      "value": 900000
+    },
+    {
+      "name": "João Vitor",
+      "team": "Chapecoense",
+      "position": "Meia Central",
+      "age": 28,
+      "value": 900000
+    },
+    {
+      "name": "Everson",
+      "team": "Atlético-MG",
+      "position": "Goleiro",
+      "age": 35,
+      "value": 900000
+    },
+    {
+      "name": "Jamerson",
+      "team": "Vitória",
+      "position": "Lateral Esq.",
+      "age": 27,
       "value": 800000
     },
     {
-      "name": "Thaciano",
+      "name": "João Souza",
+      "team": "Flamengo",
+      "position": "Zagueiro",
+      "age": 19,
+      "value": 800000
+    },
+    {
+      "name": "Gonzalo Escobar",
       "team": "Santos",
-      "position": "Meia Atac.",
+      "position": "Lateral Esq.",
+      "age": 29,
+      "value": 800000
+    },
+    {
+      "name": "Alisson",
+      "team": "Fluminense",
+      "position": "Meia Central",
+      "age": 32,
+      "value": 800000
+    },
+    {
+      "name": "Willian Arão",
+      "team": "Santos",
+      "position": "Vol. Defensivo",
+      "age": 34,
+      "value": 800000
+    },
+    {
+      "name": "André Carrillo",
+      "team": "Corinthians",
+      "position": "Meia Central",
+      "age": 35,
+      "value": 800000
+    },
+    {
+      "name": "Rafael Tolói",
+      "team": "São Paulo",
+      "position": "Zagueiro",
+      "age": 35,
+      "value": 800000
+    },
+    {
+      "name": "Tchê Tchê",
+      "team": "Vasco da Gama",
+      "position": "Meia Central",
+      "age": 33,
+      "value": 800000
+    },
+    {
+      "name": "João Pedro",
+      "team": "Remo",
+      "position": "Centroavante",
+      "age": 29,
+      "value": 800000
+    },
+    {
+      "name": "Edu Ribeiro",
+      "team": "Vitória",
+      "position": "Zagueiro",
+      "age": 26,
+      "value": 800000
+    },
+    {
+      "name": "Jair",
+      "team": "Vasco da Gama",
+      "position": "Vol. Defensivo",
       "age": 31,
       "value": 800000
     },
     {
-      "name": "Panagiotis Tachtsidis",
+      "name": "Matheus Belém",
+      "team": "São Paulo",
+      "position": "Zagueiro",
+      "age": 23,
+      "value": 800000
+    },
+    {
+      "name": "Eduardo Sasha",
+      "team": "Red Bull Bragantino",
+      "position": "Centroavante",
+      "age": 34,
+      "value": 800000
+    },
+    {
+      "name": "Jajá",
       "team": "Remo",
+      "position": "Ponta Esq.",
+      "age": 27,
+      "value": 800000
+    },
+    {
+      "name": "Vitinho",
+      "team": "Corinthians",
+      "position": "Ponta Esq.",
+      "age": 32,
+      "value": 800000
+    },
+    {
+      "name": "Kayky Almeida",
+      "team": "Remo",
+      "position": "Zagueiro",
+      "age": 21,
+      "value": 800000
+    },
+    {
+      "name": "Higor Meritão",
+      "team": "Chapecoense",
       "position": "Vol. Defensivo",
-      "age": 35,
+      "age": 32,
+      "value": 800000
+    },
+    {
+      "name": "Maurício Garcez",
+      "team": "Chapecoense",
+      "position": "Ponta Esq.",
+      "age": 29,
+      "value": 800000
+    },
+    {
+      "name": "Dudu",
+      "team": "Atlético-MG",
+      "position": "Ponta Esq.",
+      "age": 34,
+      "value": 800000
+    },
+    {
+      "name": "Ênio",
+      "team": "Chapecoense",
+      "position": "Ponta Esq.",
+      "age": 25,
+      "value": 800000
+    },
+    {
+      "name": "Tchamba",
+      "team": "Remo",
+      "position": "Zagueiro",
+      "age": 27,
       "value": 800000
     },
     {
@@ -1453,31 +3350,38 @@
       "value": 800000
     },
     {
-      "name": "Josué",
-      "team": "Coritiba",
-      "position": "Meia Atac.",
+      "name": "André Ramalho",
+      "team": "Corinthians",
+      "position": "Zagueiro",
+      "age": 34,
+      "value": 800000
+    },
+    {
+      "name": "Tiquinho Soares",
+      "team": "Mirassol",
+      "position": "Centroavante",
       "age": 35,
       "value": 800000
     },
     {
-      "name": "Lucas Silva",
-      "team": "Cruzeiro",
-      "position": "Vol. Defensivo",
-      "age": 33,
+      "name": "Mateus Silva",
+      "team": "Vitória",
+      "position": "Lateral Dir.",
+      "age": 27,
       "value": 800000
     },
     {
-      "name": "João Schmidt",
-      "team": "Santos",
-      "position": "Vol. Defensivo",
-      "age": 33,
-      "value": 800000
+      "name": "Leozinho",
+      "team": "Athletico Paranaense",
+      "position": "Ponta Dir.",
+      "age": 27,
+      "value": 750000
     },
     {
-      "name": "Lucas Sasha",
-      "team": "Fortaleza",
-      "position": "Vol. Defensivo",
-      "age": 36,
+      "name": "Eduardo",
+      "team": "Red Bull Bragantino",
+      "position": "Zagueiro",
+      "age": 28,
       "value": 750000
     },
     {
@@ -1488,87 +3392,59 @@
       "value": 750000
     },
     {
-      "name": "Christian Oliva",
+      "name": "Jáderson",
+      "team": "Remo",
+      "position": "Ponta Esq.",
+      "age": 25,
+      "value": 750000
+    },
+    {
+      "name": "Bruno Henrique",
+      "team": "Flamengo",
+      "position": "Centroavante",
+      "age": 35,
+      "value": 750000
+    },
+    {
+      "name": "Lucas Sasha",
+      "team": "Fortaleza",
+      "position": "Vol. Defensivo",
+      "age": 36,
+      "value": 750000
+    },
+    {
+      "name": "João Schmidt",
       "team": "Santos",
       "position": "Vol. Defensivo",
-      "age": 30,
-      "value": 750000
+      "age": 33,
+      "value": 700000
+    },
+    {
+      "name": "Gustavo Henrique",
+      "team": "Corinthians",
+      "position": "Zagueiro",
+      "age": 33,
+      "value": 700000
+    },
+    {
+      "name": "Luan Peres",
+      "team": "Santos",
+      "position": "Zagueiro",
+      "age": 31,
+      "value": 700000
+    },
+    {
+      "name": "Rodrigues",
+      "team": "Mirassol",
+      "position": "Zagueiro",
+      "age": 28,
+      "value": 700000
     },
     {
       "name": "Iury Castilho",
       "team": "Mirassol",
       "position": "Centroavante",
       "age": 30,
-      "value": 700000
-    },
-    {
-      "name": "Gilberto",
-      "team": "Juventude",
-      "position": "Centroavante",
-      "age": 37,
-      "value": 700000
-    },
-    {
-      "name": "Vitor Pernambuco",
-      "team": "Juventude",
-      "position": "Ponta Dir.",
-      "age": 28,
-      "value": 700000
-    },
-    {
-      "name": "Ganso",
-      "team": "Fluminense",
-      "position": "Meia Atac.",
-      "age": 36,
-      "value": 700000
-    },
-    {
-      "name": "Bruno Henrique",
-      "team": "Internacional",
-      "position": "Meia Central",
-      "age": 36,
-      "value": 700000
-    },
-    {
-      "name": "Neris",
-      "team": "Vitória",
-      "position": "Zagueiro",
-      "age": 34,
-      "value": 700000
-    },
-    {
-      "name": "Gabriel Paulista",
-      "team": "Corinthians",
-      "position": "Zagueiro",
-      "age": 35,
-      "value": 700000
-    },
-    {
-      "name": "Zakaria Labyad",
-      "team": "Corinthians",
-      "position": "Meia Atac.",
-      "age": 33,
-      "value": 700000
-    },
-    {
-      "name": "Jandrei",
-      "team": "São Paulo",
-      "position": "Goleiro",
-      "age": 33,
-      "value": 700000
-    },
-    {
-      "name": "Rafael Ramos",
-      "team": "Ceará",
-      "position": "Lateral Dir.",
-      "age": 31,
-      "value": 700000
-    },
-    {
-      "name": "João Marcelo",
-      "team": "Cruzeiro",
-      "position": "Zagueiro",
-      "age": 26,
       "value": 700000
     },
     {
@@ -1579,6 +3455,139 @@
       "value": 700000
     },
     {
+      "name": "Alejandro García",
+      "team": "Athletico Paranaense",
+      "position": "Meia Central",
+      "age": 25,
+      "value": 700000
+    },
+    {
+      "name": "Clayton",
+      "team": "Internacional",
+      "position": "Zagueiro",
+      "age": 26,
+      "value": 700000
+    },
+    {
+      "name": "Dodi",
+      "team": "Grêmio",
+      "position": "Vol. Defensivo",
+      "age": 30,
+      "value": 700000
+    },
+    {
+      "name": "Victor Caetano",
+      "team": "Chapecoense",
+      "position": "Zagueiro",
+      "age": 28,
+      "value": 700000
+    },
+    {
+      "name": "Gilberto",
+      "team": "Juventude",
+      "position": "Centroavante",
+      "age": 37,
+      "value": 700000
+    },
+    {
+      "name": "Ronald",
+      "team": "Vitória",
+      "position": "Vol. Defensivo",
+      "age": 29,
+      "value": 700000
+    },
+    {
+      "name": "Lucas Ramon",
+      "team": "São Paulo",
+      "position": "Lateral Dir.",
+      "age": 32,
+      "value": 700000
+    },
+    {
+      "name": "Juninho",
+      "team": "Internacional",
+      "position": "Zagueiro",
+      "age": 31,
+      "value": 700000
+    },
+    {
+      "name": "Vitor Pernambuco",
+      "team": "Juventude",
+      "position": "Ponta Dir.",
+      "age": 28,
+      "value": 700000
+    },
+    {
+      "name": "Hugo",
+      "team": "Corinthians",
+      "position": "Lateral Esq.",
+      "age": 28,
+      "value": 700000
+    },
+    {
+      "name": "Dudu",
+      "team": "Athletico Paranaense",
+      "position": "Lateral Dir.",
+      "age": 29,
+      "value": 700000
+    },
+    {
+      "name": "Weverton",
+      "team": "Grêmio",
+      "position": "Goleiro",
+      "age": 38,
+      "value": 700000
+    },
+    {
+      "name": "Lucas Silva",
+      "team": "Vitória",
+      "position": "Ponta Dir.",
+      "age": 26,
+      "value": 700000
+    },
+    {
+      "name": "Rafael Ramos",
+      "team": "Ceará",
+      "position": "Lateral Dir.",
+      "age": 31,
+      "value": 700000
+    },
+    {
+      "name": "João Paulo",
+      "team": "Chapecoense",
+      "position": "Zagueiro",
+      "age": 28,
+      "value": 700000
+    },
+    {
+      "name": "Jandrei",
+      "team": "São Paulo",
+      "position": "Goleiro",
+      "age": 33,
+      "value": 700000
+    },
+    {
+      "name": "Renzo López",
+      "team": "Vitória",
+      "position": "Centroavante",
+      "age": 32,
+      "value": 650000
+    },
+    {
+      "name": "David Braga",
+      "team": "Remo",
+      "position": "Vol. Defensivo",
+      "age": 24,
+      "value": 650000
+    },
+    {
+      "name": "Marcinho",
+      "team": "Chapecoense",
+      "position": "Ponta Dir.",
+      "age": 31,
+      "value": 650000
+    },
+    {
       "name": "Cauã Paixão",
       "team": "Vasco da Gama",
       "position": "Centroavante",
@@ -1586,17 +3595,87 @@
       "value": 600000
     },
     {
-      "name": "Alex",
-      "team": "Santos",
+      "name": "Stiven Mendoza",
+      "team": "Athletico Paranaense",
+      "position": "Ponta Esq.",
+      "age": 33,
+      "value": 600000
+    },
+    {
+      "name": "Bastos",
+      "team": "Botafogo",
       "position": "Zagueiro",
+      "age": 35,
+      "value": 600000
+    },
+    {
+      "name": "Eduardo",
+      "team": "Mirassol",
+      "position": "Meia Atac.",
+      "age": 36,
+      "value": 600000
+    },
+    {
+      "name": "Marcelinho",
+      "team": "Remo",
+      "position": "Lateral Dir.",
       "age": 27,
       "value": 600000
     },
     {
-      "name": "André Dhominique",
-      "team": "Bahia",
-      "position": "Lateral Dir.",
-      "age": 22,
+      "name": "Nicolás Ferreira",
+      "team": "Remo",
+      "position": "Ponta Esq.",
+      "age": 24,
+      "value": 600000
+    },
+    {
+      "name": "Gabriel Novaes",
+      "team": "Red Bull Bragantino",
+      "position": "Centroavante",
+      "age": 27,
+      "value": 600000
+    },
+    {
+      "name": "Pedro Cobra",
+      "team": "Atlético-MG",
+      "position": "Goleiro",
+      "age": 20,
+      "value": 600000
+    },
+    {
+      "name": "Rafael Monti",
+      "team": "Remo",
+      "position": "Centroavante",
+      "age": 26,
+      "value": 600000
+    },
+    {
+      "name": "Bernard",
+      "team": "Atlético-MG",
+      "position": "Ponta Esq.",
+      "age": 33,
+      "value": 600000
+    },
+    {
+      "name": "Dudu",
+      "team": "Vitória",
+      "position": "Vol. Defensivo",
+      "age": 27,
+      "value": 600000
+    },
+    {
+      "name": "Yago Pikachu",
+      "team": "Remo",
+      "position": "Ponta Dir.",
+      "age": 34,
+      "value": 600000
+    },
+    {
+      "name": "Patrick",
+      "team": "Remo",
+      "position": "Meia Central",
+      "age": 33,
       "value": 600000
     },
     {
@@ -1608,30 +3687,37 @@
     },
     {
       "name": "Luiz Gustavo",
-      "team": "Athletico Paranaense",
-      "position": "Vol. Defensivo",
-      "age": 38,
-      "value": 500000
+      "team": "Bahia",
+      "position": "Zagueiro",
+      "age": 20,
+      "value": 600000
     },
     {
-      "name": "Diego Gonçalves",
-      "team": "Mirassol",
+      "name": "Alef Manga",
+      "team": "Remo",
       "position": "Ponta Esq.",
       "age": 31,
+      "value": 600000
+    },
+    {
+      "name": "André Dhominique",
+      "team": "Bahia",
+      "position": "Lateral Dir.",
+      "age": 22,
+      "value": 600000
+    },
+    {
+      "name": "Carlos Eduardo",
+      "team": "Mirassol",
+      "position": "Ponta Dir.",
+      "age": 29,
       "value": 500000
     },
     {
-      "name": "Willian",
-      "team": "Grêmio",
-      "position": "Ponta Esq.",
-      "age": 37,
-      "value": 500000
-    },
-    {
-      "name": "Tchamba",
-      "team": "Remo",
-      "position": "Zagueiro",
-      "age": 27,
+      "name": "Felipe Longo",
+      "team": "Corinthians",
+      "position": "Goleiro",
+      "age": 21,
       "value": 500000
     },
     {
@@ -1642,24 +3728,45 @@
       "value": 500000
     },
     {
-      "name": "Kike Saverio",
+      "name": "Zé Vitor",
       "team": "Vitória",
-      "position": "Ponta Esq.",
-      "age": 27,
+      "position": "Meia Central",
+      "age": 26,
       "value": 500000
     },
     {
-      "name": "Wallisson",
-      "team": "Coritiba",
+      "name": "Gustavinho",
+      "team": "Santos",
       "position": "Vol. Defensivo",
-      "age": 28,
+      "age": 21,
       "value": 500000
     },
     {
-      "name": "Philipe Sampaio",
-      "team": "Botafogo",
-      "position": "Zagueiro",
+      "name": "Kauã Pascini",
+      "team": "Atlético-MG",
+      "position": "Lateral Esq.",
+      "age": 18,
+      "value": 500000
+    },
+    {
+      "name": "Diego Gonçalves",
+      "team": "Mirassol",
+      "position": "Ponta Esq.",
       "age": 31,
+      "value": 500000
+    },
+    {
+      "name": "Mancha",
+      "team": "Chapecoense",
+      "position": "Lateral Esq.",
+      "age": 25,
+      "value": 500000
+    },
+    {
+      "name": "Vitor Hugo",
+      "team": "Atlético-MG",
+      "position": "Zagueiro",
+      "age": 35,
       "value": 500000
     },
     {
@@ -1670,10 +3777,87 @@
       "value": 500000
     },
     {
-      "name": "Rodrigo Moledo",
+      "name": "Zé Ricardo",
+      "team": "Remo",
+      "position": "Vol. Defensivo",
+      "age": 27,
+      "value": 500000
+    },
+    {
+      "name": "Djhordney",
+      "team": "São Paulo",
+      "position": "Meia Central",
+      "age": 19,
+      "value": 500000
+    },
+    {
+      "name": "Caíque Gonçalves",
+      "team": "Vitória",
+      "position": "Vol. Defensivo",
+      "age": 30,
+      "value": 500000
+    },
+    {
+      "name": "Rodrigo Rodrigues",
       "team": "Coritiba",
+      "position": "Centroavante",
+      "age": 30,
+      "value": 500000
+    },
+    {
+      "name": "Cauê Nascimento",
+      "team": "Red Bull Bragantino",
+      "position": "Lateral Esq.",
+      "age": 19,
+      "value": 500000
+    },
+    {
+      "name": "Yuri Lara",
+      "team": "Mirassol",
+      "position": "Vol. Defensivo",
+      "age": 32,
+      "value": 500000
+    },
+    {
+      "name": "Walter Clar",
+      "team": "Chapecoense",
+      "position": "Lateral Esq.",
+      "age": 31,
+      "value": 500000
+    },
+    {
+      "name": "Mayk",
+      "team": "Remo",
+      "position": "Lateral Esq.",
+      "age": 26,
+      "value": 500000
+    },
+    {
+      "name": "Cédric Soares",
+      "team": "São Paulo",
+      "position": "Lateral Dir.",
+      "age": 34,
+      "value": 500000
+    },
+    {
+      "name": "Keiller",
+      "team": "Coritiba",
+      "position": "Goleiro",
+      "age": 29,
+      "value": 500000
+    },
+    {
+      "name": "João Ananias",
+      "team": "Santos",
       "position": "Zagueiro",
-      "age": 38,
+      "age": 19,
+      "value": 500000
+    },
+    {
+      "name": "Richard",
+      "team": "Internacional",
+      "position": "Vol. Defensivo",
+      "age": 32,
       "value": 500000
     },
     {
@@ -1684,17 +3868,108 @@
       "value": 500000
     },
     {
-      "name": "João Pedro",
+      "name": "Gustavo",
+      "team": "Coritiba",
+      "position": "Meia Atac.",
+      "age": 23,
+      "value": 500000
+    },
+    {
+      "name": "Otávio Costa",
+      "team": "Cruzeiro",
+      "position": "Goleiro",
+      "age": 20,
+      "value": 500000
+    },
+    {
+      "name": "Luis Pacheco",
+      "team": "Palmeiras",
+      "position": "Vol. Defensivo",
+      "age": 18,
+      "value": 500000
+    },
+    {
+      "name": "Murilo Rhikman",
+      "team": "Cruzeiro",
+      "position": "Vol. Defensivo",
+      "age": 20,
+      "value": 500000
+    },
+    {
+      "name": "Gabriel Poveda",
       "team": "Remo",
       "position": "Centroavante",
-      "age": 29,
+      "age": 27,
+      "value": 500000
+    },
+    {
+      "name": "Philipe Sampaio",
+      "team": "Botafogo",
+      "position": "Zagueiro",
+      "age": 31,
+      "value": 500000
+    },
+    {
+      "name": "Yago Noal",
+      "team": "Internacional",
+      "position": "Meia Atac.",
+      "age": 19,
+      "value": 500000
+    },
+    {
+      "name": "Germán Cano",
+      "team": "Fluminense",
+      "position": "Centroavante",
+      "age": 38,
+      "value": 500000
+    },
+    {
+      "name": "Tiaguinho",
+      "team": "Grêmio",
+      "position": "Meia Central",
+      "age": 18,
+      "value": 500000
+    },
+    {
+      "name": "Gabriel Paulista",
+      "team": "Corinthians",
+      "position": "Zagueiro",
+      "age": 35,
+      "value": 500000
+    },
+    {
+      "name": "Bruno Matias",
+      "team": "Chapecoense",
+      "position": "Meia Central",
+      "age": 27,
+      "value": 500000
+    },
+    {
+      "name": "Cauã Soares",
+      "team": "Atlético-MG",
+      "position": "Segundo Atac.",
+      "age": 17,
+      "value": 500000
+    },
+    {
+      "name": "Anderson",
+      "team": "Chapecoense",
+      "position": "Goleiro",
+      "age": 28,
       "value": 450000
     },
     {
-      "name": "Lucas Freitas",
-      "team": "Vasco da Gama",
-      "position": "Zagueiro",
-      "age": 25,
+      "name": "Tinga",
+      "team": "Coritiba",
+      "position": "Lateral Dir.",
+      "age": 32,
+      "value": 450000
+    },
+    {
+      "name": "Kike Saverio",
+      "team": "Vitória",
+      "position": "Ponta Esq.",
+      "age": 27,
       "value": 450000
     },
     {
@@ -1706,44 +3981,86 @@
     },
     {
       "name": "Lucas Silva",
-      "team": "Vitória",
-      "position": "Ponta Dir.",
-      "age": 26,
+      "team": "Cruzeiro",
+      "position": "Vol. Defensivo",
+      "age": 33,
       "value": 450000
     },
     {
-      "name": "Gabriel Brazão",
-      "team": "Santos",
+      "name": "Gabriel",
+      "team": "Vitória",
       "position": "Goleiro",
-      "age": 25,
-      "value": 400000
+      "age": 33,
+      "value": 450000
     },
     {
-      "name": "Igor Formiga",
-      "team": "Mirassol",
-      "position": "Lateral Dir.",
-      "age": 27,
-      "value": 400000
-    },
-    {
-      "name": "Ryan Carlos",
+      "name": "Marcos Victor",
       "team": "Bahia",
+      "position": "Zagueiro",
+      "age": 24,
+      "value": 450000
+    },
+    {
+      "name": "Marcos Vinícius",
+      "team": "Chapecoense",
+      "position": "Lateral Dir.",
+      "age": 29,
+      "value": 400000
+    },
+    {
+      "name": "Raul",
+      "team": "Botafogo",
+      "position": "Goleiro",
+      "age": 28,
+      "value": 400000
+    },
+    {
+      "name": "Kevin Ramírez",
+      "team": "Chapecoense",
+      "position": "Ponta Esq.",
+      "age": 32,
+      "value": 400000
+    },
+    {
+      "name": "Thalisson",
+      "team": "Remo",
+      "position": "Zagueiro",
+      "age": 24,
+      "value": 400000
+    },
+    {
+      "name": "Davi Gomes",
+      "team": "Red Bull Bragantino",
+      "position": "Ponta Esq.",
+      "age": 21,
+      "value": 400000
+    },
+    {
+      "name": "Caio Roque",
+      "team": "Botafogo",
       "position": "Lateral Esq.",
       "age": 24,
       "value": 400000
     },
     {
-      "name": "Georgemy",
-      "team": "Mirassol",
-      "position": "Goleiro",
-      "age": 30,
+      "name": "Zé Guilherme",
+      "team": "Bahia",
+      "position": "Lateral Esq.",
+      "age": 21,
       "value": 400000
     },
     {
-      "name": "Cristian Tassano",
-      "team": "Remo",
-      "position": "Zagueiro",
-      "age": 29,
+      "name": "Larson",
+      "team": "Palmeiras",
+      "position": "Meia Central",
+      "age": 20,
+      "value": 400000
+    },
+    {
+      "name": "Gabriel Pires",
+      "team": "Mirassol",
+      "position": "Vol. Defensivo",
+      "age": 32,
       "value": 400000
     },
     {
@@ -1754,17 +4071,143 @@
       "value": 400000
     },
     {
-      "name": "Manoel",
-      "team": "Fluminense",
+      "name": "Bruno Leonardo",
+      "team": "Chapecoense",
       "position": "Zagueiro",
+      "age": 30,
+      "value": 400000
+    },
+    {
+      "name": "Santos",
+      "team": "Athletico Paranaense",
+      "position": "Goleiro",
       "age": 36,
+      "value": 400000
+    },
+    {
+      "name": "Renê",
+      "team": "Fluminense",
+      "position": "Lateral Esq.",
+      "age": 33,
+      "value": 400000
+    },
+    {
+      "name": "Roger",
+      "team": "Grêmio",
+      "position": "Ponta Dir.",
+      "age": 18,
+      "value": 400000
+    },
+    {
+      "name": "Vinicius Balieiro",
+      "team": "Chapecoense",
+      "position": "Vol. Defensivo",
+      "age": 27,
+      "value": 400000
+    },
+    {
+      "name": "Fabrizio Angileri",
+      "team": "Corinthians",
+      "position": "Lateral Esq.",
+      "age": 32,
+      "value": 400000
+    },
+    {
+      "name": "Robert Arboleda",
+      "team": "São Paulo",
+      "position": "Zagueiro",
+      "age": 34,
+      "value": 400000
+    },
+    {
+      "name": "Alex",
+      "team": "Santos",
+      "position": "Zagueiro",
+      "age": 27,
+      "value": 400000
+    },
+    {
+      "name": "Dyogo Alves",
+      "team": "Flamengo",
+      "position": "Goleiro",
+      "age": 22,
+      "value": 400000
+    },
+    {
+      "name": "Mateus Xavier",
+      "team": "Santos",
+      "position": "Ponta Esq.",
+      "age": 18,
+      "value": 400000
+    },
+    {
+      "name": "Zakaria Labyad",
+      "team": "Corinthians",
+      "position": "Meia Atac.",
+      "age": 33,
+      "value": 400000
+    },
+    {
+      "name": "Rafael",
+      "team": "São Paulo",
+      "position": "Goleiro",
+      "age": 37,
+      "value": 400000
+    },
+    {
+      "name": "Willian",
+      "team": "Grêmio",
+      "position": "Ponta Esq.",
+      "age": 37,
+      "value": 400000
+    },
+    {
+      "name": "Mateus Iseppe",
+      "team": "Atlético-MG",
+      "position": "Meia Atac.",
+      "age": 20,
+      "value": 400000
+    },
+    {
+      "name": "Lukas Zuccarello",
+      "team": "Vasco da Gama",
+      "position": "Meia Atac.",
+      "age": 19,
+      "value": 400000
+    },
+    {
+      "name": "Vitor Eudes",
+      "team": "Fluminense",
+      "position": "Goleiro",
+      "age": 27,
+      "value": 400000
+    },
+    {
+      "name": "João Almeida",
+      "team": "Coritiba",
+      "position": "Lateral Esq.",
+      "age": 20,
+      "value": 400000
+    },
+    {
+      "name": "Marcelinho Braz",
+      "team": "Red Bull Bragantino",
+      "position": "Meia Atac.",
+      "age": 21,
+      "value": 400000
+    },
+    {
+      "name": "Everaldo",
+      "team": "Bahia",
+      "position": "Centroavante",
+      "age": 34,
       "value": 350000
     },
     {
-      "name": "Maicon",
-      "team": "Coritiba",
-      "position": "Zagueiro",
-      "age": 37,
+      "name": "Giovanni Pavani",
+      "team": "Remo",
+      "position": "Meia Central",
+      "age": 29,
       "value": 350000
     },
     {
@@ -1775,11 +4218,88 @@
       "value": 350000
     },
     {
+      "name": "Neto Pessoa",
+      "team": "Chapecoense",
+      "position": "Centroavante",
+      "age": 32,
+      "value": 350000
+    },
+    {
+      "name": "Josué",
+      "team": "Coritiba",
+      "position": "Meia Atac.",
+      "age": 35,
+      "value": 350000
+    },
+    {
+      "name": "Marllon",
+      "team": "Remo",
+      "position": "Zagueiro",
+      "age": 34,
+      "value": 350000
+    },
+    {
+      "name": "Franco Catarozzi",
+      "team": "Remo",
+      "position": "Meia Central",
+      "age": 26,
+      "value": 350000
+    },
+    {
+      "name": "Manoel",
+      "team": "Fluminense",
+      "position": "Zagueiro",
+      "age": 36,
+      "value": 350000
+    },
+    {
+      "name": "Cristian Tassano",
+      "team": "Remo",
+      "position": "Zagueiro",
+      "age": 29,
+      "value": 350000
+    },
+    {
+      "name": "Jean Carlos",
+      "team": "Chapecoense",
+      "position": "Meia Atac.",
+      "age": 34,
+      "value": 350000
+    },
+    {
+      "name": "Walter Kannemann",
+      "team": "Grêmio",
+      "position": "Zagueiro",
+      "age": 35,
+      "value": 350000
+    },
+    {
+      "name": "Reinaldo",
+      "team": "Mirassol",
+      "position": "Lateral Esq.",
+      "age": 36,
+      "value": 350000
+    },
+    {
+      "name": "Cristhian Loor",
+      "team": "Botafogo",
+      "position": "Goleiro",
+      "age": 20,
+      "value": 350000
+    },
+    {
       "name": "Souza",
       "team": "Vasco da Gama",
       "position": "Vol. Defensivo",
       "age": 37,
       "value": 325000
+    },
+    {
+      "name": "Panagiotis Tachtsidis",
+      "team": "Remo",
+      "position": "Vol. Defensivo",
+      "age": 35,
+      "value": 300000
     },
     {
       "name": "Magrão",
@@ -1789,52 +4309,199 @@
       "value": 300000
     },
     {
-      "name": "Marcelo Pitaluga",
-      "team": "Fluminense",
+      "name": "Victor Luís",
+      "team": "Mirassol",
+      "position": "Lateral Esq.",
+      "age": 33,
+      "value": 300000
+    },
+    {
+      "name": "Daniel Borges",
+      "team": "Mirassol",
+      "position": "Lateral Dir.",
+      "age": 33,
+      "value": 300000
+    },
+    {
+      "name": "Huguinho",
+      "team": "Botafogo",
+      "position": "Vol. Defensivo",
+      "age": 19,
+      "value": 300000
+    },
+    {
+      "name": "Gabriel Delfim",
+      "team": "Atlético-MG",
       "position": "Goleiro",
       "age": 23,
       "value": 300000
     },
     {
-      "name": "Lucas Mugni",
-      "team": "Mirassol",
-      "position": "Meia Atac.",
-      "age": 34,
+      "name": "Ythallo",
+      "team": "Botafogo",
+      "position": "Zagueiro",
+      "age": 21,
       "value": 300000
     },
     {
-      "name": "Yannick Bolasie",
-      "team": "Chapecoense",
-      "position": "Centroavante",
-      "age": 37,
-      "value": 250000
-    },
-    {
-      "name": "Claudio Spinelli",
-      "team": "Vasco da Gama",
-      "position": "Centroavante",
-      "age": 29,
-      "value": 250000
-    },
-    {
-      "name": "Gabriel Mercado",
+      "name": "Bruno Henrique",
       "team": "Internacional",
+      "position": "Meia Central",
+      "age": 36,
+      "value": 300000
+    },
+    {
+      "name": "Kawê",
+      "team": "Red Bull Bragantino",
+      "position": "Ponta Dir.",
+      "age": 24,
+      "value": 300000
+    },
+    {
+      "name": "Ganso",
+      "team": "Fluminense",
+      "position": "Meia Atac.",
+      "age": 36,
+      "value": 300000
+    },
+    {
+      "name": "Willian Oliveira",
+      "team": "Coritiba",
+      "position": "Vol. Defensivo",
+      "age": 33,
+      "value": 300000
+    },
+    {
+      "name": "Julio Fidelis",
+      "team": "Fluminense",
+      "position": "Lateral Dir.",
+      "age": 19,
+      "value": 300000
+    },
+    {
+      "name": "Kauê",
+      "team": "Corinthians",
+      "position": "Goleiro",
+      "age": 22,
+      "value": 300000
+    },
+    {
+      "name": "Keno",
+      "team": "Coritiba",
+      "position": "Ponta Esq.",
+      "age": 36,
+      "value": 300000
+    },
+    {
+      "name": "Everton",
+      "team": "Chapecoense",
+      "position": "Lateral Dir.",
+      "age": 31,
+      "value": 300000
+    },
+    {
+      "name": "Anthony",
+      "team": "Botafogo",
       "position": "Zagueiro",
+      "age": 20,
+      "value": 300000
+    },
+    {
+      "name": "Anderson Pato",
+      "team": "Vitória",
+      "position": "Ponta Esq.",
+      "age": 23,
+      "value": 250000
+    },
+    {
+      "name": "Rubens",
+      "team": "Chapecoense",
+      "position": "Ponta Dir.",
+      "age": 23,
+      "value": 250000
+    },
+    {
+      "name": "Bruno Pacheco",
+      "team": "Chapecoense",
+      "position": "Lateral Esq.",
+      "age": 34,
+      "value": 250000
+    },
+    {
+      "name": "Rafael Thyere",
+      "team": "Chapecoense",
+      "position": "Zagueiro",
+      "age": 33,
+      "value": 250000
+    },
+    {
+      "name": "Davi Schuindt",
+      "team": "Fluminense",
+      "position": "Zagueiro",
+      "age": 22,
+      "value": 250000
+    },
+    {
+      "name": "Bruno Alves",
+      "team": "Cruzeiro",
+      "position": "Zagueiro",
+      "age": 20,
+      "value": 250000
+    },
+    {
+      "name": "Cássio",
+      "team": "Cruzeiro",
+      "position": "Goleiro",
       "age": 39,
       "value": 250000
     },
     {
-      "name": "Santiago Ramos Mingo",
-      "team": "Bahia",
+      "name": "Bruno Melo",
+      "team": "Coritiba",
+      "position": "Lateral Esq.",
+      "age": 33,
+      "value": 250000
+    },
+    {
+      "name": "Camutanga",
+      "team": "Vitória",
       "position": "Zagueiro",
-      "age": 24,
+      "age": 32,
+      "value": 250000
+    },
+    {
+      "name": "Edenilson",
+      "team": "Botafogo",
+      "position": "Meia Central",
+      "age": 36,
+      "value": 250000
+    },
+    {
+      "name": "Renan Viana",
+      "team": "Athletico Paranaense",
+      "position": "Centroavante",
+      "age": 23,
+      "value": 225000
+    },
+    {
+      "name": "David Antunes",
+      "team": "Chapecoense",
+      "position": "Meia Central",
+      "age": 20,
       "value": 200000
     },
     {
-      "name": "Gabriel Souza",
+      "name": "Léo Vieira",
       "team": "Bahia",
       "position": "Goleiro",
-      "age": 21,
+      "age": 35,
+      "value": 200000
+    },
+    {
+      "name": "Marinho",
+      "team": "Vitória",
+      "position": "Ponta Dir.",
+      "age": 36,
       "value": 200000
     },
     {
@@ -1845,31 +4512,24 @@
       "value": 200000
     },
     {
-      "name": "Vitinho",
-      "team": "Atlético-MG",
-      "position": "Vol. Defensivo",
+      "name": "Igor Cariús",
+      "team": "Mirassol",
+      "position": "Lateral Esq.",
+      "age": 33,
+      "value": 200000
+    },
+    {
+      "name": "Gabriel Souza",
+      "team": "Bahia",
+      "position": "Goleiro",
       "age": 21,
       "value": 200000
     },
     {
-      "name": "Titi",
-      "team": "Fortaleza",
-      "position": "Zagueiro",
-      "age": 38,
-      "value": 200000
-    },
-    {
-      "name": "Nenê",
-      "team": "Juventude",
-      "position": "Meia Atac.",
-      "age": 44,
-      "value": 200000
-    },
-    {
-      "name": "Bruno",
-      "team": "Ceará",
-      "position": "Goleiro",
-      "age": 32,
+      "name": "Samuel Xavier",
+      "team": "Fluminense",
+      "position": "Lateral Dir.",
+      "age": 36,
       "value": 200000
     },
     {
@@ -1880,17 +4540,143 @@
       "value": 200000
     },
     {
-      "name": "Ênio",
-      "team": "Chapecoense",
-      "position": "Ponta Esq.",
+      "name": "Bruno",
+      "team": "Ceará",
+      "position": "Goleiro",
+      "age": 32,
+      "value": 200000
+    },
+    {
+      "name": "Thomazella",
+      "team": "Mirassol",
+      "position": "Goleiro",
+      "age": 35,
+      "value": 200000
+    },
+    {
+      "name": "Fagner",
+      "team": "Cruzeiro",
+      "position": "Lateral Dir.",
+      "age": 37,
+      "value": 200000
+    },
+    {
+      "name": "Vitinho",
+      "team": "Atlético-MG",
+      "position": "Vol. Defensivo",
+      "age": 21,
+      "value": 200000
+    },
+    {
+      "name": "Marcos Rocha",
+      "team": "Grêmio",
+      "position": "Lateral Dir.",
+      "age": 37,
+      "value": 200000
+    },
+    {
+      "name": "Diógenes",
+      "team": "Santos",
+      "position": "Goleiro",
       "age": 25,
       "value": 200000
+    },
+    {
+      "name": "Luiz Gustavo",
+      "team": "Athletico Paranaense",
+      "position": "Vol. Defensivo",
+      "age": 38,
+      "value": 200000
+    },
+    {
+      "name": "Lucas Mugni",
+      "team": "Mirassol",
+      "position": "Meia Atac.",
+      "age": 34,
+      "value": 200000
+    },
+    {
+      "name": "Marçal",
+      "team": "Botafogo",
+      "position": "Lateral Esq.",
+      "age": 37,
+      "value": 200000
+    },
+    {
+      "name": "Pablo",
+      "team": "Vitória",
+      "position": "Meia Atac.",
+      "age": 22,
+      "value": 200000
+    },
+    {
+      "name": "Nenê",
+      "team": "Juventude",
+      "position": "Meia Atac.",
+      "age": 44,
+      "value": 200000
+    },
+    {
+      "name": "Neris",
+      "team": "Vitória",
+      "position": "Zagueiro",
+      "age": 34,
+      "value": 200000
+    },
+    {
+      "name": "Titi",
+      "team": "Fortaleza",
+      "position": "Zagueiro",
+      "age": 38,
+      "value": 200000
+    },
+    {
+      "name": "Marcelo Pitaluga",
+      "team": "Fluminense",
+      "position": "Goleiro",
+      "age": 23,
+      "value": 200000
+    },
+    {
+      "name": "Chico Kim",
+      "team": "Mirassol",
+      "position": "Meia Atac.",
+      "age": 35,
+      "value": 150000
+    },
+    {
+      "name": "Jhoan Hernández",
+      "team": "Botafogo",
+      "position": "Lateral Esq.",
+      "age": 20,
+      "value": 150000
     },
     {
       "name": "David Braz",
       "team": "Mirassol",
       "position": "Zagueiro",
       "age": 39,
+      "value": 150000
+    },
+    {
+      "name": "Yannick Bolasie",
+      "team": "Chapecoense",
+      "position": "Centroavante",
+      "age": 37,
+      "value": 150000
+    },
+    {
+      "name": "Walter",
+      "team": "Mirassol",
+      "position": "Goleiro",
+      "age": 38,
+      "value": 150000
+    },
+    {
+      "name": "Giovanni Augusto",
+      "team": "Chapecoense",
+      "position": "Meia Atac.",
+      "age": 36,
       "value": 150000
     },
     {
@@ -1901,18 +4687,116 @@
       "value": 125000
     },
     {
-      "name": "Léo Vieira",
-      "team": "Bahia",
-      "position": "Goleiro",
-      "age": 35,
+      "name": "Thiago Santos",
+      "team": "Coritiba",
+      "position": "Zagueiro",
+      "age": 36,
       "value": 100000
     },
     {
-      "name": "Vitor Eudes",
+      "name": "Maicon",
+      "team": "Coritiba",
+      "position": "Zagueiro",
+      "age": 37,
+      "value": 100000
+    },
+    {
+      "name": "Fabrício",
+      "team": "Red Bull Bragantino",
+      "position": "Goleiro",
+      "age": 26,
+      "value": 100000
+    },
+    {
+      "name": "Luiz Filipe",
+      "team": "Mirassol",
+      "position": "Ponta Dir.",
+      "age": 25,
+      "value": 100000
+    },
+    {
+      "name": "Young",
+      "team": "São Paulo",
+      "position": "Goleiro",
+      "age": 24,
+      "value": 100000
+    },
+    {
+      "name": "Rodrigo Moledo",
+      "team": "Coritiba",
+      "position": "Zagueiro",
+      "age": 38,
+      "value": 100000
+    },
+    {
+      "name": "Gabriel Mercado",
+      "team": "Internacional",
+      "position": "Zagueiro",
+      "age": 39,
+      "value": 100000
+    },
+    {
+      "name": "Tomás Rincón",
+      "team": "Santos",
+      "position": "Vol. Defensivo",
+      "age": 38,
+      "value": 100000
+    },
+    {
+      "name": "Fintelman",
+      "team": "Vitória",
+      "position": "Goleiro",
+      "age": 24,
+      "value": 100000
+    },
+    {
+      "name": "Alex Muralha",
+      "team": "Mirassol",
+      "position": "Goleiro",
+      "age": 36,
+      "value": 75000
+    },
+    {
+      "name": "Rafael Santos",
+      "team": "Chapecoense",
+      "position": "Goleiro",
+      "age": 37,
+      "value": 75000
+    },
+    {
+      "name": "Marcelo Lomba",
+      "team": "Palmeiras",
+      "position": "Goleiro",
+      "age": 39,
+      "value": 75000
+    },
+    {
+      "name": "Eduardo Melo",
+      "team": "Remo",
+      "position": "Centroavante",
+      "age": 25,
+      "value": 75000
+    },
+    {
+      "name": "Fábio",
       "team": "Fluminense",
       "position": "Goleiro",
-      "age": 27,
-      "value": 100000
+      "age": 45,
+      "value": 75000
+    },
+    {
+      "name": "Osvaldo",
+      "team": "Vitória",
+      "position": "Ponta Dir.",
+      "age": 39,
+      "value": 75000
+    },
+    {
+      "name": "Gustavo Talles",
+      "team": "Chapecoense",
+      "position": "Lateral Dir.",
+      "age": 22,
+      "value": 50000
     },
     {
       "name": "Bruno Xavier",
@@ -1922,11 +4806,81 @@
       "value": 50000
     },
     {
+      "name": "Yuri Sena",
+      "team": "Vitória",
+      "position": "Goleiro",
+      "age": 25,
+      "value": 50000
+    },
+    {
+      "name": "Benassi",
+      "team": "Coritiba",
+      "position": "Goleiro",
+      "age": 22,
+      "value": 50000
+    },
+    {
+      "name": "Lucas Eduardo",
+      "team": "Vasco da Gama",
+      "position": "Vol. Defensivo",
+      "age": 22,
+      "value": 50000
+    },
+    {
       "name": "Marcão",
       "team": "Juventude",
       "position": "Goleiro",
       "age": 34,
       "value": 50000
+    },
+    {
+      "name": "Ygor Vinhas",
+      "team": "Remo",
+      "position": "Goleiro",
+      "age": 32,
+      "value": 50000
+    },
+    {
+      "name": "Marcelo Rangel",
+      "team": "Remo",
+      "position": "Goleiro",
+      "age": 38,
+      "value": 50000
+    },
+    {
+      "name": "Georgemy",
+      "team": "Mirassol",
+      "position": "Goleiro",
+      "age": 30,
+      "value": 50000
+    },
+    {
+      "name": "Freitas",
+      "team": "Remo",
+      "position": "Vol. Defensivo",
+      "age": 23,
+      "value": 50000
+    },
+    {
+      "name": "Pablo",
+      "team": "Vasco da Gama",
+      "position": "Goleiro",
+      "age": 23,
+      "value": 50000
+    },
+    {
+      "name": "Gabriel Leite",
+      "team": "Coritiba",
+      "position": "Goleiro",
+      "age": 38,
+      "value": 25000
+    },
+    {
+      "name": "Daniel Aguilar",
+      "team": "Athletico Paranaense",
+      "position": "Ponta Esq.",
+      "age": 22,
+      "value": 10000
     }
   ]
 }
