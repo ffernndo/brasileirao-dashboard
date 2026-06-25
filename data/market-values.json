@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24",
+  "last_updated": "2026-06-25",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -3220,7 +3220,7 @@
       "name": "Alisson",
       "team": "Fluminense",
       "position": "Meia Central",
-      "age": 32,
+      "age": 33,
       "value": 800000
     },
     {
