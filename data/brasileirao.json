@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "last_updated": "2026-06-25T12:12:04Z",
+  "last_updated": "2026-06-26T12:06:27Z",
   "latest_round": 18,
   "source": "ESPN",
   "matches": [
@@ -6096,7 +6096,7 @@
     },
     {
       "id": "124068",
-      "name": "Hulk ",
+      "name": "Hulk",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/124068.png",
       "cat": "assistsLeaders",
       "value": 3,
