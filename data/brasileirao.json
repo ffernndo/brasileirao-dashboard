@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "last_updated": "2026-06-29T13:58:32Z",
+  "last_updated": "2026-06-30T12:04:19Z",
   "latest_round": 18,
   "source": "ESPN",
   "matches": [
@@ -2842,7 +2842,7 @@
       "dateEvent": "2026-07-29",
       "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
       "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_POSTPONED",
       "venue": "",
       "_espnId": "401841168"
     },
@@ -2856,7 +2856,7 @@
       "dateEvent": "2026-07-29",
       "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
       "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_POSTPONED",
       "venue": "",
       "_espnId": "401841176"
     },
@@ -2870,7 +2870,7 @@
       "dateEvent": "2026-07-29",
       "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
       "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_POSTPONED",
       "venue": "",
       "_espnId": "401841175"
     },
@@ -2884,7 +2884,7 @@
       "dateEvent": "2026-07-29",
       "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
       "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_POSTPONED",
       "venue": "",
       "_espnId": "401841169"
     },
