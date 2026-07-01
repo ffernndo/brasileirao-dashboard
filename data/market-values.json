@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30",
+  "last_updated": "2026-07-01",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -966,7 +966,7 @@
       "name": "Andrew",
       "team": "Flamengo",
       "position": "Goleiro",
-      "age": 24,
+      "age": 25,
       "value": 5000000
     },
     {
@@ -2940,7 +2940,7 @@
       "name": "Mamady Cissé",
       "team": "Atlético-MG",
       "position": "Meia Central",
-      "age": 18,
+      "age": 19,
       "value": 1000000
     },
     {

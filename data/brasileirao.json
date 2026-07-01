@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "last_updated": "2026-06-30T12:04:19Z",
+  "last_updated": "2026-07-01T12:27:39Z",
   "latest_round": 18,
   "source": "ESPN",
   "matches": [
@@ -2553,20 +2553,6 @@
       "_espnId": "401841157"
     },
     {
-      "idEvent": "401841155",
-      "strHomeTeam": "Mirassol",
-      "strAwayTeam": "Grêmio",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "19",
-      "dateEvent": "2026-07-17",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841155"
-    },
-    {
       "idEvent": "401879459",
       "strHomeTeam": "Bahia",
       "strAwayTeam": "Chapecoense",
@@ -2587,12 +2573,26 @@
       "intHomeScore": null,
       "intAwayScore": null,
       "intRound": "19",
-      "dateEvent": "2026-07-18",
+      "dateEvent": "2026-07-17",
       "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
       "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841153"
+    },
+    {
+      "idEvent": "401841155",
+      "strHomeTeam": "Mirassol",
+      "strAwayTeam": "Grêmio",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "19",
+      "dateEvent": "2026-07-17",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841155"
     },
     {
       "idEvent": "401841148",
