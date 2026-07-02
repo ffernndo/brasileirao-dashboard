@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01",
+  "last_updated": "2026-07-02",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -1022,7 +1022,7 @@
       "name": "Lucas Veríssimo",
       "team": "Santos",
       "position": "Zagueiro",
-      "age": 30,
+      "age": 31,
       "value": 4500000
     },
     {
@@ -2744,7 +2744,7 @@
       "name": "Ivan",
       "team": "Remo",
       "position": "Goleiro",
-      "age": 28,
+      "age": 29,
       "value": 1000000
     },
     {
