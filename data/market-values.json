@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-04",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -3108,7 +3108,7 @@
       "name": "Daniel Fuzato",
       "team": "Vasco da Gama",
       "position": "Goleiro",
-      "age": 28,
+      "age": 29,
       "value": 900000
     },
     {
@@ -3556,7 +3556,7 @@
       "name": "João Paulo",
       "team": "Chapecoense",
       "position": "Zagueiro",
-      "age": 28,
+      "age": 29,
       "value": 700000
     },
     {
