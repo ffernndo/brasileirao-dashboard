@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04",
+  "last_updated": "2026-07-05",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -4207,7 +4207,7 @@
       "name": "Everaldo",
       "team": "Bahia",
       "position": "Centroavante",
-      "age": 34,
+      "age": 35,
       "value": 350000
     },
     {
