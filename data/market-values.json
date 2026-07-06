@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-05",
+  "last_updated": "2026-07-06",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -469,7 +469,7 @@
       "name": "Juninho Capixaba",
       "team": "Red Bull Bragantino",
       "position": "Lateral Esq.",
-      "age": 28,
+      "age": 29,
       "value": 8000000
     },
     {
