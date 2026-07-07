@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-06",
+  "last_updated": "2026-07-07",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -3899,7 +3899,7 @@
       "name": "Gabriel Poveda",
       "team": "Remo",
       "position": "Centroavante",
-      "age": 27,
+      "age": 28,
       "value": 500000
     },
     {
