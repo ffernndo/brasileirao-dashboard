@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-08",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -994,7 +994,7 @@
       "name": "Marino Hinestroza",
       "team": "Vasco da Gama",
       "position": "Ponta Dir.",
-      "age": 23,
+      "age": 24,
       "value": 4800000
     },
     {
