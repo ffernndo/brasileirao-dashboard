@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10",
+  "last_updated": "2026-07-11",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -665,7 +665,7 @@
       "name": "Damián Bobadilla",
       "team": "São Paulo",
       "position": "Meia Central",
-      "age": 24,
+      "age": 25,
       "value": 6000000
     },
     {
@@ -1813,7 +1813,7 @@
       "name": "Jacy",
       "team": "Coritiba",
       "position": "Zagueiro",
-      "age": 28,
+      "age": 29,
       "value": 2500000
     },
     {
