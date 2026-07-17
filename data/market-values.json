@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-17",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -791,7 +791,7 @@
       "name": "Léo Duarte",
       "team": "Atlético-MG",
       "position": "Zagueiro",
-      "age": 29,
+      "age": 30,
       "value": 2500000
     },
     {

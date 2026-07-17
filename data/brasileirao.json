@@ -1,7 +1,7 @@
 {
   "season": 2026,
-  "last_updated": "2026-07-16T11:26:47Z",
-  "latest_round": 18,
+  "last_updated": "2026-07-17T11:15:23Z",
+  "latest_round": 19,
   "source": "ESPN",
   "matches": [
     {
@@ -2528,13 +2528,13 @@
       "idEvent": "401841149",
       "strHomeTeam": "Botafogo",
       "strAwayTeam": "Santos",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": 2,
+      "intAwayScore": 1,
       "intRound": "19",
       "dateEvent": "2026-07-16",
       "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
       "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_FULL_TIME",
       "venue": "",
       "_espnId": "401841149"
     },
@@ -2542,13 +2542,13 @@
       "idEvent": "401841157",
       "strHomeTeam": "Vitória",
       "strAwayTeam": "Vasco da Gama",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": 1,
+      "intAwayScore": 0,
       "intRound": "19",
       "dateEvent": "2026-07-16",
       "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
       "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_FULL_TIME",
       "venue": "",
       "_espnId": "401841157"
     },
