@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17",
+  "last_updated": "2026-07-18",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -1057,7 +1057,7 @@
       "name": "Matheus Babi",
       "team": "Juventude",
       "position": "Centroavante",
-      "age": 28,
+      "age": 29,
       "value": 1500000
     },
     {
