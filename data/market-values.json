@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19",
+  "last_updated": "2026-07-20",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -826,7 +826,7 @@
       "name": "Wendell",
       "team": "São Paulo",
       "position": "Lateral Esq.",
-      "age": 32,
+      "age": 33,
       "value": 2500000
     },
     {
