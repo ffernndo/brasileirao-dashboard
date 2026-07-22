@@ -1,7 +1,7 @@
 {
   "season": 2026,
-  "last_updated": "2026-07-21T11:41:55Z",
-  "latest_round": 19,
+  "last_updated": "2026-07-22T11:42:08Z",
+  "latest_round": 20,
   "source": "ESPN",
   "matches": [
     {
@@ -2598,13 +2598,13 @@
       "idEvent": "401841148",
       "strHomeTeam": "Atlético-MG",
       "strAwayTeam": "Bahia",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": 1,
+      "intAwayScore": 1,
       "intRound": "20",
       "dateEvent": "2026-07-21",
       "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
       "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_FULL_TIME",
       "venue": "",
       "_espnId": "401841148"
     },
@@ -5715,6 +5715,16 @@
       "assists": 2
     },
     {
+      "id": "198360",
+      "name": "Willian José",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/198360.png",
+      "cat": "goalsLeaders",
+      "value": 3,
+      "matches": 18,
+      "goals": 3,
+      "assists": 1
+    },
+    {
       "id": "330924",
       "name": "Andrés Gómez",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/330924.png",
@@ -5733,16 +5743,6 @@
       "matches": 17,
       "goals": 3,
       "assists": 0
-    },
-    {
-      "id": "198360",
-      "name": "Willian José",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/198360.png",
-      "cat": "goalsLeaders",
-      "value": 3,
-      "matches": 17,
-      "goals": 3,
-      "assists": 1
     },
     {
       "id": "270260",
@@ -5775,6 +5775,16 @@
       "assists": 2
     },
     {
+      "id": "334382",
+      "name": "Victor Hugo",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/334382.png",
+      "cat": "goalsLeaders",
+      "value": 3,
+      "matches": 16,
+      "goals": 3,
+      "assists": 1
+    },
+    {
       "id": "357720",
       "name": "Cauan Barros",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/357720.png",
@@ -5793,16 +5803,6 @@
       "matches": 16,
       "goals": 3,
       "assists": 2
-    },
-    {
-      "id": "334382",
-      "name": "Victor Hugo",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/334382.png",
-      "cat": "goalsLeaders",
-      "value": 3,
-      "matches": 15,
-      "goals": 3,
-      "assists": 1
     },
     {
       "id": "299967",
@@ -5950,7 +5950,7 @@
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/199017.png",
       "cat": "assistsLeaders",
       "value": 4,
-      "matches": 14,
+      "matches": 15,
       "goals": 0,
       "assists": 4
     },
@@ -6052,6 +6052,16 @@
       "value": 3,
       "matches": 17,
       "goals": 3,
+      "assists": 3
+    },
+    {
+      "id": "158272",
+      "name": "Bernard",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/158272.png",
+      "cat": "assistsLeaders",
+      "value": 3,
+      "matches": 16,
+      "goals": 1,
       "assists": 3
     },
     {
@@ -6165,6 +6175,16 @@
       "assists": 2
     },
     {
+      "id": "245858",
+      "name": "Renan Lodi",
+      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/245858.png",
+      "cat": "assistsLeaders",
+      "value": 2,
+      "matches": 18,
+      "goals": 0,
+      "assists": 2
+    },
+    {
       "id": "248584",
       "name": "Lucas Barbosa",
       "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/248584.png",
@@ -6172,16 +6192,6 @@
       "value": 2,
       "matches": 17,
       "goals": 4,
-      "assists": 2
-    },
-    {
-      "id": "245858",
-      "name": "Renan Lodi",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/245858.png",
-      "cat": "assistsLeaders",
-      "value": 2,
-      "matches": 17,
-      "goals": 0,
       "assists": 2
     },
     {
@@ -6322,16 +6332,6 @@
       "value": 2,
       "matches": 15,
       "goals": 2,
-      "assists": 2
-    },
-    {
-      "id": "158272",
-      "name": "Bernard",
-      "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/158272.png",
-      "cat": "assistsLeaders",
-      "value": 2,
-      "matches": 15,
-      "goals": 1,
       "assists": 2
     },
     {
