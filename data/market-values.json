@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22",
+  "last_updated": "2026-07-23",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -469,7 +469,7 @@
       "name": "Vitinho",
       "team": "Botafogo",
       "position": "Lateral Dir.",
-      "age": 26,
+      "age": 27,
       "value": 5000000
     },
     {
@@ -1141,7 +1141,7 @@
       "name": "Wagner Leonardo",
       "team": "Grêmio",
       "position": "Zagueiro",
-      "age": 26,
+      "age": 27,
       "value": 1500000
     },
     {
@@ -1624,7 +1624,7 @@
       "name": "Luiz Gustavo",
       "team": "Athletico Paranaense",
       "position": "Vol. Defensivo",
-      "age": 38,
+      "age": 39,
       "value": 500000
     },
     {
@@ -1757,7 +1757,7 @@
       "name": "Cristian Tassano",
       "team": "Remo",
       "position": "Zagueiro",
-      "age": 29,
+      "age": 30,
       "value": 400000
     },
     {
