@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-07-25",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -854,7 +854,7 @@
       "name": "Fernando",
       "team": "Internacional",
       "position": "Vol. Defensivo",
-      "age": 38,
+      "age": 39,
       "value": 2000000
     },
     {
@@ -931,7 +931,7 @@
       "name": "Hulk",
       "team": "Fluminense",
       "position": "Centroavante",
-      "age": 39,
+      "age": 40,
       "value": 2000000
     },
     {
