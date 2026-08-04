@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-04",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -4515,7 +4515,7 @@
       "name": "Bruno Alves",
       "team": "Cruzeiro",
       "position": "Zagueiro",
-      "age": 20,
+      "age": 21,
       "value": 250000
     },
     {
