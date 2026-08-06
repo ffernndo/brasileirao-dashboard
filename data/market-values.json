@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05",
+  "last_updated": "2026-08-06",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -2086,7 +2086,7 @@
       "name": "Neto Moura",
       "team": "Mirassol",
       "position": "Vol. Defensivo",
-      "age": 29,
+      "age": 30,
       "value": 2000000
     },
     {
