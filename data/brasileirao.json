@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "last_updated": "2026-08-06T11:57:13Z",
+  "last_updated": "2026-08-07T10:42:41Z",
   "latest_round": 21,
   "source": "ESPN",
   "matches": [
@@ -3113,20 +3113,6 @@
       "_espnId": "401841187"
     },
     {
-      "idEvent": "401841195",
-      "strHomeTeam": "Atlético-MG",
-      "strAwayTeam": "Grêmio",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "23",
-      "dateEvent": "2026-08-15",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841195"
-    },
-    {
       "idEvent": "401841192",
       "strHomeTeam": "Fluminense",
       "strAwayTeam": "Palmeiras",
@@ -3181,6 +3167,20 @@
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841194"
+    },
+    {
+      "idEvent": "401841195",
+      "strHomeTeam": "Atlético-MG",
+      "strAwayTeam": "Grêmio",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "23",
+      "dateEvent": "2026-08-16",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841195"
     },
     {
       "idEvent": "401841188",
