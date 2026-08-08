@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07",
+  "last_updated": "2026-08-08",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -1715,7 +1715,7 @@
       "name": "Lucas Arcanjo",
       "team": "Vitória",
       "position": "Goleiro",
-      "age": 27,
+      "age": 28,
       "value": 2500000
     },
     {
