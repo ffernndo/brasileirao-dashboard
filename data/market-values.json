@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-10",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -1386,7 +1386,7 @@
       "name": "Eric Ramires",
       "team": "Red Bull Bragantino",
       "position": "Meia Central",
-      "age": 25,
+      "age": 26,
       "value": 3500000
     },
     {
