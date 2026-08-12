@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-12",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -315,7 +315,7 @@
       "name": "Kauã Prates",
       "team": "Cruzeiro",
       "position": "Lateral Esq.",
-      "age": 17,
+      "age": 18,
       "value": 10000000
     },
     {
@@ -1127,7 +1127,7 @@
       "name": "Arthur Melo",
       "team": "Grêmio",
       "position": "Meia Central",
-      "age": 29,
+      "age": 30,
       "value": 4000000
     },
     {
@@ -3430,7 +3430,7 @@
       "name": "Jáderson",
       "team": "Remo",
       "position": "Ponta Esq.",
-      "age": 25,
+      "age": 26,
       "value": 750000
     },
     {
