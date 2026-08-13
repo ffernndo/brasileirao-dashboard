@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12",
+  "last_updated": "2026-08-13",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -2107,14 +2107,14 @@
       "name": "Lucas Moura",
       "team": "São Paulo",
       "position": "Ponta Dir.",
-      "age": 33,
+      "age": 34,
       "value": 2000000
     },
     {
       "name": "Riquelme",
       "team": "Grêmio",
       "position": "Meia Atac.",
-      "age": 19,
+      "age": 20,
       "value": 2000000
     },
     {
@@ -2303,7 +2303,7 @@
       "name": "Joaquín Correa",
       "team": "Botafogo",
       "position": "Segundo Atac.",
-      "age": 31,
+      "age": 32,
       "value": 1500000
     },
     {
