@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13",
+  "last_updated": "2026-08-14",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -504,7 +504,7 @@
       "name": "Isidro Pitta",
       "team": "Red Bull Bragantino",
       "position": "Centroavante",
-      "age": 26,
+      "age": 27,
       "value": 7500000
     },
     {
