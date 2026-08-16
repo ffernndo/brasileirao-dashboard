@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15",
+  "last_updated": "2026-08-16",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -623,7 +623,7 @@
       "name": "Bruninho",
       "team": "Athletico Paranaense",
       "position": "Ponta Dir.",
-      "age": 17,
+      "age": 18,
       "value": 7000000
     },
     {
@@ -4095,7 +4095,7 @@
       "name": "Marcelinho Braz",
       "team": "Red Bull Bragantino",
       "position": "Meia Atac.",
-      "age": 21,
+      "age": 22,
       "value": 400000
     },
     {
