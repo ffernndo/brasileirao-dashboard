@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17",
+  "last_updated": "2026-08-18",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -3381,7 +3381,7 @@
       "name": "Aderlan",
       "team": "Santos",
       "position": "Lateral Dir.",
-      "age": 35,
+      "age": 36,
       "value": 800000
     },
     {
