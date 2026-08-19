@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-19",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -861,7 +861,7 @@
       "name": "Cleiton",
       "team": "Red Bull Bragantino",
       "position": "Goleiro",
-      "age": 28,
+      "age": 29,
       "value": 5000000
     },
     {
@@ -2261,7 +2261,7 @@
       "name": "Lucas Villalba",
       "team": "Cruzeiro",
       "position": "Zagueiro",
-      "age": 31,
+      "age": 32,
       "value": 1700000
     },
     {
@@ -2499,7 +2499,7 @@
       "name": "Nathan Mendes",
       "team": "Vitória",
       "position": "Lateral Dir.",
-      "age": 23,
+      "age": 24,
       "value": 1500000
     },
     {
