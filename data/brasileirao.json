@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "last_updated": "2026-08-19T10:18:49Z",
+  "last_updated": "2026-08-20T10:20:11Z",
   "latest_round": 23,
   "source": "ESPN",
   "matches": [
@@ -3491,20 +3491,6 @@
       "_espnId": "401841217"
     },
     {
-      "idEvent": "401841215",
-      "strHomeTeam": "Bahia",
-      "strAwayTeam": "Internacional",
-      "intHomeScore": null,
-      "intAwayScore": null,
-      "intRound": "25",
-      "dateEvent": "2026-08-30",
-      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
-      "status": "STATUS_SCHEDULED",
-      "venue": "",
-      "_espnId": "401841215"
-    },
-    {
       "idEvent": "401841211",
       "strHomeTeam": "Mirassol",
       "strAwayTeam": "Palmeiras",
@@ -3517,6 +3503,20 @@
       "status": "STATUS_SCHEDULED",
       "venue": "",
       "_espnId": "401841211"
+    },
+    {
+      "idEvent": "401841215",
+      "strHomeTeam": "Bahia",
+      "strAwayTeam": "Internacional",
+      "intHomeScore": null,
+      "intAwayScore": null,
+      "intRound": "25",
+      "dateEvent": "2026-08-30",
+      "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+      "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+      "status": "STATUS_SCHEDULED",
+      "venue": "",
+      "_espnId": "401841215"
     },
     {
       "idEvent": "401841210",
