@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20",
+  "last_updated": "2026-08-21",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -301,7 +301,7 @@
       "name": "Agustín Rossi",
       "team": "Flamengo",
       "position": "Goleiro",
-      "age": 30,
+      "age": 31,
       "value": 10000000
     },
     {
@@ -728,7 +728,7 @@
       "name": "Facundo Bernal",
       "team": "Fluminense",
       "position": "Vol. Defensivo",
-      "age": 22,
+      "age": 23,
       "value": 6000000
     },
     {
@@ -1064,7 +1064,7 @@
       "name": "Alan Franco",
       "team": "Atlético-MG",
       "position": "Meia Central",
-      "age": 27,
+      "age": 28,
       "value": 4500000
     },
     {
