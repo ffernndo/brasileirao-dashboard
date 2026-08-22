@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21",
+  "last_updated": "2026-08-22",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -2072,7 +2072,7 @@
       "name": "Ronaldo",
       "team": "Bahia",
       "position": "Goleiro",
-      "age": 29,
+      "age": 30,
       "value": 2000000
     },
     {
