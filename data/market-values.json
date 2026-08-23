@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22",
+  "last_updated": "2026-08-23",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -364,7 +364,7 @@
       "name": "Francis Amuzu",
       "team": "Grêmio",
       "position": "Ponta Esq.",
-      "age": 26,
+      "age": 27,
       "value": 9000000
     },
     {
@@ -3213,7 +3213,7 @@
       "name": "Fabián Balbuena",
       "team": "Grêmio",
       "position": "Zagueiro",
-      "age": 34,
+      "age": 35,
       "value": 900000
     },
     {
