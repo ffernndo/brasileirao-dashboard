@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-23",
+  "last_updated": "2026-08-24",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -210,7 +210,7 @@
       "name": "Joaquín Piquerez",
       "team": "Palmeiras",
       "position": "Lateral Esq.",
-      "age": 27,
+      "age": 28,
       "value": 12000000
     },
     {
@@ -2275,7 +2275,7 @@
       "name": "Jemerson",
       "team": "Grêmio",
       "position": "Zagueiro",
-      "age": 33,
+      "age": 34,
       "value": 1700000
     },
     {
