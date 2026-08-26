@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-08-26",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -1400,7 +1400,7 @@
       "name": "Tomás Pérez",
       "team": "Atlético-MG",
       "position": "Vol. Defensivo",
-      "age": 20,
+      "age": 21,
       "value": 3000000
     },
     {
@@ -3297,7 +3297,7 @@
       "name": "Jair",
       "team": "Vasco da Gama",
       "position": "Vol. Defensivo",
-      "age": 31,
+      "age": 32,
       "value": 800000
     },
     {
