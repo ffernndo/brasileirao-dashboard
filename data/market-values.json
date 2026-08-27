@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26",
+  "last_updated": "2026-08-27",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -3556,7 +3556,7 @@
       "name": "Lucas Silva",
       "team": "Vitória",
       "position": "Ponta Dir.",
-      "age": 26,
+      "age": 27,
       "value": 700000
     },
     {
