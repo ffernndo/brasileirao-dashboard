@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27",
+  "last_updated": "2026-08-28",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -3514,7 +3514,7 @@
       "name": "Riquelme",
       "team": "Vasco da Gama",
       "position": "Lateral Esq.",
-      "age": 23,
+      "age": 24,
       "value": 700000
     },
     {
