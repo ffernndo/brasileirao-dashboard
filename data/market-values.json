@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29",
+  "last_updated": "2026-08-30",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -1519,7 +1519,7 @@
       "name": "Gabriel Barbosa",
       "team": "Santos",
       "position": "Centroavante",
-      "age": 29,
+      "age": 30,
       "value": 3000000
     },
     {
@@ -2856,7 +2856,7 @@
       "name": "Jádson",
       "team": "Athletico Paranaense",
       "position": "Meia Central",
-      "age": 32,
+      "age": 33,
       "value": 1000000
     },
     {
@@ -3290,7 +3290,7 @@
       "name": "Tchê Tchê",
       "team": "Vasco da Gama",
       "position": "Meia Central",
-      "age": 33,
+      "age": 34,
       "value": 800000
     },
     {
