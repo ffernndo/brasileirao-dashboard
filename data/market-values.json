@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-08-31",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -266,7 +266,7 @@
       "name": "Ramón Sosa",
       "team": "Palmeiras",
       "position": "Segundo Atac.",
-      "age": 26,
+      "age": 27,
       "value": 10000000
     },
     {
@@ -875,7 +875,7 @@
       "name": "Ignacio Sosa",
       "team": "Red Bull Bragantino",
       "position": "Meia Central",
-      "age": 22,
+      "age": 23,
       "value": 5000000
     },
     {
@@ -3843,7 +3843,7 @@
       "name": "Mayk",
       "team": "Remo",
       "position": "Lateral Esq.",
-      "age": 26,
+      "age": 27,
       "value": 500000
     },
     {
@@ -3934,7 +3934,7 @@
       "name": "Cédric Soares",
       "team": "São Paulo",
       "position": "Lateral Dir.",
-      "age": 34,
+      "age": 35,
       "value": 500000
     },
     {
