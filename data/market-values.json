@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03",
+  "last_updated": "2026-09-04",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -1554,7 +1554,7 @@
       "name": "Arthur Gabriel",
       "team": "Palmeiras",
       "position": "Lateral Esq.",
-      "age": 20,
+      "age": 21,
       "value": 3000000
     },
     {
@@ -3122,7 +3122,7 @@
       "name": "Ryan Augusto",
       "team": "Red Bull Bragantino",
       "position": "Lateral Dir.",
-      "age": 18,
+      "age": 19,
       "value": 1000000
     },
     {
