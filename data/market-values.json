@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-06",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -3493,7 +3493,7 @@
       "name": "Iury Castilho",
       "team": "Mirassol",
       "position": "Centroavante",
-      "age": 30,
+      "age": 31,
       "value": 700000
     },
     {
