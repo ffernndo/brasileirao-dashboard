@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07",
+  "last_updated": "2026-09-08",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -462,7 +462,7 @@
       "name": "Matheuzinho",
       "team": "Corinthians",
       "position": "Lateral Dir.",
-      "age": 25,
+      "age": 26,
       "value": 8000000
     },
     {
@@ -1785,7 +1785,7 @@
       "name": "Patrick de Paula",
       "team": "Botafogo",
       "position": "Vol. Defensivo",
-      "age": 26,
+      "age": 27,
       "value": 2500000
     },
     {
@@ -2947,7 +2947,7 @@
       "name": "Dalbert",
       "team": "Sport Recife",
       "position": "Lateral Esq.",
-      "age": 32,
+      "age": 33,
       "value": 1000000
     },
     {
@@ -3745,7 +3745,7 @@
       "name": "Bernard",
       "team": "Atlético-MG",
       "position": "Ponta Esq.",
-      "age": 33,
+      "age": 34,
       "value": 600000
     },
     {
@@ -3878,7 +3878,7 @@
       "name": "Hayen Palacios",
       "team": "Athletico Paranaense",
       "position": "Lateral Dir.",
-      "age": 26,
+      "age": 27,
       "value": 500000
     },
     {
