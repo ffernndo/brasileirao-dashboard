@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-11",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -3941,7 +3941,7 @@
       "name": "Gustavo",
       "team": "Coritiba",
       "position": "Meia Atac.",
-      "age": 23,
+      "age": 24,
       "value": 500000
     },
     {
