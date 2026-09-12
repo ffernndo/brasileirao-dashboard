@@ -1,7 +1,7 @@
 {
   "season": 2026,
-  "last_updated": "2026-09-11T13:56:50Z",
-  "latest_round": 26,
+  "last_updated": "2026-09-12T13:15:37Z",
+  "latest_round": 27,
   "source": "ESPN",
   "matches": [
     {
@@ -3676,13 +3676,13 @@
       "idEvent": "401841232",
       "strHomeTeam": "Coritiba",
       "strAwayTeam": "Athletico-PR",
-      "intHomeScore": null,
-      "intAwayScore": null,
+      "intHomeScore": 3,
+      "intAwayScore": 3,
       "intRound": "27",
       "dateEvent": "2026-09-12",
       "strHomeTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
       "strAwayTeamBadge": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_FULL_TIME",
       "venue": "",
       "_espnId": "401841232"
     },

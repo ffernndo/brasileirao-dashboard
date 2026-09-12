@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11",
+  "last_updated": "2026-09-12",
   "source": "Transfermarkt via dcaribou/transfermarkt-datasets",
   "eur_brl_rate": 6.2,
   "players": [
@@ -252,7 +252,7 @@
       "name": "Andrés Gómez",
       "team": "Vasco da Gama",
       "position": "Ponta Esq.",
-      "age": 23,
+      "age": 24,
       "value": 11000000
     },
     {
@@ -910,7 +910,7 @@
       "name": "Juan Portilla",
       "team": "Athletico Paranaense",
       "position": "Meia Central",
-      "age": 27,
+      "age": 28,
       "value": 5000000
     },
     {
