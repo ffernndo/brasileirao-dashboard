@@ -1,10 +1,10 @@
 """
-Busca valores de mercado e dados de jogadores de clubes brasileiros
-a partir do dataset público dcaribou/transfermarkt-datasets (via DuckDB).
-Gera: ../data/market-values.json
+Fetches market values and player data for Brazilian clubs
+from the public dcaribou/transfermarkt-datasets dataset (via DuckDB).
+Output: ../data/market-values.json
 
 Dataset: https://github.com/dcaribou/transfermarkt-datasets
-Uso:
+Usage:
     python fetch_transfermarkt.py
 """
 
@@ -21,34 +21,34 @@ import duckdb
 warnings.filterwarnings("ignore")
 
 # ──────────────────────────────────────────────────────────────────
-# Configuração
+# Configuration
 # ──────────────────────────────────────────────────────────────────
 
 DATASET_BASE   = "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data"
-COMPETITION_ID = "BRA1"   # Brasileirão Série A no Transfermarkt
+COMPETITION_ID = "BRA1"   # Brasileirão Série A on Transfermarkt
 OUTPUT_FILE    = Path(__file__).parent.parent / "data" / "market-values.json"
 
-# Mapeamento de posições EN → PT-BR
+# Position mapping to short English display names
 POSITION_MAP = {
-    "Goalkeeper":        "Goleiro",
-    "Centre-Back":       "Zagueiro",
-    "Left-Back":         "Lateral Esq.",
-    "Right-Back":        "Lateral Dir.",
-    "Defensive Midfield": "Vol. Defensivo",
-    "Central Midfield":  "Meia Central",
-    "Attacking Midfield": "Meia Atac.",
-    "Left Midfield":     "Meia Esq.",
-    "Right Midfield":    "Meia Dir.",
-    "Left Winger":       "Ponta Esq.",
-    "Right Winger":      "Ponta Dir.",
-    "Second Striker":    "Segundo Atac.",
-    "Centre-Forward":    "Centroavante",
-    "Attack":            "Atacante",
-    "Midfield":          "Meia",
-    "Defender":          "Defensor",
+    "Goalkeeper":        "Goalkeeper",
+    "Centre-Back":       "Centre-Back",
+    "Left-Back":         "Left-Back",
+    "Right-Back":        "Right-Back",
+    "Defensive Midfield": "Defensive Mid",
+    "Central Midfield":  "Central Mid",
+    "Attacking Midfield": "Attacking Mid",
+    "Left Midfield":     "Left Mid",
+    "Right Midfield":    "Right Mid",
+    "Left Winger":       "Left Winger",
+    "Right Winger":      "Right Winger",
+    "Second Striker":    "Second Striker",
+    "Centre-Forward":    "Centre-Forward",
+    "Attack":            "Forward",
+    "Midfield":          "Midfielder",
+    "Defender":          "Defender",
 }
 
-# Normalização: nome Transfermarkt → nome ESPN (usado no filtro principal)
+# Normalisation: Transfermarkt name → ESPN name (used by the main filter)
 TEAM_NAME_MAP = {
     "Esporte Clube Bahia":              "Bahia",
     "Sociedade Esportiva Palmeiras":    "Palmeiras",
@@ -79,7 +79,7 @@ TEAM_NAME_MAP = {
 
 
 # ──────────────────────────────────────────────────────────────────
-# Utilitários
+# Utilities
 # ──────────────────────────────────────────────────────────────────
 
 def progress(pct: int, msg: str) -> None:
@@ -104,12 +104,12 @@ def calc_age(dob_str: str) -> int | None:
 # ──────────────────────────────────────────────────────────────────
 
 def main() -> None:
-    progress(5, "Conectando ao dataset do Transfermarkt...")
+    progress(5, "Connecting to the Transfermarkt dataset...")
 
     conn = duckdb.connect()
 
-    # ── 1. Clubes do Brasileirão ──────────────────────────────────
-    progress(15, "Buscando clubes da Série A (BR1)...")
+    # ── 1. Brasileirão clubs ──────────────────────────────────
+    progress(15, "Fetching Série A clubs (BR1)...")
 
     clubs_url = f"{DATASET_BASE}/clubs.csv.gz"
     try:
@@ -119,20 +119,20 @@ def main() -> None:
             WHERE domestic_competition_id = '{COMPETITION_ID}'
         """).df()
     except Exception as e:
-        print(f"Erro ao buscar clubes: {e}", file=sys.stderr)
+        print(f"Error fetching clubs: {e}", file=sys.stderr)
         sys.exit(1)
 
     if clubs_df.empty:
-        print(f"Nenhum clube encontrado para competition_id='{COMPETITION_ID}'.", file=sys.stderr)
+        print(f"No clubs found for competition_id='{COMPETITION_ID}'.", file=sys.stderr)
         sys.exit(1)
 
     club_ids      = clubs_df["club_id"].tolist()
     club_name_map = dict(zip(clubs_df["club_id"], clubs_df["name"]))
     ids_str       = ", ".join(str(i) for i in club_ids)
 
-    progress(30, f"{len(club_ids)} clubes encontrados. Buscando jogadores...")
+    progress(30, f"{len(club_ids)} clubs found. Fetching players...")
 
-    # ── 2. Jogadores dos clubes ───────────────────────────────────
+    # ── 2. Club players ───────────────────────────────────
     players_url = f"{DATASET_BASE}/players.csv.gz"
     try:
         players_df = conn.execute(f"""
@@ -151,21 +151,21 @@ def main() -> None:
             ORDER BY market_value_in_eur DESC
         """).df()
     except Exception as e:
-        print(f"Erro ao buscar jogadores: {e}", file=sys.stderr)
+        print(f"Error fetching players: {e}", file=sys.stderr)
         sys.exit(1)
 
-    progress(70, f"{len(players_df)} jogadores encontrados. Processando...")
+    progress(70, f"{len(players_df)} players found. Processing...")
 
-    # ── 3. Normalizar dados ───────────────────────────────────────
+    # ── 3. Normalise data ───────────────────────────────────────
     result = []
     for _, row in players_df.iterrows():
         club_name = club_name_map.get(row["current_club_id"], "")
 
-        # Posição: preferir sub_position (mais específica), fallback para position
+        # Position: prefer sub_position (more specific), fall back to position
         raw_pos  = str(row.get("sub_position") or row.get("position") or "")
         position = POSITION_MAP.get(raw_pos, raw_pos) if raw_pos else "—"
 
-        # Normaliza nome do clube para coincidir com ESPN
+        # Normalise the club name to match ESPN
         team_normalized = TEAM_NAME_MAP.get(club_name, club_name)
 
         result.append({
@@ -176,9 +176,9 @@ def main() -> None:
             "value":    int(row["market_value_in_eur"]),
         })
 
-    progress(90, f"Salvando {len(result)} jogadores...")
+    progress(90, f"Saving {len(result)} players...")
 
-    # ── 4. Cotação EUR → BRL ──────────────────────────────────────
+    # ── 4. EUR → BRL rate ──────────────────────────────────────
     brl_rate = 6.20  # fallback
     try:
         rate_res = conn.execute("""
@@ -190,9 +190,9 @@ def main() -> None:
         if rate_res and rate_res[0]:
             brl_rate = round(float(rate_res[0]), 4)
     except Exception:
-        pass  # usa fallback
+        pass  # use fallback
 
-    # ── 5. Salvar JSON ────────────────────────────────────────────
+    # ── 5. Save JSON ────────────────────────────────────────────
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "last_updated": date.today().isoformat(),
@@ -204,7 +204,7 @@ def main() -> None:
         json.dumps(payload, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    progress(100, f"Concluído. {len(result)} jogadores salvos em {OUTPUT_FILE.name}.")
+    progress(100, f"Done. {len(result)} players saved to {OUTPUT_FILE.name}.")
 
 
 if __name__ == "__main__":

@@ -1,34 +1,34 @@
-# Brasileirão Série A 2026 — Dashboard
+# Brasileirão Série A 2026 | Dashboard
 
-Dashboard interativo do Campeonato Brasileiro Série A com classificação, estatísticas e valores de mercado dos jogadores.
+Interactive dashboard for Brazil's top football league (Campeonato Brasileiro Série A), with standings, statistics and player market values.
 
-**[Acessar o Dashboard](https://fexndev.github.io/brasileirao-dashboard/)**
+**[Open the dashboard](https://fexndev.github.io/brasileirao-dashboard/)**
 
-## Funcionalidades
+## Features
 
-- **Tabela de classificação** com zonas (Libertadores, Sulamericana, rebaixamento) e últimos 5 jogos
-- **Estatísticas** — KPIs da liga, gols por time, desempenho casa/fora, evolução por rodada
-- **Mercado** — valores de mercado dos jogadores (Transfermarkt), ordenável por nome, time, posição, idade e valor
-- **Atualização automática diária** via GitHub Actions (07h BRT)
+- **Standings table** with zones (Libertadores, Sudamericana, relegation) and the last 5 matches
+- **Statistics**: league KPIs, goals by team, home/away performance, trends by round
+- **Market**: player market values (Transfermarkt), sortable by name, team, position, age and value
+- **Automatic daily update** via GitHub Actions (7am BRT)
 
-## Fontes de dados
+## Data sources
 
-| Fonte | Dados |
+| Source | Data |
 |---|---|
-| [ESPN](https://www.espn.com.br) | Partidas, resultados, rodadas |
-| [Transfermarkt](https://www.transfermarkt.com) | Valores de mercado dos jogadores |
+| [ESPN](https://www.espn.com.br) | Matches, results, rounds |
+| [Transfermarkt](https://www.transfermarkt.com) | Player market values |
 
-## Como rodar localmente
+## Run locally
 
 ```bash
 pip install -r scripts/requirements.txt
 python3 scripts/server.py
-# Abrir: http://localhost:8000
+# Open: http://localhost:8000
 ```
 
-## Tecnologias
+## Technologies
 
-- HTML, CSS, JavaScript (sem frameworks)
-- Chart.js para gráficos
-- Python + Flask (servidor local)
-- GitHub Actions (atualização automática)
+- HTML, CSS, JavaScript (no frameworks)
+- Chart.js for charts
+- Python + Flask (local server)
+- GitHub Actions (automatic updates)

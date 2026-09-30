@@ -1,7 +1,7 @@
 {
   "name": "Brasileirão Série A 2026",
   "short_name": "Brasileirão",
-  "description": "Dashboard interativo do Campeonato Brasileiro",
+  "description": "Interactive dashboard for Brazil's top football league",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#0d1117",

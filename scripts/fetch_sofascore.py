@@ -1,13 +1,13 @@
 """
-Coleta resultados, tabela e estatísticas do Brasileirão Série A via
-SofaScore (API não-oficial, sem autenticação).
+Collects Brasileirão Série A results, standings and stats from
+SofaScore (unofficial API, no authentication).
 
-Gera: ../data/brasileirao.json
+Output: ../data/brasileirao.json
 
-Endpoints utilizados:
-  /unique-tournament/325/seasons               → lista de temporadas
-  /unique-tournament/325/season/{id}/rounds    → rodadas disponíveis
-  /unique-tournament/325/season/{id}/events/round/{r} → partidas de cada rodada
+Endpoints used:
+  /unique-tournament/325/seasons               → list of seasons
+  /unique-tournament/325/season/{id}/rounds    → available rounds
+  /unique-tournament/325/season/{id}/events/round/{r} → matches for each round
 """
 from __future__ import annotations
 
@@ -23,10 +23,10 @@ import requests
 warnings.filterwarnings("ignore")
 
 # ──────────────────────────────────────────────────────────────────
-# Configuração
+# Configuration
 # ──────────────────────────────────────────────────────────────────
 
-TOURNAMENT_ID = 325       # Brasileirão Série A no SofaScore
+TOURNAMENT_ID = 325       # Brasileirão Série A on SofaScore
 OUTPUT_FILE   = Path(__file__).parent.parent / "data" / "brasileirao.json"
 
 BASE_URL = "https://api.sofascore.com/api/v1"
@@ -44,12 +44,12 @@ HEADERS = {
     "Referer":         "https://www.sofascore.com/",
 }
 
-REQUEST_DELAY = 0.2   # segundos entre requisições (evita bloqueio)
+REQUEST_DELAY = 0.2   # seconds between requests (avoids blocking)
 MAX_RETRY     = 3
 
 
 # ──────────────────────────────────────────────────────────────────
-# Utilitários
+# Utilities
 # ──────────────────────────────────────────────────────────────────
 
 def progress(pct: int, msg: str) -> None:
@@ -67,12 +67,12 @@ def get(path: str, retries: int = MAX_RETRY) -> dict:
                 wait = 2 ** (attempt + 1)
                 time.sleep(wait)
                 continue
-            # 404 é normal (rodada sem dados ainda)
+            # 404 is normal (round without data yet)
             if r.status_code == 404:
                 return {}
         except requests.RequestException as exc:
             if attempt == retries - 1:
-                raise RuntimeError(f"Erro ao buscar {url}: {exc}") from exc
+                raise RuntimeError(f"Error fetching {url}: {exc}") from exc
             time.sleep(1)
     return {}
 
@@ -84,34 +84,34 @@ def badge_url(team_id: int | None) -> str:
 
 
 # ──────────────────────────────────────────────────────────────────
-# Descoberta de temporada
+# Season discovery
 # ──────────────────────────────────────────────────────────────────
 
 def find_current_season() -> tuple[int, int]:
     """
-    Retorna (season_id, year) da temporada mais recente do Brasileirão.
-    Prioriza o ano atual; fallback para o mais recente disponível.
+    Returns (season_id, year) for the most recent Brasileirão season.
+    Prefers the current year; falls back to the latest available.
     """
     data = get(f"/unique-tournament/{TOURNAMENT_ID}/seasons")
     seasons = data.get("seasons", [])
     if not seasons:
-        raise RuntimeError("Nenhuma temporada encontrada no SofaScore para o Brasileirão.")
+        raise RuntimeError("No Brasileirão season found on SofaScore.")
 
     current_year = datetime.now().year
 
-    # Tenta encontrar temporada do ano corrente
+    # Try to find the current year's season
     for s in seasons:
         if s.get("year") == current_year:
             return s["id"], current_year
 
-    # Fallback: temporada mais recente disponível
+    # Fallback: latest available season
     seasons_sorted = sorted(seasons, key=lambda s: s.get("year", 0), reverse=True)
     best = seasons_sorted[0]
     return best["id"], best.get("year", current_year)
 
 
 # ──────────────────────────────────────────────────────────────────
-# Coleta de partidas
+# Match collection
 # ──────────────────────────────────────────────────────────────────
 
 def fetch_rounds(season_id: int) -> list[int]:
@@ -121,7 +121,7 @@ def fetch_rounds(season_id: int) -> list[int]:
 
 
 def map_event(ev: dict) -> dict | None:
-    """Converte um evento SofaScore para o formato que o frontend espera."""
+    """Converts a SofaScore event into the format the frontend expects."""
     home = ev.get("homeTeam") or {}
     away = ev.get("awayTeam") or {}
     if not home.get("name") or not away.get("name"):
@@ -155,7 +155,7 @@ def map_event(ev: dict) -> dict | None:
         "strHomeTeamBadge": badge_url(home.get("id")),
         "strAwayTeamBadge": badge_url(away.get("id")),
         "status":           status_type,
-        # IDs para detalhes futuros
+        # IDs for future details
         "_homeTeamId":      home.get("id"),
         "_awayTeamId":      away.get("id"),
     }
@@ -166,7 +166,7 @@ def map_event(ev: dict) -> dict | None:
 # ──────────────────────────────────────────────────────────────────
 
 def main() -> None:
-    progress(5, "Conectando ao SofaScore...")
+    progress(5, "Connecting to SofaScore...")
 
     try:
         season_id, year = find_current_season()
@@ -174,7 +174,7 @@ def main() -> None:
         print(str(e), file=sys.stderr)
         sys.exit(1)
 
-    progress(10, f"Temporada {year} (ID {season_id}). Buscando rodadas...")
+    progress(10, f"Season {year} (ID {season_id}). Fetching rounds...")
 
     try:
         rounds = fetch_rounds(season_id)
@@ -183,11 +183,11 @@ def main() -> None:
         sys.exit(1)
 
     if not rounds:
-        print("Nenhuma rodada encontrada.", file=sys.stderr)
+        print("No rounds found.", file=sys.stderr)
         sys.exit(1)
 
     total_rounds = len(rounds)
-    progress(15, f"{total_rounds} rodadas detectadas. Coletando partidas...")
+    progress(15, f"{total_rounds} rounds detected. Collecting matches...")
 
     all_events: list[dict] = []
 
@@ -206,18 +206,18 @@ def main() -> None:
                     all_events.append(mapped)
             time.sleep(REQUEST_DELAY)
         except RuntimeError as e:
-            print(f"Aviso: rodada {rnd} falhou — {e}", file=sys.stderr)
+            print(f"Warning: round {rnd} failed | {e}", file=sys.stderr)
             continue
 
     if not all_events:
-        print("Nenhuma partida coletada. Verifique a conexão.", file=sys.stderr)
+        print("No matches collected. Check the connection.", file=sys.stderr)
         sys.exit(1)
 
-    # Rodada mais recente com placar
+    # Most recent round with a score
     finished = [e for e in all_events if e["intHomeScore"] is not None]
     latest_round = max(int(e["intRound"]) for e in finished) if finished else 1
 
-    progress(93, f"{len(all_events)} partidas. Rodada atual: {latest_round}. Salvando...")
+    progress(93, f"{len(all_events)} matches. Current round: {latest_round}. Saving...")
 
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     payload = {
@@ -233,7 +233,7 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    progress(100, f"Concluído — {len(all_events)} partidas, {latest_round} rodadas jogadas.")
+    progress(100, f"Done | {len(all_events)} matches, {latest_round} rounds played.")
 
 
 if __name__ == "__main__":

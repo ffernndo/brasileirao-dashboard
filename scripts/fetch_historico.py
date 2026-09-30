@@ -1,10 +1,10 @@
 """
-Baixa e processa o dataset histórico do Brasileirão.
-Fontes:
-  - adaoduque/Brasileirao_Dataset: CSV completo 2003–2024
-  - adaoduque/Brasileirao_Dataset/data/brasileirao-2025.json: 2025 (com gols, posse, chutes)
+Downloads and processes the historical Brasileirão dataset.
+Sources:
+  - adaoduque/Brasileirao_Dataset: full CSV 2003–2024
+  - adaoduque/Brasileirao_Dataset/data/brasileirao-2025.json: 2025 (with goals, possession, shots)
 
-Gera: ../data/historico.json
+Output: ../data/historico.json
 """
 from __future__ import annotations
 
@@ -64,7 +64,7 @@ def extract_year_ddmmyyyy(s: str) -> str:
 
 
 def calc_standings(rows: list[dict]) -> list[dict]:
-    """Calcula classificação a partir de lista de dicts com h/a/hs/as."""
+    """Calculates standings from a list of dicts with h/a/hs/as."""
     teams: dict[str, dict] = {}
     for row in rows:
         home = str(row.get("h", "")).strip()
@@ -103,16 +103,16 @@ def calc_standings(rows: list[dict]) -> list[dict]:
 
 
 def main() -> None:
-    progress(5, "Baixando dataset histórico do Brasileirão...")
+    progress(5, "Downloading the historical Brasileirão dataset...")
 
-    # ── 1. CSV principal (2003–2024) ─────────────────────────────────
+    # ── 1. Main CSV (2003–2024) ─────────────────────────────────
     try:
         r = requests.get(URLS["full"], timeout=45)
         r.raise_for_status()
         full_df = pd.read_csv(StringIO(r.text), sep=",", encoding="utf-8",
                               dtype=str, on_bad_lines="skip")
     except Exception as e:
-        print(f"Erro ao baixar full.csv: {e}", file=sys.stderr)
+        print(f"Error downloading full.csv: {e}", file=sys.stderr)
         sys.exit(1)
 
     full_df.columns = [c.strip() for c in full_df.columns]
@@ -122,7 +122,7 @@ def main() -> None:
     seasons_csv = sorted([s for s in full_df["season"].unique()
                           if len(s) == 4 and s.isdigit()])
 
-    progress(18, f"CSV carregado: {len(full_df)} jogos ({seasons_csv[0]}–{seasons_csv[-1]})")
+    progress(18, f"CSV loaded: {len(full_df)} matches ({seasons_csv[0]}–{seasons_csv[-1]})")
 
     # ── 2. JSON 2025 ─────────────────────────────────────────────────
     matches_2025: list[dict] = []
@@ -214,13 +214,13 @@ def main() -> None:
             for k, v in cnt.most_common(20)
         ]
 
-        progress(28, f"2025 JSON carregado: {len(matches_2025)} jogos")
+        progress(28, f"2025 JSON loaded: {len(matches_2025)} matches")
 
     except Exception as e:
-        print(f"Aviso: 2025 JSON não carregado: {e}", file=sys.stderr)
+        print(f"Warning: 2025 JSON not loaded: {e}", file=sys.stderr)
 
-    # ── 3. Montar partidas compactas do CSV ──────────────────────────
-    progress(32, "Processando partidas históricas 2003–2024...")
+    # ── 3. Build compact matches from the CSV ──────────────────────────
+    progress(32, "Processing historical matches 2003–2024...")
 
     matches_csv: list[dict] = []
     for _, row in full_df.iterrows():
@@ -249,24 +249,24 @@ def main() -> None:
     all_matches = matches_csv + matches_2025
     all_seasons = sorted(set([m["s"] for m in all_matches if m["s"] and len(m["s"]) == 4]))
 
-    progress(42, f"{len(all_matches)} partidas totais ({all_seasons[0]}–{all_seasons[-1]})")
+    progress(42, f"{len(all_matches)} total matches ({all_seasons[0]}–{all_seasons[-1]})")
 
-    # ── 4. Classificação por temporada ───────────────────────────────
-    progress(48, "Calculando classificações por temporada...")
+    # ── 4. Standings by season ───────────────────────────────
+    progress(48, "Calculating standings by season...")
 
     standings_by_season: dict[str, list] = {}
     for season in all_seasons:
         season_matches = [m for m in all_matches if m["s"] == season]
         standings_by_season[season] = calc_standings(season_matches)
 
-    progress(58, f"Classificações prontas para {len(all_seasons)} temporadas")
+    progress(58, f"Standings ready for {len(all_seasons)} seasons")
 
-    # ── 5. Ranking de técnicos ───────────────────────────────────────
-    progress(62, "Calculando ranking de técnicos...")
+    # ── 5. Coach ranking ───────────────────────────────────────
+    progress(62, "Calculating coach ranking...")
 
     coaches: dict[str, dict] = {}
 
-    # Do CSV (2003–2024)
+    # From the CSV (2003–2024)
     for _, row in full_df.iterrows():
         try:
             hs  = int(row["mandante_Placar"])
@@ -291,7 +291,7 @@ def main() -> None:
             else:
                 c["losses"] += 1
 
-    # Do JSON 2025
+    # From the 2025 JSON
     try:
         for m in data_2025:
             try:
@@ -326,10 +326,10 @@ def main() -> None:
     ]
     coaches_list.sort(key=lambda x: (-x["points"], -x["efficiency"]))
 
-    progress(70, f"{len(coaches_list)} técnicos no ranking (mín. 20 jogos)")
+    progress(70, f"{len(coaches_list)} coaches in the ranking (min. 20 matches)")
 
-    # ── 6. Artilheiros (gols.csv) ────────────────────────────────────
-    progress(74, "Baixando e processando dados de gols...")
+    # ── 6. Top scorers (gols.csv) ────────────────────────────────────
+    progress(74, "Downloading and processing goal data...")
 
     scorers_all_time: list[dict] = []
     scorers_by_season: dict[str, list] = {}
@@ -381,17 +381,17 @@ def main() -> None:
                     for _, row in by_s.head(20).iterrows()
                 ]
 
-        progress(85, f"{len(scorers_all_time)} artilheiros all-time processados")
+        progress(85, f"{len(scorers_all_time)} all-time scorers processed")
 
     except Exception as e:
-        print(f"Aviso: gols.csv não processado: {e}", file=sys.stderr)
+        print(f"Warning: gols.csv not processed: {e}", file=sys.stderr)
 
-    # Adicionar artilheiros 2025 (do JSON)
+    # Add 2025 scorers (from the JSON)
     if gols_2025_by_season.get("2025"):
         scorers_by_season["2025"] = gols_2025_by_season["2025"]
 
-    # ── 7. Salvar ────────────────────────────────────────────────────
-    progress(93, f"{len(all_matches)} partidas prontas. Salvando JSON...")
+    # ── 7. Save ────────────────────────────────────────────────────
+    progress(93, f"{len(all_matches)} matches ready. Saving JSON...")
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     payload = {
@@ -406,7 +406,7 @@ def main() -> None:
     }
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     size_kb = OUTPUT.stat().st_size // 1024
-    progress(100, f"Concluído — {len(all_matches)} jogos, {len(all_seasons)} temporadas ({size_kb} KB)")
+    progress(100, f"Done | {len(all_matches)} matches, {len(all_seasons)} seasons ({size_kb} KB)")
 
 
 if __name__ == "__main__":

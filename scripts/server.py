@@ -1,11 +1,11 @@
 """
-Servidor local para o Dashboard Futebol Brasil.
-Serve arquivos estáticos e expõe endpoint SSE para atualização de dados.
+Local server for the Brazilian football dashboard.
+Serves static files and exposes an SSE endpoint for data updates.
 
-Uso:
+Usage:
     pip install -r scripts/requirements.txt
     python3 scripts/server.py
-    → Abrir: http://localhost:8000
+    → Open: http://localhost:8000
 """
 
 from __future__ import annotations
@@ -27,7 +27,7 @@ DATA_DIR    = ROOT / "data"
 app = Flask(__name__, static_folder=None)
 
 
-# ── Rotas estáticas ───────────────────────────────────────────────
+# ── Static routes ───────────────────────────────────────────────
 
 @app.route("/")
 def index():
@@ -39,7 +39,7 @@ def static_files(filename):
     return send_from_directory(ROOT, filename)
 
 
-# ── Detalhes de partida (proxy SofaScore) ────────────────────────
+# ── Match details (SofaScore proxy) ────────────────────────
 
 _SF_HEADERS = {
     "User-Agent": (
@@ -68,8 +68,8 @@ def _get_json(url: str) -> dict | None:
 @app.route("/event-details/<string:event_id>")
 def event_details(event_id: str):
     """
-    Retorna estatísticas de uma partida via ESPN summary.
-    Inclui venue, stats por time, gols com jogador/minuto.
+    Returns match stats via the ESPN summary.
+    Includes venue, stats per team, goals with player/minute.
     """
     url  = f"https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/summary?event={event_id}"
     data = _get_json(url)
@@ -79,10 +79,10 @@ def event_details(event_id: str):
     # Venue
     venue = ((data.get("gameInfo") or {}).get("venue") or {}).get("fullName")
 
-    # Estatísticas por time (boxscore)
+    # Stats per team (boxscore)
     teams_stats = (data.get("boxscore") or {}).get("teams", [])
 
-    # Detalhes (gols, etc.) + indicador home/away
+    # Details (goals, etc.) + home/away flag
     header_comp  = ((data.get("header") or {}).get("competitions") or [{}])[0]
     details      = header_comp.get("details") or []
     competitors  = header_comp.get("competitors") or []
@@ -100,12 +100,12 @@ def event_details(event_id: str):
     })
 
 
-# ── Pipeline de coleta ────────────────────────────────────────────
+# ── Collection pipeline ────────────────────────────────────────────
 
-# (arquivo, label, pct_início, pct_fim)
+# (file, label, pct_start, pct_end)
 PIPELINE = [
     ("fetch_espn.py",          "Brasileirão (ESPN)",        3,  60),
-    ("fetch_transfermarkt.py", "Mercado (Transfermarkt)",  60,  97),
+    ("fetch_transfermarkt.py", "Market (Transfermarkt)",  60,  97),
 ]
 
 
@@ -114,13 +114,13 @@ def _sse(step: str, progress: int, message: str) -> str:
 
 
 def _clean_stderr(raw: str) -> str:
-    """Remove avisos de bibliotecas Python — mostra só erros reais."""
+    """Removes Python library warnings and shows only real errors."""
     lines = [
         line for line in raw.splitlines()
         if line.strip()
         and "Warning" not in line
         and "warnings.warn" not in line
-        and not line.startswith("  ")  # indentação de tracebacks de warning
+        and not line.startswith("  ")  # indentation of warning tracebacks
     ]
     return "\n".join(lines).strip()[:400]
 
@@ -156,20 +156,20 @@ def _stream_script(script_name: str, label: str, pct_start: int, pct_end: int):
 
     if proc.returncode != 0:
         raw_err = proc.stderr.read() or ""
-        err = _clean_stderr(raw_err) or f"Script encerrado com código {proc.returncode}"
-        raise RuntimeError(f"Erro em {label}: {err}")
+        err = _clean_stderr(raw_err) or f"Script exited with code {proc.returncode}"
+        raise RuntimeError(f"Error in {label}: {err}")
 
 
 @app.route("/update")
 def update():
     def generate():
-        yield _sse("start", 0, "Iniciando atualização...")
+        yield _sse("start", 0, "Starting update...")
         try:
             for script_name, label, pct_start, pct_end in PIPELINE:
-                yield _sse(script_name, pct_start, f"Buscando {label}...")
+                yield _sse(script_name, pct_start, f"Fetching {label}...")
                 yield from _stream_script(script_name, label, pct_start, pct_end)
-                yield _sse(script_name, pct_end, f"{label} concluído.")
-            yield _sse("done", 100, "Dados atualizados com sucesso!")
+                yield _sse(script_name, pct_end, f"{label} done.")
+            yield _sse("done", 100, "Data updated successfully!")
         except RuntimeError as exc:
             yield _sse("error", -1, str(exc))
 
@@ -180,13 +180,13 @@ def update():
     )
 
 
-# ── Auto-atualização na inicialização ────────────────────────────
+# ── Auto-update on startup ────────────────────────────
 
-DATA_MAX_AGE_HOURS = 4  # atualiza se dados tiverem mais de 4 horas
+DATA_MAX_AGE_HOURS = 4  # update if the data is more than 4 hours old
 
 
 def _needs_update() -> bool:
-    """Retorna True se o arquivo principal está ausente ou desatualizado."""
+    """Returns True if the main file is missing or out of date."""
     br_file = DATA_DIR / "brasileirao.json"
     if not br_file.exists():
         return True
@@ -195,8 +195,8 @@ def _needs_update() -> bool:
 
 
 def _run_pipeline_silent() -> None:
-    """Executa o pipeline de coleta em background, sem SSE."""
-    print("  [auto] Iniciando coleta de dados em background...")
+    """Runs the collection pipeline in the background, without SSE."""
+    print("  [auto] Starting background data collection...")
     for script_name, label, _, _ in PIPELINE:
         script_path = SCRIPTS_DIR / script_name
         print(f"  [auto] {label}...")
@@ -206,13 +206,13 @@ def _run_pipeline_silent() -> None:
                 capture_output=True, text=True, timeout=120,
             )
             if result.returncode != 0:
-                err = _clean_stderr(result.stderr) or f"código {result.returncode}"
-                print(f"  [auto] Erro em {label}: {err}", file=sys.stderr)
+                err = _clean_stderr(result.stderr) or f"code {result.returncode}"
+                print(f"  [auto] Error in {label}: {err}", file=sys.stderr)
         except subprocess.TimeoutExpired:
-            print(f"  [auto] Timeout em {label}", file=sys.stderr)
+            print(f"  [auto] Timeout in {label}", file=sys.stderr)
         except Exception as e:
-            print(f"  [auto] Falha em {label}: {e}", file=sys.stderr)
-    print("  [auto] Coleta concluída.")
+            print(f"  [auto] Failure in {label}: {e}", file=sys.stderr)
+    print("  [auto] Collection complete.")
 
 
 # ── Entry point ───────────────────────────────────────────────────
@@ -220,12 +220,12 @@ def _run_pipeline_silent() -> None:
 if __name__ == "__main__":
     DATA_DIR.mkdir(exist_ok=True)
     print("=" * 45)
-    print("  Dashboard Futebol — http://localhost:8000")
+    print("  Football Dashboard | http://localhost:8000")
     print("=" * 45)
     if _needs_update():
-        print("  Dados ausentes ou desatualizados — coletando...")
+        print("  Data missing or out of date, collecting...")
         t = threading.Thread(target=_run_pipeline_silent, daemon=True)
         t.start()
     else:
-        print("  Dados recentes encontrados. Pronto!")
+        print("  Recent data found. Ready!")
     app.run(debug=False, port=8000, threaded=True)

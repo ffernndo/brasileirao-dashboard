@@ -1,11 +1,11 @@
 """
-Coleta resultados do Brasileirão Série A via TheSportsDB (gratuita, sem auth).
-Gera: ../data/brasileirao.json
+Collects Brasileirão Série A results from TheSportsDB (free, no auth).
+Output: ../data/brasileirao.json
 
-Estratégia de rodadas:
-  1. Consulta o calendário da temporada para saber quais datas já passaram
-  2. Determina a última rodada jogada com base na data de hoje
-  3. Busca apenas as rodadas necessárias (não todas as 38)
+Round strategy:
+  1. Check the season calendar to see which dates have passed
+  2. Work out the last round played based on today's date
+  3. Fetch only the rounds needed (not all 38)
 """
 from __future__ import annotations
 
@@ -37,20 +37,20 @@ def progress(pct: int, msg: str) -> None:
 
 def get_max_round_by_date() -> int:
     """
-    Consulta o calendário da temporada e retorna a última rodada
-    com jogos programados até hoje + 1 rodada de buffer (pode estar em andamento).
-    Fallback: usa a data da Rodada 1 para estimar por semanas decorridas.
+    Checks the season calendar and returns the last round
+    with matches scheduled up to today + 1 buffer round (it may be in progress).
+    Fallback: uses the date of Round 1 to estimate by weeks elapsed.
     """
     today = date.today().isoformat()
 
-    # Tentativa 1: calendário completo da temporada
+    # Attempt 1: full season calendar
     try:
         r = requests.get(
             f"{API_BASE}/eventsseason.php?id={LEAGUE_ID}&s={SEASON}",
             timeout=10,
         )
         events = r.json().get("events") or []
-        if len(events) >= 50:  # dataset completo (free tier retorna parcial)
+        if len(events) >= 50:  # full dataset (free tier returns partial data)
             past = {
                 int(e["intRound"])
                 for e in events
@@ -61,7 +61,7 @@ def get_max_round_by_date() -> int:
     except Exception:
         pass
 
-    # Tentativa 2: pega a data da Rodada 1 e estima por semanas
+    # Attempt 2: take the date of Round 1 and estimate by weeks
     try:
         r = requests.get(
             f"{API_BASE}/eventsround.php?id={LEAGUE_ID}&r=1&s={SEASON}",
@@ -72,12 +72,12 @@ def get_max_round_by_date() -> int:
             round1_date = datetime.strptime(events[0]["dateEvent"], "%Y-%m-%d").date()
             weeks_elapsed = max(1, (date.today() - round1_date).days // 7)
             estimated = min(weeks_elapsed + 3, MAX_ROUNDS)
-            progress(8, f"Estimativa por data: até rodada {estimated} (semana {weeks_elapsed})")
+            progress(8, f"Date-based estimate: up to round {estimated} (week {weeks_elapsed})")
             return estimated
     except Exception:
         pass
 
-    return 15  # fallback conservador
+    return 15  # conservative fallback
 
 
 def fetch_round(round_num: int) -> tuple[int, list[dict]]:
@@ -92,15 +92,15 @@ def fetch_round(round_num: int) -> tuple[int, list[dict]]:
             if attempt < MAX_RETRY - 1:
                 time.sleep(0.5 * (attempt + 1))
             else:
-                print(f"Rodada {round_num} falhou: {exc}", file=sys.stderr)
+                print(f"Round {round_num} failed: {exc}", file=sys.stderr)
     return round_num, []
 
 
 def main() -> None:
-    progress(5, f"Detectando rodada atual — {date.today().strftime('%d/%m/%Y')}...")
+    progress(5, f"Detecting current round | {date.today().strftime('%d/%m/%Y')}...")
 
     max_round = get_max_round_by_date()
-    progress(10, f"Buscando rodadas 1–{max_round} em paralelo...")
+    progress(10, f"Fetching rounds 1–{max_round} in parallel...")
 
     all_matches: list[dict] = []
     finished_rounds: list[int] = []
@@ -119,15 +119,15 @@ def main() -> None:
                 finished_rounds.append(round_num)
 
             pct = 10 + int(completed / total * 82)
-            status = f"{len(matches)} jogo(s)" if matches else "sem dados"
-            progress(pct, f"Rodada {round_num} — {status}")
+            status = f"{len(matches)} match(es)" if matches else "no data"
+            progress(pct, f"Round {round_num} | {status}")
 
     if not all_matches:
-        print(f"Nenhum jogo encontrado para {SEASON}.", file=sys.stderr)
+        print(f"No matches found for {SEASON}.", file=sys.stderr)
         sys.exit(1)
 
     latest_round = max(finished_rounds)
-    progress(95, f"{len(all_matches)} jogos em {len(finished_rounds)} rodadas. Salvando...")
+    progress(95, f"{len(all_matches)} matches in {len(finished_rounds)} rounds. Saving...")
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     payload = {
@@ -137,7 +137,7 @@ def main() -> None:
         "matches":      all_matches,
     }
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    progress(100, f"Salvo — {len(all_matches)} jogos, rodada atual: {latest_round}.")
+    progress(100, f"Saved | {len(all_matches)} matches, current round: {latest_round}.")
 
 
 if __name__ == "__main__":

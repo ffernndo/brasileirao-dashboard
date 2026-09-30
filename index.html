@@ -1,30 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brasileirão Série A 2026 - Dashboard</title>
 
-    <!-- Fonte Inter (Google Fonts) -->
+    <!-- Inter font (Google Fonts) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Chart.js para gráficos -->
+    <!-- Chart.js for charts -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1"></script>
 
     <!-- PWA -->
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#2ea043">
 
-    <!-- Estilos do dashboard -->
+    <!-- Dashboard styles -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Container principal — todo o conteúdo é renderizado via JavaScript -->
+    <!-- Main container: all content is rendered via JavaScript -->
     <div id="app"></div>
 
-    <!-- Lógica principal do dashboard -->
+    <!-- Main dashboard logic -->
     <script src="app.js"></script>
     <script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');</script>
 </body>

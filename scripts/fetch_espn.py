@@ -1,8 +1,8 @@
 """
-Coleta resultados e calendário do Brasileirão Série A via ESPN (API não-oficial).
-Uma única requisição retorna os 380 jogos da temporada.
+Collects Brasileirão Série A results and fixtures from ESPN (unofficial API).
+A single request returns all 380 matches of the season.
 
-Gera: ../data/brasileirao.json
+Output: ../data/brasileirao.json
 """
 from __future__ import annotations
 
@@ -18,20 +18,20 @@ import requests
 warnings.filterwarnings("ignore")
 
 # ──────────────────────────────────────────────────────────────────
-# Configuração
+# Configuration
 # ──────────────────────────────────────────────────────────────────
 
 SEASON      = datetime.now().year
-LEAGUE_SLUG = "bra.1"   # Brasileirão Série A no ESPN
+LEAGUE_SLUG = "bra.1"   # Brasileirão Série A on ESPN
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "brasileirao.json"
 
 BASE_URL = "https://site.api.espn.com/apis/site/v2/sports/soccer"
 
-ROUND_GAP_DAYS = 4   # dias de pausa entre rodadas para agrupar
+ROUND_GAP_DAYS = 4   # days of gap between rounds used for grouping
 
 
 # ──────────────────────────────────────────────────────────────────
-# Utilitários
+# Utilities
 # ──────────────────────────────────────────────────────────────────
 
 def progress(pct: int, msg: str) -> None:
@@ -43,13 +43,13 @@ def parse_dt(iso: str) -> datetime:
 
 
 # ──────────────────────────────────────────────────────────────────
-# Agrupamento em rodadas
+# Grouping into rounds
 # ──────────────────────────────────────────────────────────────────
 
 def assign_rounds(events: list[dict]) -> list[dict]:
     """
-    ESPN não expõe o número da rodada — inferimos agrupando jogos
-    que ocorrem dentro de uma janela de até ROUND_GAP_DAYS dias entre si.
+    ESPN does not expose the round number, so we infer it by grouping matches
+    played within a window of up to ROUND_GAP_DAYS days of each other.
     """
     if not events:
         return events
@@ -70,7 +70,7 @@ def assign_rounds(events: list[dict]) -> list[dict]:
 
 
 # ──────────────────────────────────────────────────────────────────
-# Mapeamento de eventos
+# Event mapping
 # ──────────────────────────────────────────────────────────────────
 
 def map_event(ev: dict) -> dict | None:
@@ -115,7 +115,7 @@ def map_event(ev: dict) -> dict | None:
 # ──────────────────────────────────────────────────────────────────
 
 def main() -> None:
-    progress(5, f"Conectando ao ESPN — Brasileirão {SEASON}...")
+    progress(5, f"Connecting to ESPN | Brasileirão {SEASON}...")
 
     url = (
         f"{BASE_URL}/{LEAGUE_SLUG}/scoreboard"
@@ -126,20 +126,20 @@ def main() -> None:
         r = requests.get(url, timeout=20)
         r.raise_for_status()
     except requests.RequestException as exc:
-        print(f"Erro ao buscar ESPN: {exc}", file=sys.stderr)
+        print(f"Error fetching ESPN: {exc}", file=sys.stderr)
         sys.exit(1)
 
     raw_events = r.json().get("events", [])
     if not raw_events:
-        print(f"Nenhum evento encontrado para {SEASON}.", file=sys.stderr)
+        print(f"No events found for {SEASON}.", file=sys.stderr)
         sys.exit(1)
 
-    progress(40, f"{len(raw_events)} partidas recebidas. Processando...")
+    progress(40, f"{len(raw_events)} matches received. Processing...")
 
-    # Atribui rodadas por agrupamento de datas
+    # Assign rounds by grouping dates
     raw_events = assign_rounds(raw_events)
 
-    progress(55, "Mapeando partidas...")
+    progress(55, "Mapping matches...")
 
     all_matches: list[dict] = []
     for ev in raw_events:
@@ -148,14 +148,14 @@ def main() -> None:
             all_matches.append(mapped)
 
     if not all_matches:
-        print("Nenhuma partida mapeada.", file=sys.stderr)
+        print("No matches mapped.", file=sys.stderr)
         sys.exit(1)
 
-    # Rodada mais recente com placar
+    # Most recent round with a score
     finished  = [m for m in all_matches if m["intHomeScore"] is not None]
     latest_round = max(int(m["intRound"]) for m in finished) if finished else 1
 
-    progress(80, "Buscando estatísticas de jogadores...")
+    progress(80, "Fetching player stats...")
 
     player_stats: list[dict] = []
     try:
@@ -171,7 +171,7 @@ def main() -> None:
                     aid     = athlete.get("id", "")
                     # shortDisplayValue: "M: 8, G: 6: A: 0"
                     short = leader.get("shortDisplayValue", "")
-                    # format: "M: 8, G: 6: A: 0"  — use regex for robustness
+                    # format: "M: 8, G: 6: A: 0" (use regex for robustness)
                     def _int(key: str) -> int:
                         m = re.search(rf'{key}:\s*(\d+)', short)
                         return int(m.group(1)) if m else 0
@@ -187,9 +187,9 @@ def main() -> None:
                     }
                     player_stats.append(entry)
     except Exception as e:
-        print(f"Aviso: estatísticas de jogadores não disponíveis — {e}", file=sys.stderr)
+        print(f"Warning: player stats unavailable | {e}", file=sys.stderr)
 
-    progress(88, f"{len(all_matches)} jogos. Rodada atual: {latest_round}. Salvando...")
+    progress(88, f"{len(all_matches)} matches. Current round: {latest_round}. Saving...")
 
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     payload = {
@@ -205,7 +205,7 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    progress(100, f"Concluído — {len(all_matches)} partidas, {latest_round} rodadas jogadas.")
+    progress(100, f"Done | {len(all_matches)} matches, {latest_round} rounds played.")
 
 
 if __name__ == "__main__":
